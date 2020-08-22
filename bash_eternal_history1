@@ -1,0 +1,8403 @@
+ka react-ingress.yaml 
+#1596151737
+kg svc
+#1596151741
+kging
+#1596151744
+kg ing
+#1596151763
+kd ing
+#1596152004
+kg pods
+#1596152019
+k logs ingress-nginx-controller-6967fb79f6-m42qb
+#1596152062
+vi react-ingress.yaml 
+#1596152131
+ka react-ingress.yaml 
+#1596152147
+vi react-ingress.yaml 
+#1596152166
+ka react-ingress.yaml 
+#1596152180
+vi react-ingress.yaml 
+#1596152194
+ka react-ingress.yaml 
+#1596152199
+k logs ingress-nginx-controller-6967fb79f6-m42qb
+#1596152271
+grep geneesplaats-nl-letsencrypt-secret-production * 
+#1596152777
+vi react-ingress.yaml 
+#1596152812
+ll *.yaml
+#1596152832
+grep 'namespace: ingress-nginx' *.yaml
+#1596152965
+grep  selector *.yaml
+#1596152976
+cat react-service.yaml
+#1596153001
+grep io.kompose.service * 
+#1596153028
+kg svc
+#1596153034
+kg svc -A
+#1596153082
+ka react-service.yaml 
+#1596153086
+kg svc -A
+#1596153104
+k logs ingress-nginx-controller-6967fb79f6-m42qb
+#1596153144
+grep  react-service.yaml i/apply.sh 
+#1596153154
+./i/apply.sh 
+#1596153174
+cat install-1/installation-1.txt 
+#1596153221
+vi  install-1/installation-1.txt 
+#1596153234
+kg svc -A
+#1596153247
+wget  34.90.173.174
+#1596153280
+kg cert -A
+#1596153317
+kg order
+#1596153336
+kd order
+#1596153385
+ll -tr
+#1596153392
+vi  letsencrypt-clusterissuer-prod.nginx.yaml 
+#1596153411
+ka letsencrypt-clusterissuer-prod.nginx.yaml
+#1596153417
+kd order
+#1596153424
+k delete order
+#1596153430
+kg order
+#1596153448
+k delete geneesplaats-nl-letsencrypt-secret-production-189506-1510778959
+#1596153462
+k delete geneesplaats-nl-letsencrypt-secret-production-189506-1510778959 -n ingress-nginx
+#1596153470
+kg order
+#1596153481
+kg cert
+#1596153496
+k delete  cert geneesplaats-nl-letsencrypt-secret-production
+#1596153510
+vi  letsencrypt-clusterissuer-prod.nginx.yaml 
+#1596153590
+cat    letsencrypt-clusterissuer-prod.nginx.yaml 
+#1596153604
+grep geneesplaats-nl-letsencrypt-production * 
+#1596153616
+vi react-ingress.yaml 
+#1596153712
+cat ./i/delete.sh 
+#1596153717
+./i/delete.sh 
+#1596153743
+grep cloud-generic.yaml * 
+#1596153755
+grep -r cloud-generic.yaml  
+#1596153761
+cat cloud-generic.yaml
+#1596153768
+rm cloud-generic.yaml
+#1596153772
+ll -tr
+#1596153788
+./k_get.sh 
+#1596153807
+cat ./install-1/installation-1.txt 
+#1596153817
+cat install-nginx-ingress-controller.from.digitalocean.sh
+#1596153842
+wc deploy-install-nginx-ingress-controller.from.digitalocean.yaml
+#1596153888
+grep deploy * 
+#1596153916
+grep digitalocean * 
+#1596153922
+grep digitalocean i/*
+#1596153929
+ll -tr
+#1596153944
+cat  install-1/
+#1596153945
+cat  install-1/installation-1.txt 
+#1596153957
+cat  install-nginx-ingress-controller.from.digitalocean.sh 
+#1596153963
+vi   install-nginx-ingress-controller.from.digitalocean.sh 
+#1596153979
+ll -tr
+#1596153987
+fg
+#1596153998
+cat  install-nginx-ingress-controller.from.digitalocean.sh 
+#1596154004
+cat  install-1/installation-1.txt 
+#1596154010
+install-nginx-ingress-controller.from.digitalocean.sh
+#1596154018
+./install-nginx-ingress-controller.from.digitalocean.sh
+#1596154035
+vi  ./install-nginx-ingress-controller.from.digitalocean.sh
+#1596154042
+./install-nginx-ingress-controller.from.digitalocean.sh
+#1596154142
+cat  install-1/installation-1.txt 
+#1596154147
+./i/apply.sh
+#1596154154
+ka react-ingress.yaml
+#1596154163
+kg srv
+#1596154175
+kg svc
+#1596154188
+k logs ingress-nginx-controller-6967fb79f6-m42qb
+#1596154194
+kg pods
+#1596154205
+k logs ingress-nginx-controller-6967fb79f6-bvm22
+#1596154231
+kg ing
+#1596154239
+curl 34.90.173.174
+#1596154247
+curl 34.90.173.174/app
+#1596154363
+vi react-ingress.yaml 
+#1596154388
+ka react-ingress.yaml
+#1596154396
+kg ing
+#1596154403
+k delete ing react-ingress
+#1596154406
+kg ing
+#1596154412
+ka react-ingress.yaml 
+#1596154415
+kg ing
+#1596154430
+curl 34.90.173.174
+#1596154448
+curl 34.90.173.174/health
+#1596154452
+curl 34.90.173.174/healtz
+#1596154459
+kg svc
+#1596154478
+ping geneesplaats.nl
+#1596154492
+wget  34.90.173.174
+#1596154655
+cat react-service.yaml 
+#1596155057
+ingress controller log
+#1596155259
+kg pods
+#1596155271
+k describe pod ingress-nginx-controller-6967fb79f6-bvm22
+#1596155504
+k explain Deployment
+#1596155727
+vi react-ingress.yaml 
+#1596155746
+grep geneesplaats-nl-letsencrypt-staging * 
+#1596155763
+grep letsencrypt-clusterissuer-prod.nginx.yaml i/*
+#1596155770
+fg
+#1596155815
+ka react-ingress.yaml 
+#1596155864
+kg ing
+#1596155871
+kd ing
+#1596156046
+curl 34.90.173.174
+#1596156058
+k g svc
+#1596156064
+k g src
+#1596156075
+k g svc
+#1596156085
+kg svc
+#1596156100
+hg react | grep exec
+#1596156116
+kg pods
+#1596156134
+k exec -it react-7959f749dc-ffwnx  -c  react-geneesplaats-nl-production -n ingress-nginx  --  curl react:8000
+#1596156269
+kubectl create deployment hello-app --image=gcr.io/google-samples/hello-app:1.0
+#1596156282
+kubectl expose deployment hello-app --port 8080 --target-port 8080
+#1596156292
+kg svc
+#1596156307
+vi react-ingress.yaml 
+#1596156413
+ka react-ingress.yaml 
+#1596156418
+kd ing
+#1596156446
+kg svc
+#1596156488
+wget 34.90.173.174/helloworld
+#1596156505
+wget 34.90.173.174:8080/helloworld
+#1596156564
+wget 34.90.173.174/helloworld
+#1596156588
+curl 34.90.173.174/helloworld -L
+#1596156653
+vi react-ingress.yaml 
+#1596156668
+ka react-ingress.yaml 
+#1596156675
+kd ing
+#1596156686
+kg svc
+#1596156716
+ll test
+#1596157918
+./i/delete_cluster.sh 
+#1596159252
+./i/init_cluster.sh 
+#1596159264
+./i/delete_cluster.sh 
+#1596194444
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596194472
+mkdir test.geneesplaats.nl
+#1596194475
+cd  test
+#1596194478
+cd ..
+#1596194482
+cd test.geneesplaats.nl/
+#1596194842
+cd ..
+#1596194844
+ll -tr
+#1596194861
+mv DeployingNginxIngressAndaCert-ManagerControllerOnGKEUsingHelm3.sh test.geneesplaats.nl/
+#1596194867
+cd test.geneesplaats.nl/
+#1596194870
+cat DeployingNginxIngressAndaCert-ManagerControllerOnGKEUsingHelm3.sh 
+#1596194892
+cat  ../init_install.sh 
+#1596194933
+helm
+#1596194963
+helm repo list
+#1596194979
+helm list
+#1596194998
+../login.sh 
+#1596195004
+../k_get.sh 
+#1596195040
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596195043
+./login.sh 
+#1596195057
+./i/init_cluster.sh
+#1596195113
+./i/delete_cluster.sh 
+#1596196390
+kgn
+#1596196395
+kgno
+#1596196306
+./i/init_cluster.sh 
+#1596196677
+kubectl create ns nginx
+#1596196697
+ll
+#1596196703
+mv DeployingNginxIngressAndaCert-ManagerControllerOnGKEUsingHelm3.sh  ..
+#1596196707
+cat DeployingNginxIngressAndaCert-ManagerControllerOnGKEUsingHelm3.sh 
+#1596196741
+helm install nginx stable/nginx-ingress --namespace ingress-nginx  --set rbac.create=true --set controller.publishService.enabled=true
+#1596196763
+kubectl create ns ingress-nginx
+#1596196765
+helm install nginx stable/nginx-ingress --namespace ingress-nginx  --set rbac.create=true --set controller.publishService.enabled=true
+#1596196847
+kubectl --namespace ingress-nginx get services -o wide -w nginx-nginx-ingress-controller
+#1596196866
+kubectl create deployment hello-app --image=gcr.io/google-samples/hello-app:1.0
+#1596196902
+kubectl expose deployment hello-app --port 8080 --target-port 8080
+#1596196912
+kgsvc
+#1596196938
+vi  hello-app-ingress.yaml
+#1596196974
+ka hello-app-ingress.yaml 
+#1596197061
+kging
+#1596197122
+kgpo
+#1596197140
+kgpo -o yaml
+#1596197159
+kgsvc
+#1596197165
+kgsvc hello-app
+#1596197171
+kgsvc hello-app -o yaml
+#1596197192
+kgsvc hello-app -o yaml > hello-app-service.yaml
+#1596197200
+kgdep
+#1596197208
+kgdep -o yaml
+#1596197229
+kgdep -o yaml > hello-app-deployment.yaml 
+#1596198012
+ll
+#1596198020
+../k_get.sh 
+#1596198028
+kging
+#1596198036
+kging -A
+#1596198115
+ll
+#1596198154
+vi hello-app-ingress.yaml
+#1596198227
+ka hello-app-ingress.yaml
+#1596198260
+ll  ../i
+#1596198275
+cat   ../i/install-cert-manager.sh 
+#1596198412
+curl test.geneesplaats.nl
+#1596198439
+kging -A
+#1596198450
+cat hello-app-ingress.yaml 
+#1596198459
+curl test.geneesplaats.nl/helloworld
+#1596198473
+kging -A
+#1596198477
+curl test.geneesplaats.nl/helloworld
+#1596198510
+kding
+#1596198823
+curl test.geneesplaats.nl/helloworld
+#1596198837
+kgsrv
+#1596198840
+kgsvc
+#1596198851
+kgpo
+#1596198866
+kgdep
+#1596198874
+kging
+#1596198878
+kding
+#1596198894
+vi hello-app-ingress.yaml
+#1596198963
+ka hello-app-ingress.yaml
+#1596198973
+kg ing
+#1596198986
+k delete ing ingress-resource
+#1596198992
+kding
+#1596199001
+ka hello-app-ingress.yaml
+#1596199009
+kding
+#1596199028
+kgsvc
+#1596199042
+ll
+#1596199048
+ka hello-app-service.yaml
+#1596199074
+cat hello-app-service.yaml
+#1596199102
+kgsvc
+#1596199134
+kubectl expose deployment hello-app --port 8080 --target-port 8080
+#1596199149
+kubectl create deployment hello-app --image=gcr.io/google-samples/hello-app:1.0
+#1596199158
+kgdep
+#1596199173
+kding
+#1596199189
+ka hello-app-ingress.yaml 
+#1596199199
+kgsvc
+#1596199205
+kgdep
+#1596199216
+ka hello-app-service.yaml
+#1596199240
+kgsvc
+#1596199255
+kubectl expose deployment hello-app --port 8080 --target-port 8080
+#1596199261
+kgsvc
+#1596199381
+wget  test.geneesplaats.nl/helloworld
+#1596199605
+kding
+#1596199635
+helm list
+#1596199649
+helm uninstall nginx
+#1596199652
+helm list
+#1596199660
+cat ../DeployingNginxIngressAndaCert-ManagerControllerOnGKEUsingHelm3.sh 
+#1596199695
+helm install nginx stable/nginx-ingress --namespace ingress-nginx  --set rbac.create=true --set controller.publishService.enabled=true
+#1596199719
+kding
+#1596199743
+kgsvc
+#1596199748
+kgdep
+#1596199753
+kgpo
+#1596199761
+kging
+#1596199848
+kding
+#1596199911
+ping test.geneesplaats.nl
+#1596199919
+wget test.geneesplaats.nl
+#1596199925
+wget test.geneesplaats.nl/helloworld
+#1596200122
+kubectl create namespace cert-manager
+#1596200159
+helm list
+#1596200162
+helm 
+#1596200166
+helm show
+#1596200171
+helm show chart
+#1596200186
+helm show all
+#1596200219
+helm repo list
+#1596200226
+helm repo 
+#1596200292
+helm list
+#1596200299
+helm repo list
+#1596200329
+helm search jetstack
+#1596200339
+helm search jetstack -l
+#1596200353
+helm search repo jetstack -l
+#1596200368
+helm repo list
+#1596200378
+helm search repo stable -l
+#1596200393
+helm repo list
+#1596200397
+helm search repo jetstack -l
+#1596200617
+kubectl apply --validate=false -f https://raw.githubusercontent.com/jetstack/cert-manager/release-0.16/deploy/manifests/00-crds.yaml
+#1596201050
+k version
+#1596201069
+ll ..
+#1596201076
+ll ../*.sh
+#1596201091
+ll ../i/*.sh
+#1596201105
+cat   ../i/install-cert-manager.sh 
+#1596201124
+vi ../i/install-cert-manager.sh 
+#1596201200
+cp  ../i/install-cert-manager.sh ../i/install-cert-manager-helm.sh
+#1596201206
+vi ../i/install-cert-manager-helm.sh
+#1596201331
+../i/install-cert-manager-helm.sh
+#1596201349
+kubectl get pods --namespace cert-manager
+#1596201362
+ll *.sh
+#1596201367
+ll ../*.sh
+#1596201371
+../test-cert-manager.sh
+#1596201395
+cd ..
+#1596201400
+./test-cert-manager.sh 
+#1596201430
+cat test-cert-manager.sh 
+#1596201446
+rm test-cert-manager-resources.yaml
+#1596201452
+./test-cert-manager.sh 
+#1596201501
+vi test-cert-manager.sh 
+#1596201539
+./test-cert-manager.sh 
+#1596201557
+cat  test-cert-manager-resources.yaml 
+#1596201581
+k explain Issuer
+#1596201611
+helm list
+#1596201624
+cd test.geneesplaats.nl/
+#1596201625
+ll
+#1596201628
+cd ..
+#1596201630
+ll -tr
+#1596201637
+jobs
+#1596201642
+grep helm * 
+#1596201658
+grep jetsta * 
+#1596201672
+jobs
+#1596201683
+vi ../i/install-cert-manager-helm.sh
+#1596201692
+cat  i/install-cert-manager-helm.sh
+#1596201698
+./i/install-cert-manager-helm.sh
+#1596201718
+vi ./i/install-cert-manager-helm.sh
+#1596201743
+helm list 
+#1596201750
+vi ./i/install-cert-manager-helm.sh
+#1596201761
+./i/install-cert-manager-helm.sh
+#1596201778
+./test-cert-manager.sh 
+#1596201787
+helm list
+#1596201814
+helm list -A
+#1596201830
+helm uninstall my-cert-manager
+#1596201841
+helm uninstall my-cert-manager -n cert-manager
+#1596201874
+kubectl get pods --namespace cert-manager
+#1596201892
+helm uninstall cert-manager -n cert-manager
+#1596201896
+kubectl get pods --namespace cert-manager
+#1596201913
+ll i
+#1596201922
+./i/install-cert-manager-helm.sh
+#1596201932
+kubectl get pods --namespace cert-manager
+#1596201948
+./test-cert-manager.sh 
+#1596201968
+cat test-cert-manager-resources.yaml 
+#1596202006
+rm test-cert-manager-resources.yaml
+#1596202011
+vi test-cert-manager.sh 
+#1596202080
+./test-cert-manager.sh 
+#1596202090
+vi test-cert-manager.sh 
+#1596202135
+./test-cert-manager.sh 
+#1596202223
+k log pod my-cert-manager-cainjector-7b646bcf66-cxwdv  --namespace cert-manager
+#1596202228
+k logs pod my-cert-manager-cainjector-7b646bcf66-cxwdv  --namespace cert-manager
+#1596202242
+k logs my-cert-manager-cainjector-7b646bcf66-cxwdv  --namespace cert-manager
+#1596202298
+helm uninstall cert-manager -n cert-manager
+#1596202304
+helm list -A
+#1596202315
+helm uninstall my-cert-manager -n cert-manager
+#1596202329
+vi i/install-cert-manager-helm.sh 
+#1596202342
+i/install-cert-manager-helm.sh 
+#1596202361
+kubectl get pods --namespace cert-manager
+#1596202371
+k explain Issuer
+#1596202382
+k explain Issuer  --namespace cert-manager
+#1596202402
+k explain ClusterIssuer  --namespace cert-manager
+#1596202412
+./test-cert-manager.sh 
+#1596202418
+cat init_install.sh 
+#1596202432
+cat ./i/install-kube-ctl-cert-man.sh
+#1596202453
+which  kubectl-cert_manager
+#1596202463
+ll /usr/local/bin/kubectl-cert_manager
+#1596202467
+ll /usr/local/bin/
+#1596202472
+cat ./i/install-kube-ctl-cert-man.sh
+#1596202479
+./i/install-kube-ctl-cert-man.sh
+#1596202492
+which  kubectl-cert_manager
+#1596202500
+k explain ClusterIssuer  --namespace cert-manager
+#1596202509
+k explain Issuer  --namespace cert-manager
+#1596202597
+kubectl get pods --namespace cert-manager
+#1596202622
+helm uninstall my-cert-manager -n cert-manager
+#1596202626
+kubectl get pods --namespace cert-manager
+#1596202644
+cat init_install.sh 
+#1596202649
+./i/install-cert-manager.sh
+#1596202661
+vi ./i/install-cert-manager.sh
+#1596202674
+./i/install-cert-manager.sh
+#1596202704
+cat   ./i/install-cert-manager.sh
+#1596202732
+vi ./i/install-cert-manager.sh
+#1596202739
+./i/install-cert-manager.sh
+#1596202752
+cat   ./i/install-cert-manager.sh
+#1596202800
+kubectl get pods --namespace cert-manager
+#1596202808
+./test-cert-manager.sh 
+#1596202837
+kubectl get pods --namespace cert-manager
+#1596202875
+cd test.geneesplaats.nl/
+#1596202887
+vi issuer.yaml
+#1596202923
+ka issuer.yaml
+#1596202936
+ll
+#1596202942
+vi  hello-app-ingress.yaml
+#1596203034
+ka hello-app-ingress.yaml
+#1596203046
+kg cert
+#1596203059
+kg certificaterequest
+#1596203063
+kd certificaterequest
+#1596203076
+kg certificaterequest
+#1596203103
+kg ing
+#1596203212
+ping  test.geneesplaats.nl
+#1596203218
+kg ing
+#1596203630
+ll
+#1596203754
+kgsvc
+#1596203766
+kgno
+#1596203981
+cat ./i/ap
+#1596203989
+cat i/apply.sh 
+#1596204020
+vi i/apply.sh
+#1596204068
+mv i/apply.sh i/apply_services.sh
+#1596204080
+cp i/apply_services.sh i/apply_ingress.sh
+#1596204087
+vi i/apply_ingress.sh
+#1596204106
+kgsvc
+#1596204119
+./i/apply_services.sh 
+#1596204126
+kgsvc
+#1596204137
+hg react | grep exec |grep curl
+#1596204145
+kgpo
+#1596204164
+k exec -it react-7959f749dc-rk99h  -c  react-geneesplaats-nl-production -n ingress-nginx  --  curl react:8000
+#1596204183
+kgpo
+#1596204187
+k exec -it react-7959f749dc-rk99h  -c  react-geneesplaats-nl-production -n ingress-nginx  --  curl react:8000
+#1596204202
+ll
+#1596204208
+ll
+#1596204216
+cat  issuer.yaml
+#1596204244
+ll
+#1596204273
+cll *.yaml
+#1596204276
+ll *.yaml
+#1596204296
+cat deploy-install-nginx-ingress-controller.from.digitalocean.yaml
+#1596204324
+mv deploy-install-nginx-ingress-controller.from.digitalocean.yaml deploy-install-nginx-ingress-controller.from.digitalocean.yaml.old
+#1596204326
+ll *.yaml
+#1596204336
+grep -r react-ingress.yaml
+#1596204348
+vi  i/apply_services.sh 
+#1596204418
+cat  react-ingress.yaml
+#1596204251
+vi  hello-app-ingress.yaml 
+#1596204463
+ka  hello-app-ingress.yaml 
+#1596204470
+kg ing
+#1596204474
+kd ing
+#1596204510
+vi  hello-app-ingress.yaml
+#1596204525
+ka  hello-app-ingress.yaml 
+#1596204529
+kd ing
+#1596204693
+vi  hello-app-ingress.yaml
+#1596204761
+ka  hello-app-ingress.yaml 
+#1596204766
+kd ing
+#1596205871
+cd ..
+#1596205880
+./i/delete_cluster.sh 
+#1596206645
+./i/init_cluster.sh
+#1596207615
+cat install-1/installation-1.txt 
+#1596207628
+cat  ./init_install.sh
+#1596207650
+vi ./init_install.sh
+#1596207713
+cat  ./init_install.sh
+#1596207717
+cat install-1/installation-1.txt 
+#1596207720
+./i/init_cluster.sh
+#1596207773
+cat install-1/installation-1.txt 
+#1596207810
+grep install *.sh
+#1596207822
+cat DeployingNginxIngressAndaCert-ManagerControllerOnGKEUsingHelm3.sh 
+#1596207865
+cat  ./i/init_cluster.sh
+#1596207871
+cat init_install.sh 
+#1596207886
+vi  init_install.sh 
+#1596207927
+./init_install.sh 
+#1596207966
+./k_get.sh 
+#1596208032
+cat install-1/installation-1.txt 
+#1596208045
+cat install-nginx-ingress-controller.from.digitalocean.sh 
+#1596208078
+mv deploy-install-nginx-ingress-controller.from.digitalocean.yaml.old  deploy-install-nginx-ingress-controller.from.digitalocean.yaml
+#1596208086
+cat install-1/installation-1.txt 
+#1596208147
+rm install-nginx-ingress-controller.sh.old 
+#1596208113
+./install-nginx-ingress-controller.from.digitalocean.sh 
+#1596208216
+cat install-1/installation-1.txt 
+#1596208238
+cat i/apply_ingress.sh 
+#1596208269
+cd test.geneesplaats.nl/
+#1596208290
+ll
+#1596208310
+cat issuer.yaml 
+#1596208324
+vi letsencrypt-clusterissuer-prod.nginx.yaml
+#1596208524
+cat  hello-app-ingress.yaml
+#1596208536
+ll -tr
+#1596208586
+cat i/apply_ingress.sh 
+#1596208594
+vi react-ingress.yaml 
+#1596208824
+vi i/apply_ingress.sh 
+#1596208912
+./i/apply_ingress.sh 
+#1596208922
+kg ing
+#1596208969
+kd ing
+#1596208990
+kd order
+#1596209284
+ll test.geneesplaats.nl/
+#1596209303
+cat   test.geneesplaats.nl/test-cert-manager-resources.yaml
+#1596209318
+cat test.geneesplaats.nl/issuer.yaml
+#1596209329
+grep Issuer * 
+#1596209356
+ll
+#1596209792
+cat hello-app-ingress.yaml
+#1596209822
+grep -r letsencrypt-clusterissuer-prod.nginx.yaml
+#1596209832
+cat  letsencrypt-clusterissuer-prod.nginx.yaml
+#1596209843
+grep geneesplaats-nl-letsencrypt-production * 
+#1596209891
+grep test-geneesplaats-nl-tls * 
+#1596209851
+vi  react-ingress.yaml 
+#1596209906
+./i/apply_ingress.sh 
+#1596209919
+kg order
+#1596209927
+kd order
+#1596209955
+vi  react-ingress.yaml 
+#1596209982
+./i/apply_ingress.sh 
+#1596209988
+kd ing
+#1596209999
+vi  react-ingress.yaml 
+#1596210018
+./i/apply_ingress.sh 
+#1596210022
+kd ing
+#1596210036
+kd order
+#1596210046
+kg ing
+#1596210311
+kg secrets -A
+#1596210327
+kg cert
+#1596210334
+kd cert
+#1596210367
+kg cert
+#1596210425
+cat  issuer.yaml
+#1596210485
+ping test.geneesplaats.nl
+#1596210509
+cat *.yaml
+#1596210516
+grep Issuer * 
+#1596210524
+cat letsencrypt-clusterissuer-prod.nginx.yaml
+#1596210540
+kd Issuer -A
+#1596210574
+kd Issuekd orderr -A
+#1596210577
+kd order
+#1596213943
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596213948
+hh
+#1596213958
+hh > history.txt
+#1596215918
+init_databse.sh
+#1596216168
+hg react|grep curl
+#1596216182
+hg react|grep exec
+#1596215922
+vi init_databse.sh
+#1596216228
+kgpod
+#1596216230
+kgpo
+#1596216238
+./login.sh 
+#1596216295
+kgpo
+#1596216309
+kubectl get pods -o wide
+#1596216328
+kubectl get pods -n ingress-nginx
+#1596216346
+kubectl get pods -n ingress-nginx| grep '^react'
+#1596216360
+set -x
+#1596216362
+kubectl get pods -n ingress-nginx| grep '^react'
+#1596216368
+set +x
+#1596216370
+kubectl get pods -n ingress-nginx| grep '^react'
+#1596216392
+set +x; kubectl get pods -n ingress-nginx| grep '^react'
+#1596216432
+set +x; kubectl get pods -n ingress-nginx| grep '^react'| gawk '{print $1}'
+#1596216437
+set +x; kubectl get pods -n ingress-nginx| grep '^react'| awk '{print $1}'
+#1596216454
+fg
+#1596216512
+chmod +x init_databse.sh
+#1596216517
+./init_databse.sh 
+#1596216554
+kubectl
+#1596216557
+./init_databse.sh 
+#1596216586
+vi init_databse.sh
+#1596216615
+./init_databse.sh 
+#1596216621
+fg
+#1596216640
+./init_databse.sh 
+#1596221655
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596221665
+ll -tra
+#1596221675
+cat i
+#1596221688
+vi history.txt 
+#1596221777
+cat install-1/installation-1.txt 
+#1596221785
+vi ./init_install.sh 
+#1596221817
+ll install-nginx-ingress-controller.from.digitalocean.sh
+#1596221823
+cat install-nginx-ingress-controller.from.digitalocean.sh
+#1596221839
+ll deploy-install-nginx-ingress-controller.from.digitalocean.yaml
+#1596221851
+wget https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.34.1/deploy/static/provider/cloud/deploy.yaml
+#1596221863
+bc deploy.yaml deploy-install-nginx-ingress-controller.from.digitalocean.yaml 
+#1596221871
+diff deploy.yaml deploy-install-nginx-ingress-controller.from.digitalocean.yaml 
+#1596221899
+fg
+#1596221932
+cat install-1/installation-1.txt 
+#1596221940
+fg
+#1596221968
+mv deploy-install-nginx-ingress-controller.from.digitalocean.yaml  i
+#1596221970
+ll i
+#1596221982
+cat install-1/installation-1.txt 
+#1596221990
+cat install-nginx-ingress-controller.from.digitalocean.sh 
+#1596222004
+mv install-nginx-ingress-controller.from.digitalocean.sh  i
+#1596222010
+cat install-1/installation-1.txt 
+#1596222038
+fg
+#1596222105
+ll *.sh
+#1596222118
+grep -r DeployingNginxIngressAndaCer 
+#1596222124
+rm history.txt 
+#1596222125
+grep -r DeployingNginxIngressAndaCer 
+#1596222131
+ll *.sh
+#1596222139
+grep -r get_helm
+#1596222160
+mv init_databse.sh init_database.sh
+#1596222166
+fg
+#1596222177
+vi init_install.sh 
+#1596222201
+mv init_install.sh i
+#1596222205
+ll *.sh
+#1596222225
+mv i/init_install.sh  .
+#1596222227
+fg
+#1596222234
+mv init_database.sh i
+#1596222237
+ll *.sh
+#1596222258
+grep -r test-cert-manager
+#1596222272
+mv test-cert-manager.sh i
+#1596222280
+vi init_install.sh 
+#1596222304
+ll *.sh
+#1596222312
+cat DeployingNginxIngressAndaCert-ManagerControllerOnGKEUsingHelm3.sh 
+#1596222347
+ll *.sh
+#1596222359
+rm get_helm.sh
+#1596222371
+vi install_helm.sh
+#1596222377
+cat DeployingNginxIngressAndaCert-ManagerControllerOnGKEUsingHelm3.sh 
+#1596222425
+fg
+#1596222452
+ll *.sh
+#1596222464
+chmod +x install_helm.sh
+#1596222469
+mv install_helm.sh i
+#1596222473
+fg
+#1596222478
+ll *.sh
+#1596222488
+mv uninstall-cert-manager.sh i
+#1596222489
+ll *.sh
+#1596222496
+mv DeployingNginxIngressAndaCert-ManagerControllerOnGKEUsingHelm3.sh i
+#1596222498
+ll *.sh
+#1596222523
+rm index.html index.html.1
+#1596222541
+ll ingress-gce-letsencrypt/
+#1596222558
+ll *.sh
+#1596222563
+ll i
+#1596222577
+vi init_install.sh 
+#1596223355
+./init_install.sh
+#1596223389
+ll *.sh
+#1596223394
+vi init_install.sh 
+#1596223404
+./init_install.sh
+#1596223481
+kubectl exec -it react-7959f749dc-wjggz -c react-geneesplaats-nl-production -- sequelize db:migrate
+#1596223525
+find . -name deploy-install-nginx-ingress-controller.from.digitalocean.yaml
+#1596223542
+cat ./i/apply_ingress.sh
+#1596223557
+grep -r deploy-install-nginx-ingress-controller.from.digitalocean.yaml
+#1596223565
+cat i/install-nginx-ingress-controller.from.digitalocean.sh
+#1596223592
+vi i/install-nginx-ingress-controller.from.digitalocean.sh
+#1596223606
+./init_install.sh
+#1596223928
+cat ./init_install.sh
+#1596223943
+git status 
+#1596223966
+cd ..
+#1596223970
+ll -a
+#1596223976
+ll -a .git
+#1596223980
+git status 
+#1596223990
+ll dns/
+#1596224002
+cat   dns/Kgeneesplaats.nl.+165+60880.
+#1596224007
+cat   dns/Kgeneesplaats.nl.+165+60880.key 
+#1596224016
+rm -rf dns/
+#1596224025
+git status 
+#1596224062
+git add graphbook/
+#1596224065
+git status 
+#1596224101
+git status | more
+#1596224134
+git status 
+#1596224142
+git status | more
+#1596224209
+git commit -m 'first release for https://test.geneesplaats.nl  secured . Also using nginx ingress controller ' .
+#1596224658
+git status 
+#1596224665
+git push
+#1596224682
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596224701
+./i/delete_cluster.sh
+#1596225626
+git pul
+#1596225629
+git pull
+#1596225639
+git status
+#1596225658
+./i/init_cluster.sh 
+#1596225953
+./k_get.sh 
+#1596225977
+./init_install.sh 
+#1596226015
+vi ./init_install.sh 
+#1596226031
+./init_install.sh 
+#1596226110
+kubectl exec -it react-7959f749dc-pcp8g -c react-geneesplaats-nl-production -- sequelize db:migrate
+#1596226119
+kgpo
+#1596226143
+vi ./init_install.sh 
+#1596226156
+kubectl exec -it react-7959f749dc-pcp8g -c react-geneesplaats-nl-production -- sequelize db:migrate
+#1596227225
+git log -2
+#1596227236
+git log -3
+#1596227387
+ll *.sh
+#1596227392
+cd ..
+#1596227400
+ll kompose_production_ver1/
+#1596227414
+ll *.sh
+#1596228286
+hg control_geneesplaats_nl.sh
+#1596228296
+hg control
+#1596233920
+kgpo
+#1596233930
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596233934
+./login.sh 
+#1596233937
+kgpo
+#1596233958
+kdpo react-7959f749dc-pcp8g
+#1596234070
+ll *.yaml
+#1596234079
+vi react-deployment.yaml 
+#1596234486
+ka react-deployment.yaml 
+#1596234495
+vi react-deployment.yaml 
+#1596234512
+ka react-deployment.yaml 
+#1596234559
+kgpo
+#1596234624
+vi react-deployment.yaml 
+#1596234658
+ka react-deployment.yaml 
+#1596234734
+vi react-deployment.yaml 
+#1596234776
+ka react-deployment.yaml 
+#1596234782
+kgpo
+#1596234803
+vi react-deployment.yaml 
+#1596234850
+k logs pod react-b78f48f5f-kjwsb
+#1596234854
+k logs pods react-b78f48f5f-kjwsb
+#1596234865
+k log pod react-b78f48f5f-kjwsb
+#1596234872
+k logs pod react-b78f48f5f-kjwsb
+#1596234876
+k logs react-b78f48f5f-kjwsb
+#1596234932
+vi  init_install.sh 
+#1596234953
+vi i/apply_services.sh 
+#1596235044
+kgpo
+#1596235056
+k delete pod react-b78f48f5f-kjwsb react-7959f749dc-pcp8g
+#1596235060
+kgpo
+#1596235077
+k delete pod  react-b78f48f5f-7cjh5
+#1596235081
+kgpo
+#1596235097
+k logs react-7959f749dc-k8mwv
+#1596235111
+k logs react-b78f48f5f-5mpm8
+#1596235152
+kgsecrets -A
+#1596235157
+kg secrets -A
+#1596235181
+cat   i/apply_services.sh 
+#1596235192
+kg secrets -A docker-registry
+#1596235202
+kg secrets docker-registry
+#1596235217
+kg secrets docker-registry -n ingress-nginx
+#1596235230
+kg secrets -A | grep -i dock
+#1596235244
+kubectl create secret docker-registry regcred-nginx-ingress --docker-server=https://index.docker.io/v1/   --docker-username=spikkie --docker-password=Bessabessa16\!\! --docker-email=spikkie@gmail.com
+#1596235263
+grep regcred-nginx-ingress * 
+#1596235279
+cat postgres-deployment.yaml 
+#1596235339
+vi react-deployment.yaml 
+#1596235386
+ka react-deployment.yaml 
+#1596235391
+kgpo
+#1596235415
+k delete pod react-b78f48f5f-5mpm8
+#1596235423
+kgpo
+#1596235505
+kdpo react-5969588884-q8rfq
+#1596235557
+kg service
+#1596235574
+kg ing
+#1596235582
+kgp
+#1596235592
+hg react | grep curl
+#1596235595
+kgp
+#1596235598
+kgpo
+#1596235616
+k exec -it react-5969588884-q8rfq -c  react-geneesplaats-nl-production -n ingress-nginx  --  curl react:8000
+#1596235644
+curl test.geneesplaats.nl -L
+#1596235902
+git status 
+#1596235932
+git diff init_install.sh
+#1596235939
+git add init_install.sh
+#1596235944
+git diff react-deployment.yaml
+#1596235958
+git add react-deployment.yaml
+#1596235963
+git status 
+#1596236013
+git commit -m 'init_install.sh: sleep 60 before init database.    react-deployment.yaml: add imagePullSecrets  name: regcred-nginx-ingress   to be able to update the container '
+#1596236023
+git status
+#1596236029
+git push 
+#1596236946
+curl test.geneesplaats.nl -L
+#1596236967
+kgpo
+#1596236978
+k logs react-5969588884-q8rfq
+#1596237245
+kg ing
+#1596237255
+kgpo
+#1596237267
+k logs ingress-nginx-controller-6967fb79f6-vjj4k
+#1596237298
+k exec -it react-5969588884-q8rfq -c  react-geneesplaats-nl-production -n ingress-nginx  --  curl react:8000
+#1596237309
+kd ing
+#1596237318
+ping nu.nl
+#1596237600
+curl test.geneesplaats.nl -L
+#1596290629
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596290635
+vi react-deployment.yaml 
+#1596290726
+ka react-deployment.yaml
+#1596290732
+./login.sh 
+#1596290738
+ka react-deployment.yaml
+#1596290749
+kgpo
+#1596293653
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596293656
+vi react-deployment.yaml 
+#1596293997
+ka react-deployment.yaml
+#1596294003
+kgpo
+#1596294677
+vi react-ingress.yaml 
+#1596294739
+ka react-ingress.yaml 
+#1596294743
+./login.sh 
+#1596294746
+ka react-ingress.yaml 
+#1596294754
+vi react-ingress.yaml 
+#1596294773
+kg ing
+#1596294777
+kd ing
+#1596294790
+vi react-ingress.yaml 
+#1596294805
+git diff  react-ingress.yaml 
+#1596294819
+kd ing
+#1596294831
+kd order
+#1596295640
+kg o
+#1596295644
+kgpo
+#1596295659
+k logs ingress-nginx-controller-6967fb79f6-vjj4k
+#1596295794
+hg exec | grep nginx
+#1596295802
+kgpo
+#1596295814
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-vjj4k -- cat /etc/nginx/nginx.conf
+#1596295832
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-vjj4k -- cat /etc/nginx/nginx.conf > nginx.conf
+#1596295838
+vi nginx.conf 
+#1596296029
+./i/delete.sh 
+#1596296184
+bg
+#1596296192
+kgsvc
+#1596296201
+./k_get.sh 
+#1596296224
+fg
+#1596296236
+./i/apply_services.sh 
+#1596296251
+grep -r ingress-nginx
+#1596296257
+grep -r ingress-nginx | grep creat
+#1596296271
+vi ./i/apply_services.sh 
+#1596296284
+./i/apply_services.sh 
+#1596296295
+./k_get.sh 
+#1596296302
+kgpo
+#1596296322
+cat ./i/delete.sh 
+#1596296329
+ll *.yaml
+#1596296340
+grep -r deploy.yaml
+#1596296353
+grep -r install-nginx-ingress-controller.from.digital
+#1596296367
+cat i/install-nginx-ingress-controller.from.digitalocean.sh
+#1596296380
+ll *.yaml
+#1596296390
+git status 
+#1596296450
+rm deploy.yaml 
+#1596296453
+./init_install.sh 
+#1596296652
+kgpo
+#1596296672
+kg order
+#1596297062
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596297071
+vi i/apply_services.sh 
+#1596297081
+vi init_install.sh 
+#1596297100
+kgpo
+#1596297110
+curl test.geneesplaats.nl -L
+#1596297154
+hg nginx
+#1596297165
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-vjj4k -- service nginx 
+#1596297169
+kgpo
+#1596297182
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-kgrs4 -- service nginx 
+#1596297200
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-kgrs4 -- service list
+#1596297215
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-kgrs4 -- ps -Af
+#1596297218
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-kgrs4 -- ps -Afx
+#1596297223
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-kgrs4 -- ps -afx
+#1596297226
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-kgrs4 -- ps -af
+#1596297313
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-kgrs4 -- tail /var/log/nginx/error.log
+#1596297330
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-kgrs4 -- ls /var/log/nginx/error.log
+#1596297339
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-kgrs4 -- ls -l /var/log/nginx/error.log
+#1596297358
+k logs ingress-nginx-controller-6967fb79f6-kgrs4
+#1596297454
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-kgrs4 -- cat   /var/log/nginx/error.log
+#1596297464
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-kgrs4 -- ls -l /var/log/nginx/
+#1596297600
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-kgrs4 -- cat   /var/log/nginx/error.log
+#1596297610
+k logs ingress-nginx-controller-6967fb79f6-kgrs4
+#1596297617
+k logs --help
+#1596297883
+k logs ingress-nginx-controller-6967fb79f6-kgrs4
+#1596297917
+k logs --help
+#1596304229
+k logs ingress-nginx-controller-6967fb79f6-kgrs4
+#1596304236
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596304241
+./login.sh 
+#1596304248
+k logs -f ingress-nginx-controller-6967fb79f6-kgrs4
+#1596304656
+grep  proxy_connect_timeout *
+#1596304971
+grep  timeout *
+#1596305040
+cat init_install.sh 
+#1596305062
+cat ./i/install-nginx-ingress-controller.from.digitalocean.sh
+#1596305126
+grep req ./i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml
+#1596305134
+grep -i req ./i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml
+#1596305146
+cat ./i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml
+#1596305192
+grep -r ConfigMap
+#1596305204
+grep -r ConfigMap |grep kind
+#1596305227
+vi i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml 
+#1596305426
+ka i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml 
+#1596305443
+ll -tr
+#1596305450
+hg nginx.conf
+#1596305463
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-vjj4k -- cat /etc/nginx/nginx.conf > nginx.conf2
+#1596305468
+kgpo
+#1596305482
+kubectl exec -it  ingress-nginx-controller-6967fb79f6-kgrs4 -- cat /etc/nginx/nginx.conf > nginx.conf2
+#1596305506
+grep  timeout *
+#1596305514
+grep  timeout nginx.conf2
+#1596305573
+kg ConfigMap
+#1596305594
+kd ConfigMap ingress-nginx-controller
+#1596305763
+k logs -f ingress-nginx-controller-6967fb79f6-kgrs4
+#1596306078
+vi i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml 
+#1596306165
+ka i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml 
+#1596306176
+ka -f i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml 
+#1596306196
+ka i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml  --force
+#1596315796
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596315799
+ll -tr
+#1596315810
+vi react-deployment.yaml
+#1596316069
+ka react-deployment.yaml
+#1596316074
+./login.sh 
+#1596316080
+kgpo
+#1596316086
+ka react-deployment.yaml
+#1596316089
+kgpo
+#1596321643
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596321655
+grep 1.4 react-deployment.yaml
+#1596321687
+sed -i 's/V0.1.4/V0.1.5/' react-deployment.yaml
+#1596321689
+grep 1.4 react-deployment.yaml
+#1596321694
+grep 1.5 react-deployment.yaml
+#1596321706
+ka react-deployment.yaml
+#1596321711
+./login.sh 
+#1596321715
+ka react-deployment.yaml
+#1596321723
+kgpo
+#1596383605
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596383620
+kgpo
+#1596383628
+./login.sh 
+#1596383645
+kgpo
+#1596383666
+sed -i 's/V0.1.6/V0.1.6/' react-deployment.yaml
+#1596383673
+ka react-deployment.yaml
+#1596383676
+kgpo
+#1596383700
+sed -i 's/V0.1.5/V0.1.6/' react-deployment.yaml
+#1596383703
+ka react-deployment.yaml
+#1596383707
+kgpo
+#1596386134
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596386198
+sed -i 's/V0.1.6/V0.1.7/' react-deployment.yaml
+#1596386204
+ka react-deployment.yaml 
+#1596386215
+kgpo
+#1596390282
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596390285
+ll -tr
+#1596390297
+grep 1.8 * 
+#1596390301
+grep 1.7 * 
+#1596390319
+sed -i 's/V0.1.7/V0.1.8/' react-deployment.yaml
+#1596390745
+ka react-deployment.yaml 
+#1596390751
+./login.sh 
+#1596390753
+ka react-deployment.yaml 
+#1596390762
+kgpo
+#1596455999
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596456703
+sed -i 's/V0.1.8/V0.1.9/' react-deployment.yaml
+#1596456713
+ka react-deployment.yaml 
+#1596456718
+./login.sh 
+#1596456721
+ka react-deployment.yaml 
+#1596456870
+kgpo
+#1596460898
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596460909
+sed -i 's/V0.1.9/V0.1.10/' react-deployment.yaml
+#1596461472
+ka react-deployment.yaml 
+#1596461478
+./login.sh 
+#1596461481
+ka react-deployment.yaml 
+#1596461493
+kgpo
+#1596464991
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596464999
+sed -i 's/V0.1.10/V0.1.11/' react-deployment.yaml
+#1596465021
+vi deploy_react.sh
+#1596465070
+chmod +x deploy_react.sh
+#1596465073
+./deploy_react.sh 
+#1596465077
+./deploy_react.sh  2
+#1596465079
+fg
+#1596465115
+grep  V0 react-deployment.yaml
+#1596465134
+grep 'value: V' react-deployment.yaml
+#1596465147
+grep 'value: V' react-deployment.yaml| cut -d -f2
+#1596465155
+grep 'value: V' react-deployment.yaml| cut -d'' -f2
+#1596465158
+grep 'value: V' react-deployment.yaml| cut -d' ' -f2
+#1596465161
+grep 'value: V' react-deployment.yaml| cut -d' ' -f1
+#1596465185
+grep 'value: V' react-deployment.yaml| awk '{print $2}'
+#1596465191
+fg
+#1596465229
+./deploy_react.sh  2
+#1596465250
+fg
+#1596465308
+cp react-deployment.yaml react-deployment.yaml.test
+#1596465318
+fg
+#1596465383
+./deploy_react.sh 1
+#1596465390
+fg
+#1596465408
+./deploy_react.sh 1111
+#1596465422
+fg
+#1596465517
+./deploy_react.sh 1111
+#1596465541
+fg
+#1596465562
+cp react-deployment.yaml react-deployment.yaml.test
+#1596465568
+./deploy_react.sh etewrtewty
+#1596465599
+fg
+#1596465637
+./deploy_react.sh 
+#1596465641
+./deploy_react.sh  rwrewr
+#1596465650
+grep value react-deployment.yaml.test
+#1596465660
+fg
+#1596465686
+./deploy_react.sh  rwrewr
+#1596465703
+grep 'value: V' react-deployment.yaml.test
+#1596465711
+grep 'value: ' react-deployment.yaml.test 
+#1596465723
+vi react-deployment.yaml
+#1596465754
+hg sed
+#1596465770
+cp react-deployment.yaml react-deployment.yaml.test
+#1596465773
+fg
+#1596465877
+./deploy_react.sh  rwrewr
+#1596465885
+./deploy_react.sh  abc
+#1596465921
+fg
+#1596465937
+vi react-deployment.yaml
+#1596465949
+fg
+#1596465974
+grep 'image: spikkie/react_geneesplaats_nl_production:' react-deployment.yaml.test
+#1596466002
+grep 'image: spikkie/react_geneesplaats_nl_production:' react-deployment.yaml.test|sed /s.*://
+#1596466012
+grep 'image: spikkie/react_geneesplaats_nl_production:' react-deployment.yaml.test|sed 's/.*://'
+#1596466021
+fg
+#1596466056
+cp react-deployment.yaml react-deployment.yaml.test
+#1596466061
+./deploy_react.sh  abc
+#1596466079
+fg
+#1596466098
+cp react-deployment.yaml react-deployment.yaml.test
+#1596466101
+./deploy_react.sh  abc
+#1596466108
+./deploy_react.sh  abc2
+#1596466111
+./deploy_react.sh  abc3
+#1596466115
+./deploy_react.sh  abc4
+#1596466122
+fg
+#1596466224
+./deploy_react.sh  V0.1.11
+#1596466232
+./deploy_react.sh  V0.1.10
+#1596466234
+./deploy_react.sh  V0.1.11
+#1596466260
+ka react-deployment.yaml 
+#1596466270
+fg
+#1596466273
+vi react-deployment.yaml
+#1596466282
+vi deploy_react.sh
+#1596466324
+./deploy_react.sh  V0.1.11
+#1596466346
+kgpo
+#1596467952
+grep -r withApoll
+#1596467970
+grep -r withApoll ../src/
+#1596468714
+grep -r login ../src/client/
+#1596468894
+grep -r loginre ../src/
+#1596471305
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596471803
+./deploy_react.sh  V0.1.12
+#1596471821
+kgpo
+#1596487636
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596487641
+./deploy_react.sh  V0.1.13
+#1596487652
+vi ./deploy_react.sh  V0.1.13
+#1596487675
+kgpo
+#1596488611
+vi ./deploy_react.sh  V0.1.14
+#1596488623
+./deploy_react.sh  V0.1.14
+#1596488673
+kgpo
+#1596574863
+git config --global user.name "spikkie"
+#1596574870
+git config --global user.email "spikkie@gmail.com"
+#1596575010
+hg push
+#1596575125
+git branches
+#1596575132
+git branche
+#1596575134
+git branch
+#1596575145
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596575147
+git branch
+#1596576013
+gradle --version
+#1596576131
+which gradle
+#1596819221
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596819245
+git status 
+#1596819433
+grep -r deploy.yaml
+#1596819449
+git add deploy.yaml
+#1596819462
+grep -r deploy_react.sh
+#1596819469
+cat  deploy_react.sh
+#1596819489
+hg deploy_react.sh
+#1596819502
+git add  deploy_react.sh
+#1596819508
+git status 
+#1596819519
+git add i/apply_services.sh
+#1596819529
+grep -r init_install.sh
+#1596819559
+ll t
+#1596819564
+ll i
+#1596822135
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596822141
+ll
+#1596822149
+cd ..
+#1596822158
+git status 
+#1596822281
+git add .
+#1596822285
+git status 
+#1596822346
+git commit -m 'deploy react application script //  scripting init_install.sh '
+#1596822350
+git status 
+#1596822356
+git push
+#1596892931
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596892943
+cat login.sh 
+#1596892956
+cat /home/spikkie/spikkie-service-account.json
+#1596893248
+jobs
+#1596893292
+echo $USER
+#1596893919
+cat login.sh 
+#1596894230
+./i/delete_cluster.sh 
+#1596895504
+jx
+#1596895901
+gloud project list
+#1596895907
+gcloud project list
+#1596895918
+gcloud projects list
+#1596895923
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596895927
+./login.sh 
+#1596895931
+gcloud projects list
+#1596895938
+gcloud projects list --help
+#1596896160
+./i/delete_cluster.sh 
+#1596896455
+cat ./i/delete_cluster.sh 
+#1596903065
+ll
+#1596903079
+ll projects/
+#1596903084
+ll -la
+#1596903087
+cali
+#1596903096
+pwd
+#1596903117
+curl -o install-jx.sh https://raw.githubusercontent.com/jenkins-x/jx-tutorial/master/install-jx.sh
+#1596903151
+ll -tr
+#1596903166
+chmod +x ./install-jx.sh 
+#1596903175
+./install-jx.sh 
+#1596903196
+jx
+#1596903231
+which jx
+#1596903237
+sudo ./install-jx.sh 
+#1596903253
+cat  ./install-jx.sh 
+#1596903282
+jx
+#1596903521
+kgno
+#1596903531
+kgpo
+#1596903536
+k get nodes
+#1596903593
+k config
+#1596903604
+k config current-context
+#1596913369
+kga
+#1596913383
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1596913387
+./k_get.sh 
+#1596913402
+cat ./k_get.sh
+#1596913408
+kubectl get all -A
+#1596913546
+gcloud 
+#1596913567
+hg gcloud
+#1596913574
+gcloud project list
+#1596913594
+gcloud projects list
+#1596913650
+cd  ..
+#1596913652
+mkdir jx
+#1596913672
+cp kompose_production_ver1/login.sh jx/
+#1596913723
+cd jx/
+#1596913725
+cat login.sh 
+#1596913766
+cat /home/spikkie/spikkie-service-account.json
+#1596914132
+ll ~/
+#1596914210
+vi login.sh 
+#1596914239
+cat  login.sh
+#1596914244
+vi /home/spikkie/geneesplaats-nl-jx-4294254e1865.json
+#1596914269
+./login.sh 
+#1596914290
+mkdir ../bin
+#1596914326
+mv ../kompose_production_ver1/k_* ../bin/
+#1596914330
+ll ../bin/
+#1596914342
+cat k_get_all_all_namespaces_list.txt
+#1596914353
+cat ../bin/k_get_all_all_namespaces_list.txt
+#1596914359
+rm  ../bin/k_get_all_all_namespaces_list.txt
+#1596914368
+~/projects/geneesplaats.nl/graphbook/bin/
+#1596914372
+cali
+#1596914417
+k_get.sh 
+#1596914432
+cat  k_get.sh
+#1596914442
+cat ../bin/k_get.sh 
+#1596914448
+kubectl get all -A
+#1596914853
+ip a
+#1596914861
+k
+#1596914866
+k get all
+#1596915000
+gcloud container clusters get-credentials geneesplaat-nl-jx --zone europe-west4-a --project geneesplaats-nl-jx
+#1596915017
+cd ~/projects/geneesplaats.nl/graphbook/jx/
+#1596915020
+./login.sh 
+#1596915025
+gcloud container clusters get-credentials geneesplaat-nl-jx --zone europe-west4-a --project geneesplaats-nl-jx
+#1596915300
+k_get.sh 
+#1596915319
+kgno
+#1596915329
+ll ../howto/
+#1596915339
+vi  ../howto/gcloud.txt 
+#1596915377
+fg
+#1596915691
+gcloud containers clusters list
+#1596915697
+gcloud container clusters list
+#1596915753
+gcloud container cluster
+#1596915802
+gcloud container clusters list --help
+#1596915813
+gcloud container clusters list --help| col -b
+#1596915834
+gcloud beta container clusters list 
+#1596915843
+gcloud alpha container clusters list 
+#1596915850
+gcloud container clusters list --help| col -b
+#1596915892
+gcloud container clusters list --help
+#1596915950
+kubectl config current-context
+#1596915962
+kubectl config
+#1596915969
+kubectl config get-clusters
+#1596915978
+kubectl config get-contexts
+#1596924682
+cd ~/projects/geneesplaats.nl/graphbook/jx/
+#1596924686
+cd ..
+#1596924698
+grep -r kubec howto/
+#1596924707
+vi  howto/kubernetes.txt 
+#1596973169
+cd ~/projects/geneesplaats.nl/graphbook/jx/
+#1596973190
+hg clone
+#1596973212
+git clone  https://github.com/geneesplaats-nl/jenkins-x-boot-config.git
+#1596973307
+ll
+#1596973312
+cd jenkins-x-boot-config
+#1596973508
+jx boot --help
+#1596973956
+jx boot
+#1596973961
+ll
+#1596973966
+ll .
+#1596973967
+ll ..
+#1596973976
+ll ../login.sh 
+#1596973983
+jx boot
+#1596974150
+git status 
+#1596974162
+git checkout jenkins-x.yml jx-requirements.yml
+#1596974184
+jx boot --help
+#1596974209
+jx boot --verbose
+#1596974966
+git status 
+#1596974987
+git checkout OWNERS jenkins-x.yml jx-requirements.yml
+#1596975049
+gcloud projects add-iam-policy-binding geneesplaats-nl-jx --member serviceAccount:geneesplaat-nl-jx-ko@geneesplaats-nl-jx.iam.gserviceaccount.com --role roles/storage.admin --project geneesplaats-nl-jx
+#1596975254
+jx boot --verbose
+#1596976132
+echo $?
+#1596976148
+jx step verify preinstall
+#1596976239
+jx step verify install
+#1596976335
+git status
+#1596976343
+git log -1
+#1596976368
+find . -name gitAuth.yml
+#1596976443
+jx step verify preinstall
+#1596976522
+jx step verify install
+#1596976529
+jx step verify install --verbose
+#1596976634
+jx boot --verbose
+#1596976676
+git log -2
+#1596976691
+git diff 6a5af8ff416..3a8e627bb126
+#1596976790
+jx boot --verbose
+#1596976842
+git log -2
+#1596976852
+git reset --hard 3a8e6
+#1596976856
+git log -2
+#1596976861
+jx boot --verbose
+#1596976889
+grep -r spikkie ~/.jx/
+#1596976897
+grep -r spikkie ~/.jx/| grep git
+#1596976910
+jx --help
+#1596976966
+mv ~/.jx/ ~/.jx_old
+#1596977036
+ll 
+#1596977041
+cd ..
+#1596977043
+ll
+#1596977048
+ll ../howto/
+#1596977059
+grep -r jx
+#1596977070
+grep -r jx|grep how
+#1596977077
+grep -r jx|grep -i how
+#1596977090
+ll -t ../howto/
+#1596977134
+kubectl config current-context
+#1596977160
+jx compliance run
+#1596977175
+jx compliance logs -f
+#1596977327
+jx compliance status
+#1596977354
+hg jx
+#1596977366
+cd ..
+#1596977372
+ll -tr
+#1596977390
+curl -o install-jx.sh https://raw.githubusercontent.com/jenkins-x/jx-tutorial/master/install-jx.sh
+#1596977394
+ll -tr
+#1596977400
+./install-jx.sh
+#1596977413
+chmod +x ./install-jx.sh
+#1596977415
+./install-jx.sh
+#1596977431
+ll ~/.jx
+#1596977433
+ll ~/.jx_old/
+#1596977438
+ll ~/.jx_old/bin
+#1596977535
+jx compliance status
+#1596977735
+jx compliance results  | grep FAILED
+#1596978258
+jx compliance status
+#1596979495
+jobs
+#1596979510
+ps -A jx
+#1596979568
+ps -afx| grep jx
+#1596979603
+ps -afx| grep comp
+#1596979610
+jx compliance status
+#1596981090
+cd ~/projects/geneesplaats.nl/graphbook/jx/
+#1596984927
+jx compliance status
+#1596984939
+cd ~/projects/geneesplaats.nl/graphbook/jx/
+#1596984943
+./login.sh 
+#1596984949
+jx compliance status
+#1596984964
+jx compliance results
+#1596986285
+jx compliance status| grep FA
+#1596986643
+jx compliance status
+#1596986655
+jx compliance results
+#1596987906
+cd ~/projects/geneesplaats.nl/graphbook/jx/
+#1596987909
+ll
+#1596987922
+rm -rf jenkins-x-boot-config/
+#1596988068
+ll
+#1596988431
+cd ..
+#1596988455
+cd geneesplaats.nl/
+#1596988458
+ll -a
+#1596990966
+cd ~/projects/geneesplaats.nl/graphbook/jx/
+#1596990972
+ll
+#1596990974
+cd ..
+#1596990980
+ll -tr
+#1596990990
+git clone  https://github.com/geneesplaats-nl/jenkins-x-boot-config.git
+#1596990995
+cd jenkins-x-boot-config/
+#1596991023
+jx boot
+#1596991083
+../geneesplaats.nl/graphbook/jx/login.sh 
+#1596991086
+jx boot
+#1596991730
+gcloud container clusters get-credentials cluster-geneesplaats-nl-jx --zone europe-west4-a --project geneesplaats-nl-jx
+#1596991734
+jx boot
+#1596998125
+cd projects/
+#1596998126
+ll
+#1596998142
+cd jenkins-x-boot-config/
+#1596998146
+ll
+#1596998170
+jx boot
+#1596998207
+../geneesplaats.nl/graphbook/jx/login.sh 
+#1597055688
+cd projects/jenkins-x-boot-config/
+#1597055694
+jx boot
+#1597055718
+../geneesplaats.nl/graphbook/jx/login.sh 
+#1597055721
+jx boot
+#1597056282
+git status 
+#1597056286
+git log -1
+#1597056292
+git log -2
+#1597056301
+git status
+#1597056312
+git checkout OWNERS jx-requirements.yml jenkins-x.yml
+#1597056314
+git status
+#1597056320
+jx boot
+#1597061800
+cd projects/jenkins-x-boot-config/
+#1597061807
+git status 
+#1597061815
+jx boot
+#1597061854
+../geneesplaats.nl/graphbook/jx/login.sh 
+#1597061857
+jx boot
+#1597081363
+cd projects/jenkins-x-boot-config/
+#1597081366
+git status
+#1597081371
+git log
+#1597081444
+k_get.sh 
+#1597081465
+../geneesplaats.nl/graphbook/jx/login.sh
+#1597081490
+which k_get.sh 
+#1597081503
+k_get.sh 
+#1597081845
+which jx
+#1597082024
+git log -1
+#1597082036
+git log -1 --name-only
+#1597082173
+k ns list
+#1597082176
+k ns 
+#1597082185
+k get ns
+#1597082203
+kgpo
+#1597082272
+hg ingress-nginx
+#1597082346
+hg set-context
+#1597082362
+kubectl config view --minify 
+#1597082373
+k_get.sh 
+#1597082402
+kubectl config set-context --current --namespace=jx
+#1597082404
+kubectl config view --minify 
+#1597082411
+kgpo
+#1597082453
+kgdep
+#1597082481
+kgsvc
+#1597082496
+kging
+#1597082513
+kgconf
+#1597082519
+kg config
+#1597082521
+kg configs
+#1597082538
+kg configmaps
+#1597082546
+kg secrets
+#1597082581
+kg storage
+#1597082586
+kg pv
+#1597082597
+kg pve
+#1597082603
+hg pv
+#1597087471
+cd projects/jenkins-x-boot-config/
+#1597087472
+ll
+#1597087479
+vi jx-requirements.yml 
+#1597088407
+ll ~/.jx
+#1597088413
+ll ~/.jx/localSecrets/
+#1597088416
+ll ~/.jx/localSecrets/cluster-geneesplaats-nl-jx/
+#1597088491
+find | grep -i tod
+#1597088500
+grep -r todo
+#1597088515
+find ../geneesplaats.nl/ | grep -i tod
+#1597088525
+find ../geneesplaats.nl/ | grep -i todo
+#1597088537
+vi  ../geneesplaats.nl/graphbook/todo.txt 
+#1597088773
+fg
+#1597088776
+ll
+#1597088786
+vi jenkins-x-release.yml 
+#1597088801
+vi jx-requirements.yml 
+#1597088822
+vi  ../geneesplaats.nl/graphbook/todo.txt 
+#1597088867
+fg
+#1597089408
+k_get.sh |grep -i light
+#1597089418
+../geneesplaats.nl/graphbook/jx/login.sh
+#1597089421
+k_get.sh |grep -i light
+#1597095048
+cd projects/jenkins-x-boot-config/
+#1597095052
+ll -tra
+#1597095060
+jobs
+#1597095075
+git status
+#1597095084
+rm .jx-requirements.yml.swp
+#1597095091
+vi jx-requirements.yml
+#1597095254
+jx boot --help
+#1597095286
+jx options
+#1597163306
+cd projects/jenkins-x-boot-config/
+#1597163309
+ll -tra
+#1597163317
+vi jx-requirements.yml 
+#1597163327
+ll -tra
+#1597163331
+rm .jx-requirements.yml.swp
+#1597163333
+vi jx-requirements.yml 
+#1597165463
+cd 
+#1597165468
+cd projects/
+#1597165495
+$ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+#1597165500
+curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+#1597165510
+sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+#1597165518
+sudo apt-get update && sudo apt-get install terraform
+#1597165631
+sudo apt-get update && sudo apt-get install consul
+#1597165689
+sudo apt-get update && sudo apt-get install vault nomad
+#1597165769
+terraform --help
+#1597165823
+terraform --help plan
+#1597165992
+open -a Docker
+#1597166024
+sudo apt-get install open
+#1597166037
+open -a Docker
+#1597166075
+sudo apt-get  xdg-open
+#1597166081
+sudo apt-get i  xdg-open
+#1597166136
+sudo apt-get install  xdg-open
+#1597166252
+ll
+#1597166424
+vi main.tf
+#1597166583
+terraform init
+#1597166802
+terraform apply
+#1597166997
+k_get.sh 
+#1597167010
+../geneesplaats.nl/graphbook/jx/login.sh
+#1597167014
+k_get.sh 
+#1597167052
+docker ps
+#1597167075
+terraform apply
+#1597167086
+docker ps
+#1597167090
+docker ps-a
+#1597167093
+docker ps -a
+#1597167096
+docker ps -A
+#1597167110
+terraform init
+#1597167121
+terraform apply
+#1597167132
+docker ps-a
+#1597167133
+docker ps
+#1597167157
+docker
+#1597167200
+cd 
+#1597167211
+cd projects/geneesplaats.nl/
+#1597167224
+vi main.tf
+#1597167241
+terraform init
+#1597181578
+cd projects/geneesplaats.nl/
+#1597181580
+ll
+#1597181584
+ll -tra
+#1597181605
+mkdir terraform
+#1597181613
+mv main.tf terraform/
+#1597181641
+ll -tra
+#1597181652
+ll terraform
+#1597181664
+rm -rf .terraform
+#1597181679
+ll -tra
+#1597181760
+terraform init
+#1597181769
+cd terraform/
+#1597181771
+terraform init
+#1597181842
+terraform apply
+#1597181868
+ll
+#1597181877
+rm -rf .terraform/
+#1597181880
+terraform init
+#1597181893
+terraform apply
+#1597181942
+ll ~/.terraform.d/
+#1597181970
+rm -rf ~/.terraform.d/
+#1597181999
+sudo apt-get update && sudo apt-get install terraform
+#1597182146
+sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+#1597182152
+sudo apt-get update && sudo apt-get install terraform
+#1597183143
+gcloud --version
+#1597183150
+kubectl
+#1597183158
+terraform
+#1597183165
+terraform version
+#1597183187
+cat main.tf 
+#1597183477
+vi main.tf 
+#1597183649
+ll
+#1597186621
+cd projects/
+#1597186622
+ll
+#1597186873
+cd geneesplaats.nl/
+#1597186878
+cd graphbook/
+#1597186882
+cd jx/
+#1597186884
+ll
+#1597186900
+vi create_cluster.sh
+#1597186931
+chmod +x  create_cluster.sh
+#1597186934
+./create_cluster.sh 
+#1597187183
+../geneesplaats.nl/graphbook/jx/login.sh
+#1597187194
+~/projects/geneesplaats.nl/graphbook/jx/login.sh
+#1597187198
+../geneesplaats.nl/graphbook/jx/login.sh
+#1597187201
+./create_cluster.sh 
+#1597187475
+kg svc -A
+#1597189688
+ll ../howto/
+#1597189703
+vi ../howto/jenkinsx.txt
+#1597226251
+cd projects/geneesplaats.nl/
+#1597226255
+git status 
+#1597226549
+ll *.sh
+#1597226557
+cat  build_docker.sh
+#1597226911
+cat .docker-env
+#1597226927
+grep sed * 
+#1597226939
+ll *.sh
+#1597227108
+git status 
+#1597227143
+rm graphbook/howto/.jenkinsx.txt.swp
+#1597227149
+git status 
+#1597227160
+cat graphbook/install-jx.sh
+#1597227326
+hg sed
+#1597227346
+grep -r react-deploymen
+#1597227393
+hg 14
+#1597227412
+hg deploy_react
+#1597227441
+cat ./deploy_react.sh
+#1597227458
+find . -name  deploy_react.sh
+#1597227466
+cat ./graphbook/kompose_production_ver1/deploy_react.sh
+#1597227607
+git status
+#1597227616
+git pull
+#1597227637
+rm graphbook/jx/create_cluster.sh
+#1597227638
+git pull
+#1597227644
+git status 
+#1597227666
+git add graphbook/install-jx.sh graphbook/jx/login.sh graphbook/howto/jenkinsx.txt 
+#1597227676
+ll graphbook/bin/
+#1597227682
+git add graphbook/bin/
+#1597227684
+git status 
+#1597227691
+git add terraform/
+#1597227700
+git add .
+#1597227704
+git status 
+#1597227730
+rm -rf terraform/
+#1597227738
+git add terraform/
+#1597227740
+git status 
+#1597227775
+git commit -m 'moved binaries to graphbook/bin'
+#1597227780
+git push
+#1597227958
+hg up
+#1597228010
+k_get.sh 
+#1597228034
+./graphbook/jx/login.sh
+#1597228038
+k_get.sh 
+#1597228108
+cd graphbook/
+#1597228110
+ll
+#1597228126
+cd  kompose_production_ver1/
+#1597228128
+ll -tr
+#1597229361
+cd ~/projects/geneesplaats.nl/graphbook/kompose_production_ver1
+#1597229365
+ll -tr
+#1597229370
+./login.sh 
+#1597229397
+k_get.sh 
+#1597229418
+ll *.yaml
+#1597229434
+grep apply * 
+#1597229449
+ll i
+#1597229460
+cat init_install.sh 
+#1597229491
+./init_install.sh 
+#1597229632
+grep test *.yaml
+#1597229649
+ll *.yaml
+#1597229659
+cat  letsencrypt-clusterissuer-prod.nginx.yaml
+#1597229688
+ping test.geneesplaats.nl
+#1597229695
+k_get.sh 
+#1597229729
+kgpo -A
+#1597229747
+kging -A
+#1597229761
+kgsvc
+#1597229764
+kgsvc -A
+#1597229787
+kgord
+#1597229791
+kg order
+#1597229798
+kg challenges
+#1597229819
+kgsvc -A
+#1597230171
+kg ing
+#1597230174
+kg ing -A
+#1597230197
+kg challenge 
+#1597230201
+ks challenge 
+#1597230205
+kd challenge 
+#1597230244
+ping nu.nl
+#1597230259
+kd challengerequest 
+#1597230270
+kd order
+#1597230383
+kd challenge 
+#1597230403
+kg srv
+#1597230407
+kg svc
+#1597230420
+kd svc ingress-nginx-controller
+#1597230451
+ll *.yaml
+#1597230456
+cat react-ingress.yaml 
+#1597230547
+hg  geneesplaats-nl-global-static-ip
+#1597230556
+hg static
+#1597230578
+grep static ~/.bash_eternal_history
+#1597230581
+grep static ~/.bash_eternal_history.org 
+#1597230588
+ll ~/.bash_eternal_history.org
+#1597230615
+grep geneesplaats-nl-global ~/.bash_eternal_history
+#1597230622
+ll ~/.bash_eternal_history
+#1597230632
+vi ~/.bash_eternal_history
+#1597230690
+hg list
+#1597230714
+vi ~/.bash_eternal_history
+#1597230727
+vi ~/.bash_eternal_history.org 
+#1597230793
+gcloud compute addresses  list
+#1597230831
+./login.sh 
+#1597230834
+gcloud compute addresses  list
+#1597230875
+../jx/login.sh 
+#1597230883
+gcloud compute addresses  list
+#1597230894
+hg addresses
+#1597231015
+grep 174 * 
+#1597231025
+cat init_install.sh
+#1597231035
+cat ./i/install-nginx-ingress-controller.from.digitalocean.sh
+#1597231070
+vi react-ingress.yaml 
+#1597231083
+ka react-ingress.yaml 
+#1597231087
+kg ing
+#1597231094
+kd ing
+#1597231110
+kg svc
+#1597231151
+kd ingress-nginx-controller
+#1597231163
+kd svc  ingress-nginx-controller 
+#1597231236
+ll *.yaml
+#1597231252
+k delete  react-service.yaml
+#1597231259
+k delete  -f react-service.yaml
+#1597231266
+kg svc
+#1597231291
+ll *.yaml
+#1597231312
+ka react-service.yaml
+#1597231318
+kg svc
+#1597231330
+kd svc ingress-nginx-controller
+#1597231409
+vi react-ingress.yaml 
+#1597231476
+ka  react-ingress.yaml 
+#1597231486
+kg ing
+#1597231497
+kd ing react-ingress
+#1597231505
+kg svc
+#1597231516
+kd svc ingress-nginx-controller
+#1597231557
+kgpo -A
+#1597231582
+kdpo ingress-nginx
+#1597231604
+kgpo -A
+#1597231658
+kg svc
+#1597231682
+cat  ./i/delete.sh 
+#1597231687
+ll i
+#1597231735
+cat i/install-nginx-ingress-controller.from.digitalocean.sh 
+#1597231753
+kdel ./i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml
+#1597231756
+kde ./i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml
+#1597231764
+k delete -f ./i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml
+#1597231965
+kg svc
+#1597231970
+kg svc -A
+#1597231979
+kg ing -A
+#1597231990
+k apply -f ./i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml
+#1597231996
+kg ing -A
+#1597232000
+kg svc -A
+#1597232019
+ka react-ingress.yaml 
+#1597232106
+kg ing
+#1597232110
+kg svc -A
+#1597232126
+kd svc ingress-nginx-controller
+#1597232170
+cat init_install.sh 
+#1597232177
+cat  ./i/install-nginx-ingress-controller.from.digitalocean.sh
+#1597232189
+wget https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.34.1/deploy/static/provider/cloud/deploy.yaml
+#1597232205
+diff deploy.yaml  i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml 
+#1597232225
+vi i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml 
+#1597232259
+ka i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml 
+#1597232266
+kd svc ingress-nginx-controller
+#1597232346
+vi i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml 
+#1597232374
+ka i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml 
+#1597232379
+kd svc ingress-nginx-controller
+#1597232399
+vi react-ingress.yaml 
+#1597232411
+ka  react-ingress.yaml 
+#1597232415
+kd svc ingress-nginx-controller
+#1597232473
+kg svc
+#1597232519
+vi react-ingress.yaml 
+#1597232531
+cat   react-ingress.yaml 
+#1597232578
+hg list
+#1597232584
+gcloud compute addresses  list
+#1597232601
+gcloud compute addresses  delete geneesplaats-nl-global-static-ip
+#1597232628
+hg global
+#1597232640
+gcloud compute addresses  delete --help
+#1597232674
+gcloud compute addresses  delete geneesplaats-nl-global-static-ip --global
+#1597232691
+gcloud compute addresses list
+#1597232839
+vi react-ingress.yaml 
+#1597232864
+vi i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml 
+#1597232909
+ka  i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml 
+#1597232918
+ka react-ingress.yaml 
+#1597232922
+kg svc
+#1597232929
+kg ing
+#1597232932
+kd ing
+#1597232962
+kg order
+#1597232967
+kg order -A
+#1597232974
+kg challenge -A
+#1597233136
+kg cert
+#1597233142
+kd cert
+#1597233157
+kd challenge
+#1597233162
+kg challenge
+#1597233173
+kd cert
+#1597233178
+kg cert
+#1597233188
+k_get.sh 
+#1597233208
+kg secret 
+#1597233219
+kd secret  test-geneesplaats-nl-tls
+#1597233245
+k delete  secret  test-geneesplaats-nl-tls
+#1597233249
+kg secret 
+#1597233258
+kd secret  test-geneesplaats-nl-tls
+#1597233272
+kd cert
+#1597233294
+kg CertificateRequest
+#1597233300
+kd CertificateRequest
+#1597233328
+grep  geneesplaats-nl-letsencrypt-production *
+#1597233349
+cat letsencrypt-clusterissuer-prod.nginx.yaml
+#1597233359
+kg issuer
+#1597233362
+kg issuer -A
+#1597233371
+ka letsencrypt-clusterissuer-prod.nginx.yaml
+#1597233375
+kg issuer -A
+#1597233394
+kd CertificateRequest
+#1597233406
+kg issuer -A
+#1597233412
+kd issuer
+#1597233422
+kg secret
+#1597233434
+-g secret 
+#1597233438
+kg secret
+#1597233452
+kg cert
+#1597233457
+kd cert
+#1597233468
+kg secret
+#1597233479
+kd secret test-geneesplaats-nl-tls
+#1597233489
+k del secret test-geneesplaats-nl-tls
+#1597233494
+k delete secret test-geneesplaats-nl-tls
+#1597233498
+kg secret
+#1597233508
+kg cert
+#1597233516
+k delete cert
+#1597233524
+k delete cert test-geneesplaats-nl-tls
+#1597233528
+kg cert
+#1597233533
+kd cert
+#1597233541
+kg order
+#1597233544
+kg order -A
+#1597233871
+kg svc
+#1597233874
+kg svc -A
+#1597233888
+./i/apply_services.sh 
+#1597233894
+kg svc -A
+#1597234465
+git status 
+#1597234482
+cd ..
+#1597234485
+git status 
+#1597234548
+git add graphbook/kompose_production_ver1/i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml graphbook/kompose_production_ver1/react-ingress.yaml 
+#1597234558
+rm graphbook/kompose_production_ver1/deploy.yaml
+#1597234635
+git status 
+#1597234661
+git commit -m 'set static ip address 34.90.231.193'
+#1597234665
+git push
+#1597234866
+cd ..
+#1597234937
+hg git| grep org
+#1597234942
+hg git
+#1597235007
+git clone  https://github.com/spikkie/geneesplaats.nl.git
+#1597235027
+ll -tr
+#1597236148
+cd geneesplaats.nl/graphbook/kompose_production_ver1/
+#1597236155
+grep nginx * 
+#1597236200
+k_get.sh 
+#1597236309
+ll *.yaml
+#1597236398
+grep 14 * 
+#1597236415
+hg V0.1.14
+#1597236422
+./deploy_react.sh  V0.1.16
+#1597236479
+cat ./deploy_react.sh 
+#1597236485
+kubectl get pods
+#1597239654
+cd geneesplaats.nl/graphbook/kompose_production_ver1/
+#1597239673
+cd projects/geneesplaats.nl/graphbook/kompose_production_ver1/
+#1597239676
+cat ./deploy_react.sh 
+#1597239684
+./deploy_react.sh  V0.1.16
+#1597239732
+kg svc
+#1597239744
+./deploy_react.sh  V0.1.14
+#1597239920
+./deploy_react.sh  V0.1.17
+#1597239940
+kubectl get pods
+#1597240337
+ll ../howto/
+#1597240352
+grep exec ../howto/* 
+#1597240366
+cali
+#1597240387
+hg exec
+#1597240408
+kubectl exec -it react-7959f749dc-pcp8g -c react-geneesplaats-nl-production -- sequelize db:migrate
+#1597240417
+kgpo
+#1597240436
+kubectl exec -it react-65fc64796-dgnw2 -c react-geneesplaats-nl-production -- sequelize db:migrate
+#1597240444
+kubectl exec -it react-65fc64796-dgnw2 -c react-geneesplaats-nl-production -- ls -la
+#1597244153
+Bessabessa25kubectl exec -it react-65fc64796-dgnw2 -c react-geneesplaats-nl-production -- ls -lac
+#1597244274
+cd projects/geneesplaats.nl/graphbook/
+#1597244290
+cd kompose_production_ver1/
+#1597244299
+cat init_install.sh 
+#1597244358
+./login.sh 
+#1597244388
+cd ../jx/
+#1597244393
+./login.sh 
+#1597244427
+cd ../kompose_production_ver1/
+#1597244453
+cat  ./i/install-nginx-ingress-controller.from.digitalocean.sh
+#1597244554
+cd ..
+#1597244560
+ll
+#1597244579
+mkdir  geneesplaats.nl.jx
+#1597244608
+cp geneesplaats.nl/graphbook/jx/* geneesplaats.nl.jx/
+#1597244613
+cd geneesplaats.nl.jx/
+#1597244618
+cat create_cluster.sh 
+#1597244630
+./create_cluster.sh
+#1597244685
+cd ../geneesplaats.nl/graphbook/kompose_production_ver1/
+#1597244687
+ll
+#1597244693
+hg delete
+#1597244700
+k delete -f ./i/deploy-install-nginx-ingress-controller.from.digitalocean.yaml
+#1597244833
+cat init_install.sh 
+#1597244843
+cat ./i/apply_services.sh
+#1597244871
+k delete -f $(ls  -p *.yaml  | grep -v / | tr '\n' ','  | sed 's/.$//')
+#1597244901
+k delete -f react-service.yaml
+#1597244908
+k_get.sh 
+#1597245292
+cat i/apply_ingress.sh 
+#1597245299
+k delete -f react-ingress.yaml
+#1597245312
+k delete -f react-service.yaml
+#1597245329
+cd 
+#1597245336
+cd projects/
+#1597245337
+ll
+#1597245404
+cd 
+#1597245408
+ll
+#1597245415
+cd projects/
+#1597245418
+ll
+#1597245428
+cd ..
+#1597245428
+ll
+#1597245436
+cd  projects/
+#1597245437
+ll
+#1597245443
+cd jenkins-x-boot-config
+#1597245448
+jx boot
+#1597246160
+jx --help
+#1597246302
+jx get vaults
+#1597246320
+jx get applications
+#1597246342
+jx get env
+#1597246374
+jx list
+#1597246379
+jx --help
+#1597246614
+jx import --url https://github.com/geneesplaats-nl/geneesplaats.nl.git
+#1597246765
+git status 
+#1597246774
+rm -rf geneesplaats.nl/
+#1597246776
+git status 
+#1597246780
+jx import --url https://github.com/geneesplaats-nl/geneesplaats.nl.git
+#1597246920
+git status 
+#1597246926
+rm -rf geneesplaats.nl/
+#1597246931
+jx import --url https://github.com/geneesplaats-nl/geneesplaats.nl.git
+#1597247003
+git status 
+#1597247013
+rm -rf geneesplaats.nl/
+#1597247015
+git status 
+#1597247027
+ll ~/.jx
+#1597247108
+jx import --help
+#1597247216
+jx import --url https://github.com/geneesplaats-nl/geneesplaats.nl.git
+#1597247355
+grep -r e67605d62ef8 ~/.jx
+#1597247374
+ll /home/spikkie/.jx/localSecrets/cluster-geneesplaats-nl-jx/
+#1597247399
+rm  /home/spikkie/.jx/localSecrets/cluster-geneesplaats-nl-jx/pipelineUser.yaml 
+#1597247405
+jx import --url https://github.com/geneesplaats-nl/geneesplaats.nl.git
+#1597247528
+grep -r e67605d62ef8 ~/.jx
+#1597247536
+ll /home/spikkie/.jx/gitAuth.yaml
+#1597247545
+vi /home/spikkie/.jx/gitAuth.yaml
+#1597247557
+rm  /home/spikkie/.jx/gitAuth.yaml
+#1597247562
+jx import --url https://github.com/geneesplaats-nl/geneesplaats.nl.git
+#1597248332
+git status 
+#1597248450
+rm -rf geneesplaats.nl/
+#1597248453
+git status 
+#1597248456
+cd ..
+#1597248458
+ll
+#1597248473
+cd geneesplaats.nl
+#1597248476
+git status 
+#1597248504
+git diff graphbook/kompose_production_ver1/react-deployment.yaml
+#1597248516
+git add graphbook/kompose_production_ver1/react-deployment.yaml
+#1597248529
+git commit -m 'V0.1.17'
+#1597248533
+git push 
+#1597248542
+git status 
+#1597248545
+cd ..
+#1597248547
+ll
+#1597248553
+rm -rf geneesplaats.nl
+#1597248562
+jx import --url https://github.com/geneesplaats-nl/geneesplaats.nl.git
+#1597248748
+git clone  https://github.com/geneesplaats-nl/geneesplaats.nl.git
+#1597248752
+ll
+#1597248765
+cd geneesplaats.nl
+#1597248768
+git status 
+#1597248775
+ll
+#1597248780
+git log -1
+#1597248786
+git log -2
+#1597248790
+git log -3
+#1597248797
+git log -10
+#1597248869
+cd ..
+#1597248880
+mv geneesplaats.nl geneesplaats.nl.ff
+#1597248908
+git clone https://github.com/geneesplaats-nl/geneesplaats.nl.git
+#1597248928
+git log -10
+#1597248933
+cd geneesplaats.nl
+#1597248937
+git log -3
+#1597248945
+git log -10
+#1597249025
+git diff  35c605609e9a..37ed72735
+#1597249033
+git diff  35c605609e9a..37ed72735 --name-only
+#1597249051
+ll charts/
+#1597249070
+git log -20
+#1597249091
+git reset --hard 7ab426109dafd349f753bed64bf18047b3b2899c
+#1597249097
+git add .
+#1597249101
+git log -1
+#1597249107
+ll charts/
+#1597249132
+git commit -m 'back to 7ab426109da   removed .gitattributes  due to jenkinsx import issue'
+#1597249138
+git push
+#1597249160
+git pull
+#1597249177
+git log -10
+#1597249190
+git reset --hard 7ab426109dafd349f753bed64bf18047b3b2899c
+#1597249195
+git status 
+#1597249202
+git pull
+#1597249220
+git rollback
+#1597249252
+git revert 7ab426109dafd349f753bed64bf18047b3b2899c
+#1597249299
+git status 
+#1597249304
+git log -1
+#1597249310
+git log -2
+#1597249324
+ll
+#1597249335
+git log -5
+#1597249353
+git checkout 7ab426109dafd349f753bed64bf18047b3b2899c
+#1597249363
+it status 
+#1597249365
+git status 
+#1597249393
+git revert --no-commit  7ab426109dafd349f753bed64bf18047b3b2899c
+#1597249397
+git status 
+#1597249409
+rm .gitattributes
+#1597249423
+git log -10
+#1597249436
+git status 
+#1597249443
+git add .gitattributes
+#1597249465
+git commit -m 'removed gitattributes  due to jenkinsx import issue invalid line in .gitattributes at L4: # These are explicitly windows files and should use crlf   *.bat '
+#1597249468
+git status 
+#1597249513
+git reset --hard 7ab42610
+#1597249516
+git status 
+#1597249538
+git clean -f
+#1597249541
+git status 
+#1597249641
+git reset --hard  35c6056
+#1597249646
+git status 
+#1597249697
+git checkout master
+#1597249706
+git status 
+#1597249712
+git log -5
+#1597249729
+git revert 0280fb7f2510
+#1597249752
+jobs
+#1597249759
+git revert 0280fb7f2510 --no-commit
+#1597249771
+git revert 35c605609e9a8 --no-commit
+#1597249781
+git revert 37ed727357a2f   --no-commit
+#1597249790
+git revert e274e40772   --no-commit
+#1597249800
+git status 
+#1597249806
+git add .
+#1597249833
+git commit -m 'bacj to initial commit   removing all jenkins x import changes'
+#1597249836
+git push
+#1597249859
+rm -rf .git
+#1597249932
+git init
+#1597249944
+echo "# geneesplaats.nl" >> README.md
+#1597249950
+git commit -m "first commit"
+#1597249958
+git remote add origin https://github.com/spikkie/geneesplaats.nl.git
+#1597249966
+git add .
+#1597249979
+git commit -m "first commit"
+#1597249992
+git status 
+#1597249998
+git log -2
+#1597250007
+git remote add origin https://github.com/spikkie/geneesplaats.nl.git
+#1597250014
+git push -u origin master
+#1597250122
+cd ..
+#1597250125
+ll
+#1597250139
+mv geneesplaats.nl geneesplaats.nl-jx
+#1597250180
+jx import --url  https://github.com/spikkie/geneesplaats.nl.git
+#1597250272
+ll
+#1597250280
+cd geneesplaats.nl
+#1597250283
+git status 
+#1597250391
+cd ..
+#1597250394
+jx import --url  https://github.com/spikkie/geneesplaats.nl.git
+#1597250634
+git login
+#1597250644
+git
+#1597252526
+cd projects/
+#1597252527
+ll
+#1597252582
+jx import --url  https://github.com/spikkie/geneesplaats.nl.git
+#1597252619
+./geneesplaats.nl/jx/login.sh
+#1597252622
+jx import --url  https://github.com/spikkie/geneesplaats.nl.git
+#1597252718
+wget https://api.github.com/repos/spikkie/
+#1597252736
+wget https://api.github.com/repos/spikkie/geneesplaats-nl/
+#1597252745
+curl  https://api.github.com/repos/spikkie/geneesplaats-nl/
+#1597252780
+jx import --url  https://github.com/spikkie/geneesplaats.nl.git  --verbose
+#1597252858
+wget  https://spikkie:0a7d12d7f6839ec5b6293bda561c9f43d82a3456@api.github.com/repos/spikkie/geneesplaats-nl/collaborators/jenkins-x-bot-geneesplaat-nl
+#1597252865
+wget  https://spikkie:0a7d12d7f6839ec5b6293bda561c9f43d82a3456@api.github.com/repos/spikkie/geneesplaats-nl/collaborators/
+#1597252869
+wget  https://spikkie:0a7d12d7f6839ec5b6293bda561c9f43d82a3456@api.github.com/repos/spikkie/geneesplaats-nl
+#1597252873
+wget  https://spikkie:0a7d12d7f6839ec5b6293bda561c9f43d82a3456@api.github.com/repos/spikkie/
+#1597252877
+wget  https://spikkie:0a7d12d7f6839ec5b6293bda561c9f43d82a3456@api.github.com/repos/
+#1597256512
+hg rm
+#1597256519
+cat /home/spikkie/.jx/gitAuth.yaml
+#1597256571
+ll  /home/spikkie/.jx/
+#1597256579
+rm  /home/spikkie/.jx/gitAuth.yaml 
+#1597256594
+jx import --url  https://github.com/spikkie/geneesplaats.nl.git  --verbose
+#1597256607
+./geneesplaats.nl/jx/login.sh
+#1597256618
+cd projects/
+#1597256620
+./geneesplaats.nl/jx/login.sh
+#1597256623
+jx import --url  https://github.com/spikkie/geneesplaats.nl.git  --verbose
+#1597257098
+cd 
+#1597257100
+cd git
+#1597257107
+git clone  https://github.com/cli/cli.git
+#1597257157
+go
+#1597257164
+go version
+#1597257179
+ll
+#1597257182
+cd cli/
+#1597257192
+ll
+#1597257204
+vi README.md 
+#1597257259
+vi Makefile 
+#1597257319
+grep make README.md 
+#1597257326
+grep -i make README.md 
+#1597257335
+cd ..
+#1597257339
+rm -rf cli/
+#1597257427
+wget https://github.com/cli/cli/releases/download/v0.11.1/gh_0.11.1_linux_amd64.deb
+#1597257457
+ll -tr
+#1597257478
+sudo apt install ./gh_0.11.1_linux_amd64.deb 
+#1597257531
+gh 
+#1597257549
+gh repo spikkie
+#1597257552
+gh repo spikkie view
+#1597257562
+gh repo 
+#1597257642
+gh repo view --web
+#1597257783
+gh api
+#1597257787
+gh api --help
+#1597257912
+export GITHUB_TOKEN=6290f55ef874f65f9d9aa7b224aa9f06adf648f2
+#1597257917
+gh repo 
+#1597257927
+gh repo view --web
+#1597257971
+gh repo view --web https://github.com/spikkie/geneesplaats.nl.git
+#1597258000
+gh api repos/:owner/:repo/releases
+#1597258015
+ll
+#1597258029
+git clone //github.com/spikkie/geneesplaats.nl.git
+#1597258041
+git clone https://github.com/spikkie/geneesplaats.nl.git
+#1597258061
+cd geneesplaats.nl/
+#1597258062
+ll
+#1597258071
+gh api repos/:owner/:repo/releases
+#1597258075
+gh api repos/:owner/:repo/
+#1597258084
+gh api repos/:owner/
+#1597258088
+gh api repos
+#1597258099
+gh api 
+#1597258108
+gh api  --help
+#1597258152
+gh issue status
+#1597258205
+gh repo view
+#1597258225
+gh repo view geneesplaats.nl
+#1597258238
+gh repo view  --help
+#1597258258
+gh repo view geneesplaats.nl
+#1597258262
+gh repo view geneesplaats.nl --help
+#1597258562
+jx delete git token
+#1597258568
+jx delete git token --help
+#1597258587
+jx list git --help
+#1597258597
+jx get git token
+#1597258753
+jx edit pipelineusername
+#1597258858
+cd ..
+#1597258883
+jx import --url  https://github.com/spikkie/geneesplaats.nl.git  --verbose 5
+#1597261086
+jx get applications
+#1597261104
+mkdir bin/
+#1597261128
+mv projects/geneesplaats.nl/jx/login.sh bin/
+#1597261133
+login.sh
+#1597261139
+jx get applications
+#1597261156
+jx get activity -f geneesplaats.nl -w
+#1597261364
+jx get project
+#1597261391
+jx get pipeline
+#1597263096
+pwd
+#1597263099
+cd projects/
+#1597263100
+ll
+#1597263105
+cd geneesplaats.nl
+#1597263108
+git status 
+#1597263133
+grep -r pipeline
+#1597263253
+jx get pipeline
+#1597263416
+ll ../jenkins-x-boot-config/
+#1597263420
+cd  ../jenkins-x-boot-config/
+#1597263424
+git status
+#1597263429
+git log -2
+#1597263443
+git log -3
+#1597263446
+git log -4
+#1597263452
+ll
+#1597263459
+ll env
+#1597263600
+cd ..
+#1597263606
+find . -name jenkins-x.yml
+#1597263634
+vi  ./geneesplaats.nl/jenkins-x.yml 
+#1597265865
+cat ./geneesplaats.nl.ff/jenkins-x.yml
+#1597265868
+cd projects/
+#1597265869
+cat ./geneesplaats.nl.ff/jenkins-x.yml
+#1597265899
+find ~/.jx -name jenkins-x.yml
+#1597265910
+cat /home/spikkie/.jx/jenkins-x-versions/jenkins-x.yml
+#1597266140
+jx version
+#1597266257
+ll
+#1597266263
+cd geneesplaats.nl
+#1597266265
+ll
+#1597266269
+git log -5
+#1597266296
+git diff 9d6..2b9a0e --names-only
+#1597266300
+git diff 9d6..2b9a0e --name-only
+#1597266320
+git diff 9d6...2b9a0e --name-only
+#1597266327
+git diff 9d6 2b9a0e --name-only
+#1597266346
+git diff --help
+#1597266367
+git diff 9d6 2b9a0e --name-only
+#1597266384
+git diff 9d62096761357a30955e7d6089a324c0a4edfc03  2b9a0e --name-only
+#1597266400
+cat  Dockerfile
+#1597266436
+git log -5
+#1597266549
+hg HEAD
+#1597266735
+git log -5
+#1597266750
+git revert 9d62096761357a30955e7d6089a324c0a4edfc03 --no-commit
+#1597266778
+git revert c3c7d1ecbafec8513dae51c79994be9c7d4a2860 --no-commit
+#1597266790
+git revert  83d1235c7 --no-commit
+#1597266812
+git status
+#1597266834
+git checkout jx/login.sh
+#1597266839
+git add .
+#1597266852
+git commit -m 'back to first commit'
+#1597266856
+git push
+#1597266969
+jx create quickstart 
+#1597266982
+git checkout jx/login.sh
+#1597266990
+login.sh 
+#1597266992
+git checkout jx/login.sh
+#1597266997
+git status 
+#1597268902
+mv .jx .jx_old2/
+#1597268908
+hg jx
+#1597268927
+curl -o install-jx.sh https://raw.githubusercontent.com/jenkins-x/jx-tutorial/master/install-jx.sh
+#1597268935
+./install-jx.sh
+#1597269492
+cd projects/jenkins-x-boot-config/
+#1597269495
+git log
+#1597269518
+git revert 9fded0ab2c22 --no-commit 
+#1597269532
+reset
+#1597269539
+git log
+#1597269551
+git revert cf48367018653f1 --no-commit
+#1597269556
+git status 
+#1597269594
+git commit -m 'back to initial commit :  initial config based of geneesplaats-nl/jenkins-x-boot-config with ref origin/master'
+#1597269598
+git push 
+#1597270286
+hg boot
+#1597270325
+jx boot
+#1597270371
+ll ~/.jx
+#1597270378
+rm -rf ~/.jx
+#1597270385
+ll jx-requirements.yml 
+#1597270389
+vi jx-requirements.yml 
+#1597321002
+login.sh
+#1597321065
+cd projects/
+#1597321069
+ll
+#1597321075
+cd jenkins-x-boot-config/
+#1597321590
+ll
+#1597321601
+vi jx-requirements.yml 
+#1597321625
+git log -1
+#1597321650
+git log -6
+#1597321654
+git log -8
+#1597321674
+git checkout e5b942cbba2c2f8c5700c3b0f0bda3cf2727490f
+#1597321680
+vi jx-requirements.yml 
+#1597321695
+git status 
+#1597321725
+git checkout HEAD e5b942c
+#1597322064
+git reset HEAD e5b942c
+#1597322073
+git status
+#1597322101
+git add jenkins-x.yml jx-requirements.yml
+#1597322130
+git commit -m 'back to initial commit'
+#1597322135
+git push
+#1597322146
+git status 
+#1597322205
+git log -1
+#1597322222
+git reset main c7be9d35d66d1f61cf0b648ed137c5072febde4f
+#1597322234
+git reset master c7be9d35d66d1f61cf0b648ed137c5072febde4f
+#1597322238
+git status 
+#1597322279
+git branch tmp
+#1597322286
+git checkout master
+#1597322299
+git merge tmp
+#1597322362
+git status 
+#1597322368
+git log -2
+#1597322373
+vi jx-requirements.yml 
+#1597322410
+git log -6
+#1597322415
+git log -8
+#1597322493
+git log 
+#1597322515
+git reset --hard e5b942cbba2
+#1597322520
+vi jx-requirements.yml 
+#1597322555
+git status 
+#1597322587
+git pull
+#1597322615
+cd ..
+#1597322623
+rm -rf jenkins-x-boot-config/
+#1597322712
+hg clone
+#1597322724
+git clone  https://github.com/geneesplaats-nl/jenkins-x-boot-config.git
+#1597322754
+ping nu.nl
+#1597322784
+ll
+#1597322954
+git clone https://github.com/geneesplaats-nl/jenkins-x-boot-config.git
+#1597322959
+cd jenkins-x-boot-config/
+#1597322961
+ll
+#1597322969
+vi jx-requirements.yml
+#1597323113
+jx boot
+#1597323732
+jx status
+#1597324141
+jx version
+#1597324207
+git log 
+#1597324346
+git revert  aa0a290ea104511265cf
+#1597324355
+git status 
+#1597324358
+ll
+#1597324365
+git push
+#1597324555
+rm -rf ~/.jx
+#1597324700
+jx status 
+#1597324712
+jx --help
+#1597324731
+jx  uninstall
+#1597324793
+ll ~/.jx
+#1597324799
+ll ~/.jx/bin/
+#1597324815
+ll ~/.jx_old
+#1597324819
+ll ~/.jx_old/bin
+#1597324831
+mv ~/.jx_old ~/.jx
+#1597324843
+jx  uninstall
+#1597324860
+which helm
+#1597324872
+hg helm| grep ap
+#1597324894
+~/.jx/bin/helm
+#1597324903
+ll ~/.jx/bin/
+#1597324906
+ll ~/.jx
+#1597324925
+rm -rf ~/.jx
+#1597324936
+mv ~/.jx_old2/ ~/.jx
+#1597324942
+ll ~/.jx/bin
+#1597324949
+~/.jx/bin/helm
+#1597324954
+~/.jx/bin/helm version
+#1597324962
+jx  uninstall
+#1597325535
+jx  uninstall --help
+#1597325562
+jx  uninstall 
+#1597325723
+jx status
+#1597325936
+git staus 
+#1597325944
+git status 
+#1597325952
+ll -tr
+#1597325973
+jx boot --help
+#1597325995
+rm -rf ~/.jx/
+#1597326001
+jx boot
+#1597326069
+cd ..
+#1597326078
+rm -rf jenkins-x-boot-config/
+#1597326128
+git clone  https://github.com/geneesplaats-nl/jenkins-x-boot-config.git
+#1597326135
+cd jenkins-x-boot-config/
+#1597326138
+jx boot
+#1597326149
+rm -rf ~/.jx/
+#1597326152
+jx boot
+#1597327041
+jx status
+#1597327070
+jx uninstall
+#1597328794
+cd ..
+#1597328795
+;;
+#1597328796
+ll
+#1597328804
+cd geneesplaats.nl
+#1597328808
+ll
+#1597328867
+cd  jx/
+#1597328869
+ll
+#1597328872
+cat create_cluster.sh 
+#1597328876
+vi  create_cluster.sh 
+#1597328929
+./create_cluster.sh 
+#1597328948
+vi  create_cluster.sh 
+#1597328964
+./create_cluster.sh 
+#1597329196
+cd ..
+#1597329208
+cd 
+#1597329232
+cd projects/
+#1597329234
+ll
+#1597329251
+mkdir my-jenkins-x-boot-config
+#1597329256
+cd my-jenkins-x-boot-config
+#1597329276
+cp ../jenkins-x-boot-config/jx-requirements.yml .
+#1597329278
+ll
+#1597329282
+cat jx-requirements.yml 
+#1597329299
+rm jx-requirements.yml jx-requirements.yml 
+#1597329301
+ll
+#1597329305
+cd ..
+#1597329307
+ll
+#1597329311
+cd jenkins-x-boot-config
+#1597329318
+git log jx-requirements.yml
+#1597329329
+git log -3
+#1597329359
+git log -1
+#1597329365
+ll
+#1597329376
+vi jx-requirements.yml
+#1597329394
+cd ..
+#1597329584
+ll
+#1597329594
+git clone https://github.com/geneesplaats-nl/jenkins-x-boot-config.git
+#1597329606
+rm -rf jenkins-x-boot-config
+#1597329608
+git clone https://github.com/geneesplaats-nl/jenkins-x-boot-config.git
+#1597329635
+cd jenkins-x-boot-config/
+#1597329636
+ll
+#1597329642
+cat jx-requirements.yml
+#1597329646
+cd ..
+#1597329664
+cp jenkins-x-boot-config/jx-requirements.yml my-jenkins-x-boot-config/
+#1597329670
+cd my-jenkins-x-boot-config/
+#1597329671
+ll
+#1597329969
+cat jx-requirements.yml 
+#1597330023
+jx boot --help
+#1597330092
+cat jx-requirements.yml 
+#1597330119
+vi  jx-requirements.yml 
+#1597330218
+jx boot --help
+#1597330234
+jx boot -r jx-requirements.yml 
+#1597330296
+rm -rf ~/.jx/
+#1597330298
+jx boot -r jx-requirements.yml 
+#1597330304
+ll
+#1597330312
+rm -rf jenkins-x-boot-config/
+#1597330314
+ll
+#1597330322
+mv jx-requirements.yml ..
+#1597330326
+cd ..
+#1597330333
+rm -rf my-jenkins-x-boot-config/
+#1597330340
+jx boot -r jx-requirements.yml 
+#1597330350
+ll
+#1597330357
+rm -rf jenkins-x-boot-config
+#1597330360
+jx boot -r jx-requirements.yml 
+#1597330394
+gcloud container clusters get-credentials jx-cluster-geneesplaats-nl --zone europe-west4-a --project geneesplaats-nl-jx
+#1597330416
+login.sh
+#1597330420
+jx boot -r jx-requirements.yml 
+#1597330434
+rm -rf jenkins-x-boot-config
+#1597330437
+jx boot -r jx-requirements.yml 
+#1597330464
+rm -rf jenkins-x-boot-config
+#1597330466
+ll
+#1597330471
+rm jx-requirements.yml
+#1597330477
+git clone https://github.com/geneesplaats-nl/jenkins-x-boot-config.git
+#1597330483
+cd jenkins-x-boot-config/
+#1597330484
+ll
+#1597330491
+vi jx-requirements.yml
+#1597330598
+jx boot
+#1597331636
+jx status 
+#1597332287
+jx version
+#1597334112
+ll
+#1597334115
+cd projects/
+#1597334117
+ll
+#1597334142
+mkdir jenkinsx-geneesplaats.nl
+#1597334147
+cd jenkinsx-geneesplaats.nl/
+#1597334169
+mkdir node-express
+#1597334171
+cd  node-express/
+#1597334183
+touch README.md
+#1597334194
+jx create quickstart 
+#1597334213
+login.sh
+#1597334216
+jx create quickstart 
+#1597334352
+jx diagnose
+#1597334397
+jx diagnose --help
+#1597334415
+jx diagnose --namespace=jx  --verbose
+#1597334437
+jx create quickstart
+#1597335391
+ll
+#1597335404
+rm -rf geneesplaats-nl-node geneesplaats-nl-node-express
+#1597335423
+jx create quickstart
+#1597335848
+jx console
+#1597335929
+jx get application
+#1597335939
+jx get activities
+#1597341549
+login.sh
+#1597341552
+jx get activities
+#1597341915
+jx get applications
+#1597341918
+jx get application
+#1597342305
+jx create quickstart
+#1597342428
+jx get activities
+#1597343493
+cd projects/
+#1597343494
+ll
+#1597343499
+ll -tr
+#1597343507
+cd jenkinsx-geneesplaats.nl/
+#1597343508
+ll
+#1597343513
+ll node-express/
+#1597343514
+ll
+#1597343527
+ll -a
+#1597343540
+ll -a node-express/
+#1597343545
+ll -a node-express/geneesplaats-nl-node-http/
+#1597343554
+ll
+#1597343561
+cd  node-express/
+#1597343562
+ll
+#1597343568
+mv geneesplaats-nl-node-http/ ..
+#1597343569
+ll
+#1597343577
+cd ..
+#1597343578
+ll
+#1597343586
+ll node-express
+#1597343590
+rm -rf node-express
+#1597343592
+ll
+#1597343619
+git clone  https://github.com/geneesplaats-nl/environment-jx-cluster-geneesplaats-nl-staging.git
+#1597343631
+ll
+#1597343637
+cd environment-jx-cluster-geneesplaats-nl-staging
+#1597343643
+git fetch origin
+#1597343661
+git checkout -b "promote-geneesplaats-nl-node-http-0.0.1" "origin/promote-geneesplaats-nl-node-http-0.0.1"
+#1597343671
+git merge "master"
+#1597343679
+git checkout "master"
+#1597343690
+git merge --no-ff "promote-geneesplaats-nl-node-http-0.0.1"
+#1597343703
+git push origin "master"
+#1597343783
+git fetch origin
+#1597343854
+git checkout -b "promote-geneesplaats-nl-node-http2-0.0.1" "origin/promote-geneesplaats-nl-node-http2-0.0.1"
+#1597343860
+git merge "master"
+#1597343867
+git checkout "master"
+#1597343874
+git merge --no-ff "promote-geneesplaats-nl-node-http2-0.0.1"
+#1597343889
+git status 
+#1597343900
+git mergetool
+#1597343917
+cd env/
+#1597343920
+ll
+#1597343950
+diff requirements_BASE_1290.yaml requirements_LOCAL_1290.yaml
+#1597343966
+vi  requirements.yaml 
+#1597343986
+ll
+#1597344002
+diff requirements_REMOTE_1290.yaml requirements_LOCAL_1290.yaml
+#1597344017
+rm requirements_BACKUP_1290.yaml requirements_BASE_1290.yaml requirements_LOCAL_1290.yaml requirements_REMOTE_1290.yaml
+#1597344020
+cd ..
+#1597344022
+git status 
+#1597344028
+git add env/requirements.yaml
+#1597344031
+git status 
+#1597344040
+git commit
+#1597344046
+git status 
+#1597344058
+git push
+#1597344129
+git fetch origin
+#1597344152
+git checkout -b "promote-geneesplaats-nl-node-http2-0.0.1" "origin/promote-geneesplaats-nl-node-http2-0.0.1"
+#1597344159
+git merge "master"
+#1597344166
+git checkout "master"
+#1597344171
+git merge --no-ff "promote-geneesplaats-nl-node-http2-0.0.1"
+#1597344179
+git push origin "master"
+#1597344236
+cd ..
+#1597344238
+ll
+#1597344245
+cd ..
+#1597344247
+ll
+#1597344255
+cd -
+#1597344258
+ll
+#1597344308
+vi  requirements.yaml 
+#1597344320
+jx get activities
+#1597344440
+cd ..
+#1597344449
+find . -name k_get.sh
+#1597344469
+cd
+#1597344471
+ll bin
+#1597344477
+pwd
+#1597344485
+cp ./geneesplaats.nl-jx/bin/k_get.sh bin/
+#1597344491
+k_get.sh
+#1597344502
+ll bin
+#1597344516
+cp ./geneesplaats.nl/bin/k_get.sh bin/
+#1597344532
+cp ~/projects/geneesplaats.nl/bin/k_get.sh ~/bin/
+#1597344535
+k_get.sh
+#1597344690
+jx get application
+#1597344696
+jx get applications
+#1597344716
+jx get activities
+#1597344756
+pwd
+#1597344767
+find . -name login.sh
+#1597344798
+diff ./projects/geneesplaats.nl-jx/jx/login.sh ./bin/login.sh
+#1597344804
+./bin/login.sh
+#1597344812
+jx get activities
+#1597344823
+jx get activities -n jx
+#1597344835
+jx get activities -ns jx
+#1597344843
+jx get activities
+#1597344883
+jx get activities --verbose
+#1597344909
+hg ingress-nginx
+#1597344915
+hg ingress-nginx| grep nam
+#1597344952
+kgns
+#1597344979
+kubectl config --help
+#1597344985
+kubectl config view
+#1597344990
+kubectl config view| grep name
+#1597345001
+kubectl config view| grep namesp
+#1597345010
+kubectl config view
+#1597345100
+kubectl config view cluster
+#1597345118
+kubectl config view -o yaml
+#1597345151
+kubectl config view  clusters
+#1597345158
+kubectl config 
+#1597345231
+kubectl config delete-cluster gke_geneesplaats-nl-jx_europe-west4-a_cluster-geneesplaats-nl-jx
+#1597345235
+kubectl config 
+#1597345245
+kubectl config view 
+#1597345284
+kubectl config delete-cluster gke_geneesplaats-nl-jx_europe-west4-a_geneesplaat-nl-jx
+#1597345288
+kubectl config view 
+#1597345379
+kubectl config delete-cluster  gke_geneesplaats-nl-jx_europe-west4-a_cluster-geneesplaats-nl-jx
+#1597345390
+ll /home/spikkie/.kube/config
+#1597345395
+cat   /home/spikkie/.kube/config 
+#1597345400
+vi    /home/spikkie/.kube/config 
+#1597345544
+kubectl config view 
+#1597345556
+jx get activities --verbose
+#1597345587
+kubectl config set-context --current --namespace=default
+#1597345592
+jx get activities --verbose
+#1597345597
+jx get activities 
+#1597345618
+ll
+#1597345622
+pwd
+#1597345625
+cd  projects/
+#1597345626
+ll
+#1597345631
+cd jenkinsx-geneesplaats.nl
+#1597345633
+ll
+#1597345638
+cd geneesplaats-nl-node-http
+#1597345642
+jx get activities 
+#1597345650
+jx status
+#1597345848
+jx status 
+#1597345889
+gcloud container clusters get-credentials jx-cluster-geneesplaats-nl --zone europe-west4-a --project geneesplaats-nl-jx
+#1597345900
+which login.sh
+#1597345907
+login.sh
+#1597345915
+cat /home/spikkie/geneesplaats-nl-jx-4294254e1865.json
+#1597345929
+gcloud container clusters get-credentials jx-cluster-geneesplaats-nl --zone europe-west4-a --project geneesplaats-nl-jx
+#1597345937
+jx status 
+#1597346004
+cd projects/
+#1597346005
+ll
+#1597346009
+cd jenkinsx-geneesplaats.nl
+#1597346010
+ll
+#1597346055
+git clone https://github.com/geneesplaats-nl/jenkins-x-boot-config.git
+#1597346061
+jx boot
+#1597346245
+ll
+#1597346253
+cd geneesplaats-nl-node-http
+#1597346254
+ll
+#1597346258
+cd ..
+#1597346260
+ll
+#1597346266
+jx status --help
+#1597346285
+jx get node
+#1597346306
+jx get users
+#1597346318
+jx get pipelines
+#1597346380
+hg uninstall
+#1597346389
+jx  uninstall
+#1597346446
+rm -rf ~/.jx/
+#1597346457
+ll    /home/spikkie/.kube/
+#1597346467
+jx  uninstall
+#1597346495
+ll ~/.jx/bin/
+#1597346866
+cd ..
+#1597346869
+ll
+#1597346885
+ll geneesplaats.nl-jx/
+#1597346890
+ll geneesplaats.nl-jx/jx/
+#1597346894
+cd
+#1597346902
+find . -name create_cluster.sh
+#1597346920
+diff ./projects/geneesplaats.nl.jx/create_cluster.sh ./projects/geneesplaats.nl.ff/jx/create_cluster.sh
+#1597346927
+diff ./projects/geneesplaats.nl.jx/create_cluster.sh ./projects/geneesplaats.nl.ff/jx/create_cluster.sh ./projects/geneesplaats.nl-jx/jx/create_cluster.sh
+#1597346935
+diff ./projects/geneesplaats.nl.ff/jx/create_cluster.sh ./projects/geneesplaats.nl-jx/jx/create_cluster.sh
+#1597346942
+diff ./projects/geneesplaats.nl-jx/jx/create_cluster.sh ./projects/geneesplaats.nl/jx/create_cluster.sh
+#1597346958
+cat  ./projects/geneesplaats.nl/jx/create_cluster.sh
+#1597346986
+ll $(find . -name create_cluster.sh)
+#1597347003
+cp ./projects/geneesplaats.nl/jx/create_cluster.sh  ~/bin/
+#1597347009
+create_cluster.sh
+#1597347378
+k_get.sh
+#1597347397
+kgno
+#1597347404
+ll
+#1597347408
+cd projects/
+#1597347409
+ll
+#1597347415
+ll -tr
+#1597347420
+cd jenkinsx-geneesplaats.nl/
+#1597347421
+ll
+#1597347428
+rm -rf environment-jx-cluster-geneesplaats-nl-staging
+#1597347434
+rm -rf geneesplaats-nl-node-http
+#1597347436
+cd jenkins-x-boot-config/
+#1597347439
+git pull
+#1597347444
+jx boot
+#1597347461
+ll ~/.jx
+#1597347473
+ll ~/.jx/
+#1597347476
+jx boot
+#1597348179
+jx uninstall
+#1597348523
+jx status 
+#1597348529
+git status 
+#1597348537
+git log -1
+#1597348545
+git log -3
+#1597348551
+git log -4
+#1597348572
+git revert 493636eecedc --no-commit 
+#1597348583
+git revert 9259b9cf  --no-commit 
+#1597348586
+git status 
+#1597348593
+rm -rf env/
+#1597348596
+git status 
+#1597348636
+git commit -m 'back to initial version'
+#1597348641
+git push 
+#1597348677
+git status 
+#1597348680
+cd ..
+#1597348690
+rm -rf jenkins-x-boot-config/
+#1597348854
+git clone https://github.com/geneesplaats-nl/jenkins-x-boot-config.git
+#1597348861
+cd jenkins-x-boot-config/
+#1597348863
+ll
+#1597348870
+vi jx-requirements.yml
+#1597348880
+jx boot
+#1597350337
+git status
+#1597350343
+git log -2
+#1597350347
+jx boot
+#1597351438
+jx get activities
+#1597351451
+hg start
+#1597351531
+jx create quickstart
+#1597351655
+jx get activities
+#1597352012
+jx get activities --help
+#1597352034
+jx get activities -w
+#1597352047
+jx get activities 
+#1597352054
+jx get activities -w false
+#1597352059
+jx get activities -w=false
+#1597352064
+jx get activities -w=tue
+#1597352069
+jx get activities -w=true
+#1597352596
+jx get activities 
+#1597353474
+jx get activities  -w
+#1597354660
+kg cm
+#1597354716
+kd cm jenkins-x-pod-template-dotnet
+#1597354781
+kd cm jenkins-x-pod-template-nodejs
+#1597354917
+jx get build 
+#1597354930
+jx get build  logs
+#1597354944
+jx get build pods
+#1597355464
+jx get build  logs
+#1597355592
+jx get activities  -w
+#1597355633
+jx get build  logs PullRequest
+#1597355644
+jx get build  logs
+#1597356218
+jx status 
+#1597356229
+jx 
+#1597356237
+jx diagnose
+#1597356413
+jx get webhooks
+#1597356429
+jx update  webhooks
+#1597356501
+curl http://hook-jx.34.91.42.199.nip.io
+#1597356514
+jx get activities  -w
+#1597356550
+jx get build logs
+#1597356650
+jx logs
+#1597356726
+jx
+#1597356746
+jx delete application
+#1597357609
+jx delete application --verbose
+#1597357624
+jx delete 
+#1597357642
+jx 
+#1597357658
+jk uninstall
+#1597357663
+jx uninstall
+#1597358101
+jk uninstall --verbose 
+#1597358105
+jx uninstall --verbose 
+#1597358151
+jx versions
+#1597358154
+jx version
+#1597358162
+jx status
+#1597358170
+git status
+#1597358180
+rm -rf node-http/
+#1597358183
+git status
+#1597358188
+git log -3
+#1597358209
+git revert b0168b7a5ace553f5f6c3f213ded9538fc1bec71 --no-commit
+#1597358220
+git revert 18a7fa --no-commit
+#1597358228
+git log 
+#1597358246
+git commit -m 'back to initial ver'
+#1597358250
+git push
+#1597358310
+git status 
+#1597358316
+rm -rf env
+#1597358319
+git status 
+#1597358326
+git push
+#1597358339
+cd ..
+#1597358346
+rm -rf jenkins-x-boot-config/
+#1597358350
+hg clone
+#1597358357
+git clone https://github.com/geneesplaats-nl/jenkins-x-boot-config.git
+#1597358361
+git log
+#1597358367
+cd jenkins-x-boot-config/
+#1597358370
+git log
+#1597358380
+git log -3
+#1597358404
+git log -1
+#1597358406
+ll
+#1597358532
+hg config
+#1597358558
+ll ~/.jx/
+#1597358562
+ll ~/.jx/bin
+#1597358574
+mv ~/.jx ~/.jx_old
+#1597358585
+jx boot
+#1597358600
+rm -rf ~/.jx/
+#1597358602
+ll
+#1597358608
+vi jx-requirements.yml
+#1597358621
+git status 
+#1597358632
+git checkout jx-requirements.yml
+#1597358634
+vi jx-requirements.yml
+#1597358699
+jx boot
+#1597358790
+git status 
+#1597358802
+git checkout OWNERS jenkins-x.yml 
+#1597358807
+vi jx-requirements.yml
+#1597358840
+jx boot
+#1597359658
+k_get.sh
+#1597359701
+kd Challenge
+#1597359707
+kd Challenge tls-test-geneesplaats-nl-p-791148010-4125991169-1077435662
+#1597359724
+kd Challenge tls-test-geneesplaats-nl-p-791148010-4125991169-1077435662 -n default
+#1597359728
+kd Challenge tls-test-geneesplaats-nl-p-791148010-4125991169-1077435662 -n jx
+#1597359787
+kubectl config set-context --current --namespace=jx
+#1597359793
+kd Challenge tls-test-geneesplaats-nl-p-791148010-4125991169-1077435662
+#1597359816
+ll
+#1597359823
+vi jx-requirements.yml
+#1597359902
+vi jx-requirements.yml 
+#1597359944
+jx upgrade boot
+#1597360024
+git status 
+#1597360037
+ll jx-requirements.yml
+#1597360083
+git diff jx-requirements.yml
+#1597360097
+git checkout jx-requirements.yml
+#1597360109
+jx edit requirements
+#1597360124
+vi jx-requirements.yml
+#1597360152
+jx edit requirements
+#1597360157
+git status 
+#1597360313
+cd ..
+#1597360381
+git clone  https://github.com/geneesplaats-nl/environment-jx-cluster-geneesplaats-nl-dev.git
+#1597360402
+cd environment-jx-cluster-geneesplaats-nl-dev/
+#1597360403
+ll
+#1597360412
+vi jx-requirements.yml
+#1597360445
+jx boot
+#1597360809
+git status 
+#1597360817
+git log 
+#1597360926
+vi jx-requirements.yml
+#1597361303
+k_get
+#1597361306
+k_get.sh
+#1597361359
+kg order
+#1597361367
+kg order -n jx
+#1597361389
+kubectl config set-context --current --namespace=jx
+#1597361398
+kg order 
+#1597361404
+kd order 
+#1597361421
+kg order 
+#1597361436
+kd challenge 
+#1597361472
+ll
+#1597361479
+vi jx-requirements.yml
+#1597362001
+jx boot
+#1597362525
+kd order 
+#1597362539
+kg order 
+#1597362553
+kd challenge
+#1597362565
+grep -r external-dns-gcp-sa
+#1597362574
+git status 
+#1597362584
+vi jx-requirements.yml 
+#1597362610
+jx boot
+#1597363073
+grep -r external-dns-gcp-sa
+#1597363251
+grep -i dns jx-requirements.yml
+#1597363267
+vi jx-requirements.yml
+#1597363366
+jx install --provider gke --tekton --external-dns
+#1597364018
+jx install --provider gke --tekton --external-dns  --verbose
+#1597365902
+jx status
+#1597365911
+login.sh
+#1597365914
+jx status
+#1597366209
+cd  projects/
+#1597366214
+cd jenkinsx-geneesplaats.nl/
+#1597366215
+;;
+#1597366217
+ll
+#1597366221
+cd environment-jx-cluster-geneesplaats-nl-dev
+#1597366225
+jx boot
+#1597366260
+git diff jx-requirements.yml
+#1597366293
+jx boot
+#1597366312
+vi jx-requirements.yml 
+#1597366332
+jx boot
+#1597398093
+cat create_cluster.sh 
+#1597398099
+cat ~/bin/create_cluster.sh 
+#1597398126
+create_cluster.sh 
+#1597398617
+login.sh
+#1597398624
+create_cluster.sh 
+#1597398907
+gcloud 
+#1597399121
+ll
+#1597399125
+cd projects/
+#1597399126
+ll
+#1597399156
+cd jenkinsx-geneesplaats.nl/
+#1597399158
+;;
+#1597399160
+ll
+#1597399168
+cd jenkins-x-boot-config
+#1597399174
+git status 
+#1597399185
+git checkout jx-requirements.yml
+#1597399470
+git status 
+#1597399524
+ll
+#1597399532
+vi jx-requirements.yml
+#1597399541
+git status 
+#1597399545
+git log 
+#1597399931
+cd
+#1597399962
+ll -a
+#1597399970
+cd .config/
+#1597399971
+ll
+#1597399974
+mkdir git
+#1597399976
+cd  git/
+#1597399985
+curl -O https://raw.githubusercontent.com/GitAlias/gitalias/master/gitalias.txt
+#1597400031
+vi init_aliases.sh
+#1597400095
+mv init_aliases.sh ~/bin/
+#1597400122
+mv ~/.config/git/gitalias.txt ~/.gitalias.txt
+#1597400132
+vi ~/bin/init_aliases.sh 
+#1597400148
+chmod +x ~/bin/init_aliases.sh
+#1597400156
+cat ~/bin/init_aliases.sh
+#1597400162
+~/bin/init_aliases.sh
+#1597400184
+cat  ~/bin/init_aliases.sh
+#1597400220
+vi ~/bin/init_aliases.sh
+#1597400226
+~/bin/init_aliases.sh
+#1597400331
+cat ~/.gitalias.txt 
+#1597400372
+cd ~/projects/
+#1597400375
+g
+#1597400381
+cali
+#1597400417
+cd jenkinsx-geneesplaats.nl/
+#1597400418
+ll
+#1597400421
+cd  jenkins-x-boot-config/
+#1597400425
+g ll
+#1597400431
+gs
+#1597400434
+g s
+#1597400444
+g b
+#1597400453
+g s
+#1597400499
+g l
+#1597400514
+g co d5
+#1597400523
+g co
+#1597400531
+g c
+#1597400540
+git aliases
+#1597400549
+git aliases| grep checkout
+#1597400576
+g o g l
+#1597400579
+g l
+#1597400587
+g o d511f1
+#1597400592
+g s
+#1597400596
+ll
+#1597400602
+vi jx-requirements.yml 
+#1597400617
+cp jx-requirements.yml jx-requirements.yml.org
+#1597400628
+g o master
+#1597400631
+g s
+#1597400637
+g l
+#1597400647
+g al
+#1597400653
+g aliases
+#1597400657
+g aliases| grep alias
+#1597400705
+g aliases| grep revert
+#1597400710
+g l
+#1597400724
+g rvnc 0755d5e3a032 
+#1597400726
+g s
+#1597400739
+g aliases| grep commit
+#1597400773
+g cm 'back to initial version'
+#1597400777
+g s
+#1597400783
+g l
+#1597400788
+g p
+#1597400818
+cd ..
+#1597400826
+rm -rf jenkins-x-boot-config/
+#1597400830
+hg clone
+#1597401074
+git clone https://github.com/geneesplaats-nl/jenkins-x-boot-config.git
+#1597401093
+g aliases| grep branch
+#1597401151
+g aliases| grep branch | grep checkout
+#1597401166
+g aliases| grep checkout
+#1597401182
+g aliases| grep '\-b'
+#1597401221
+g aliases| grep checkout | grep '\-b'
+#1597401260
+g aliases| grep checkout 
+#1597401279
+ll
+#1597401282
+cd jenkins-x-boot-config/
+#1597401298
+g co -b geneesplaats_cfg
+#1597401301
+g b
+#1597401305
+ll
+#1597401312
+vi jx-requirements.yml 
+#1597401594
+g aliases | grep alias
+#1597401616
+cali
+#1597401665
+gga add
+#1597401671
+g s
+#1597401681
+g aa
+#1597401687
+gga commit
+#1597401775
+ll
+#1597401780
+cat  jx-requirements.yml
+#1597401823
+jx boot
+#1597401988
+grep  jx-cluster-geneesplaats-nl * 
+#1597401993
+vi jx-requirements.yml 
+#1597402026
+jx boot
+#1597403126
+git status 
+#1597403194
+cd
+#1597403200
+wget https://www.scootersoftware.com/bcompare-4.3.5.24893_amd64.deb
+#1597403207
+sudo apt-get update
+#1597403228
+sudo apt-get install gdebi-core
+#1597403281
+udo gdebi bcompare-4.3.5.24893_amd64.deb
+#1597403286
+sudo gdebi bcompare-4.3.5.24893_amd64.deb
+#1597403329
+which bcompare
+#1597403333
+alias bc
+#1597403336
+bc
+#1597403343
+bcompare
+#1597405077
+jx install --provider gke --tekton --external-dns
+#1597405162
+ll ~/.jx
+#1597405190
+mv ~/.jx  ~/.jx_old_14aug
+#1597405333
+cd  projects/jenkinsx-geneesplaats.nl/jenkins-x-boot-config/
+#1597405352
+gaa
+#1597405354
+g aa
+#1597405362
+gga comm
+#1597405442
+g s
+#1597405469
+g cm 'initial jx-requirements.yml test.geneesplaats.nl'
+#1597405473
+git push
+#1597405491
+git log
+#1597405498
+g l -2
+#1597405506
+jx boot
+#1597406130
+k_get
+#1597406133
+k_get.sh
+#1597406143
+kgpo
+#1597406374
+git status 
+#1597406692
+hg http
+#1597406700
+hg quick
+#1597406739
+jx status 
+#1597406858
+jx version
+#1597406869
+hg jx
+#1597406881
+hg 'jx '
+#1597406890
+jx diagnose
+#1597406911
+hg jx | grep config
+#1597406924
+kubectl config set-context --current --namespace=jx
+#1597406932
+jx diagnose
+#1597406948
+jx status 
+#1597407002
+cd 
+#1597407004
+ll
+#1597407018
+cd projects/jenkinsx-geneesplaats.nl/
+#1597407020
+ll
+#1597407040
+mkdir node_http
+#1597407043
+cd  node_http/
+#1597407049
+hg quick
+#1597407056
+jx create quickstart
+#1597407299
+jx get build logs geneesplaats-nl/node_http/master
+#1597407305
+x get activity -f node_http -w
+#1597407309
+jx get activity -f node_http -w
+#1597407461
+jx get activity -f node_http 
+#1597407464
+jx get activity 
+#1597407639
+ping test.geneesplaats.nl
+#1597407649
+wget  test.geneesplaats.nl
+#1597407789
+jx get activity -f node_http 
+#1597408076
+jx get build logs
+#1597408142
+jx get activity -f node_http 
+#1597408153
+jx get build logs| grep -i changel
+#1597408182
+jx get build logs --help
+#1597408212
+jx get build logs  geneesplaats-nl-node-http-maste-xfccr-1
+#1597408256
+jx get build logs
+#1597408298
+g s
+#1597408304
+ll
+#1597408308
+cd node_http/
+#1597408310
+g s
+#1597408315
+ll
+#1597408318
+cd ..
+#1597408325
+jx create quickstart
+#1597408466
+ll
+#1597408468
+jx create quickstart
+#1597408885
+jx get build logs geneesplaats-nl/node_http_2/master
+#1597408891
+jx get build logs geneesplaats-nl
+#1597409086
+q
+#1597409120
+jx get build logs
+#1597409196
+jx logs myapp -c step-promote-changelog
+#1597409208
+jx logs  -c step-promote-changelog
+#1597409288
+jx logs
+#1597409355
+jx get build logs
+#1597409365
+jx get build logs --help
+#1597409406
+jx get build logs -t
+#1597409464
+grep -r aws ~/.jx/
+#1597409475
+ll ~/.aws/credentials
+#1597409482
+ll ~/.aws/
+#1597409513
+jx get build logs -t
+#1597409949
+cd ..
+#1597409956
+rm -rf node_http/node_http_2/
+#1597409963
+rm -rf node_http/
+#1597409965
+ll
+#1597409983
+mkdir myApp
+#1597409989
+cd myApp/
+#1597409998
+touch README.md
+#1597410009
+find .. -name README.md
+#1597410080
+cd ..
+#1597410085
+git clone https://github.com/geneesplaats-nl/environment-jx-cluster-geneesplaats-nl-dev.git
+#1597410102
+cd  environment-jx-cluster-geneesplaats-nl-dev/
+#1597410103
+ll
+#1597410108
+vi jx-requirements.yml 
+#1597410189
+ll
+#1597410191
+g s
+#1597410195
+g aa
+#1597410209
+cat jx-requirements.yml 
+#1597410231
+g cm setting storage backup logs reports repository to true
+#1597410239
+g cm 'setting storage backup logs reports repository to true'
+#1597410244
+git push 
+#1597410266
+jx boot
+#1597410376
+jx step create pr versions -k git -n https://github.com/geneesplaats-nl/environment-jx-cluster-geneesplaats-nl-dev
+#1597410430
+git log -3
+#1597410443
+jx boot
+#1597411376
+cd ..
+#1597411381
+cd myApp/
+#1597411383
+ll
+#1597411390
+jx create quickstart
+#1597411862
+jx get activity -f node_http_3 -w
+#1597411930
+jx get pipelines
+#1597411984
+jx start pipeline --help
+#1597412021
+jx start pipeline --verbose geneesplaats-nl/node_http_3/master -tail=true
+#1597412145
+jx get pipeline --help
+#1597412154
+jx get pipeline
+#1597412172
+jx start pipeline
+#1597412192
+jx start pipeline -t
+#1597412229
+jx get activities
+#1597412257
+jx get 
+#1597412264
+jx get  activities 
+#1597412445
+ll
+#1597412450
+cd node_http_3/
+#1597412451
+ll
+#1597412460
+cat jenkins-x.yml
+#1597412491
+jx get build logs -t
+#1597412510
+jx get 
+#1597412515
+jx get activities
+#1597412548
+helm -v
+#1597412552
+which helm
+#1597412573
+sudo apt-get remove helm
+#1597412586
+sudo apt-get remove helm3
+#1597412599
+hg helm
+#1597412621
+jx get activities
+#1597412750
+jx get build
+#1597412758
+jx get build pods
+#1597412795
+k logs meta-geneesplaats-nl-node-http-m8f94-1-meta-pipeline-lvfz-7ddsw
+#1597412816
+kgpo
+#1597412845
+k logs pod meta-geneesplaats-nl-node-http-m8f94-1-meta-pipeline-lvfz-7ddsw
+#1597412854
+k logs pods meta-geneesplaats-nl-node-http-m8f94-1-meta-pipeline-lvfz-7ddsw
+#1597412860
+k logs meta-geneesplaats-nl-node-http-m8f94-1-meta-pipeline-lvfz-7ddsw
+#1597412886
+k logs meta-geneesplaats-nl-node-http-m8f94-1-meta-pipeline-lvfz-7ddsw -c step-git-source-meta-geneesplaats-nl-node-http-m8f94-ghzs5
+#1597412940
+jx get build pods
+#1597412968
+kd pod geneesplaats-nl-node-http-3-mas-xh89g-1-from-build-pack-d-lnq48
+#1597412993
+jx get build pods
+#1597413007
+kd pod geneesplaats-nl-node-http-3-mas-xh89g-1-from-build-pack-d-lnq48
+#1597413045
+jx get activities
+#1597413111
+jx get build logs
+#1597413408
+jx get build pods
+#1597413421
+jx get build pods| grep pack
+#1597413446
+kd pod geneesplaats-nl-node-http-3-mas-v9m25-2-from-build-pack-f-6vrjr
+#1597413504
+ll /home
+#1597413515
+kd pod geneesplaats-nl-node-http-3-mas-v9m25-2-from-build-pack-f-6vrjr | grep container
+#1597413535
+hg exec
+#1597413557
+k exec -it  geneesplaats-nl-node-http-3-mas-v9m25-2-from-build-pack-f-6vrjr  -- ls
+#1597413575
+k exec -it  geneesplaats-nl-node-http-3-mas-v9m25-2-from-build-pack-f-6vrjr  --pwd
+#1597413577
+k exec -it  geneesplaats-nl-node-http-3-mas-v9m25-2-from-build-pack-f-6vrjr  -- pwd
+#1597413591
+kd pod geneesplaats-nl-node-http-3-mas-v9m25-2-from-build-pack-f-6vrjr | grep container
+#1597413622
+k exec -it  geneesplaats-nl-node-http-3-mas-v9m25-2-from-build-pack-f-6vrjr -c working-dir-initializer -- ls -l
+#1597413720
+kd pod geneesplaats-nl-node-http-3-mas-v9m25-2-from-build-pack-f-6vrjr | grep state
+#1597413727
+kd pod geneesplaats-nl-node-http-3-mas-v9m25-2-from-build-pack-f-6vrjr
+#1597413897
+kubectl get pod geneesplaats-nl-node-http-3-mas-v9m25-2-from-build-pack-f-6vrjr -o go-template="{{range .status.containerStatuses}}{{.lastState.terminated.message}}{{end}}"
+#1597413928
+jx get build logs
+#1597413958
+cd ..
+#1597413966
+jx create quickstart
+#1597414079
+jx get activity -f nodehttp -w
+#1597416014
+jx get build logs
+#1597416234
+jx get activity -f nodehttp -w
+#1597416251
+jx get application
+#1597416254
+jx get applications
+#1597416316
+jx get activity -f nodehttp -w
+#1597416339
+jx get activity 
+#1597416369
+jx get build logs
+#1597416515
+git status 
+#1597416519
+ll
+#1597416524
+cd nodehttp/
+#1597416526
+g s
+#1597416532
+git pull
+#1597416566
+git log -1
+#1597416593
+cd ..
+#1597416597
+ll
+#1597416600
+cd environment-jx-cluster-geneesplaats-nl-dev/
+#1597416602
+g s
+#1597416613
+jx get 
+#1597416624
+jx getenvironments
+#1597416628
+jx get environments
+#1597416693
+jx get applications
+#1597416738
+jx get applications --verbose
+#1597416792
+jx get apps
+#1597416799
+jx get 
+#1597416838
+jx get applications
+#1597416843
+jx get applications --help
+#1597416859
+jx get applications --help -n jx
+#1597416869
+jx get applications --help -n=jx
+#1597416880
+jx get applications -n=jx
+#1597416921
+jx get build logs
+#1597417081
+jx get env
+#1597417252
+kg pods | grep node
+#1597417262
+kg pods
+#1597417271
+kg pods| grep runni
+#1597417278
+kg pods| grep Runn
+#1597417317
+jx status
+#1597417332
+jx diagnose
+#1597417340
+jx get applications
+#1597417349
+jx get applicati
+#1597417367
+jx get activity
+#1597417394
+jx get urls
+#1597417420
+kubectl get pipelineactivity 
+#1597417424
+kubectl get pipelineactivity  -A
+#1597417443
+kubectl get pipelineruns.tekton.dev -n jx
+#1597417570
+kg svc -A
+#1597417592
+kg order
+#1597417615
+kd order tls-test-geneesplaats-nl-p-791148010-4125991169
+#1597417623
+kg challenge
+#1597417635
+kd challenge tls-test-geneesplaats-nl-p-791148010-4125991169-1596796721
+#1597417843
+kg challenge
+#1597417931
+grep -i dns * 
+#1597417952
+vi jx-requirements.yml
+#1597418028
+g s
+#1597418031
+vi jx-requirements.yml
+#1597418166
+jx boot
+#1597419087
+kg roder
+#1597419092
+kg order
+#1597419104
+kd order tls-geneesplaats-nl-p-2803378069-2887572853 
+#1597419111
+k delete order tls-geneesplaats-nl-p-2803378069-2887572853 
+#1597419115
+kg order
+#1597419127
+k delete order tls-test-geneesplaats-nl-p-791148010-4125991169
+#1597419134
+kg challenge
+#1597419144
+kd challenge
+#1597419161
+kg challenge
+#1597419166
+kg order
+#1597419181
+kg secret
+#1597419192
+kg secret| grep genee
+#1597419206
+kg order
+#1597419216
+kd order tls-test-geneesplaats-nl-p-791148010-4125991169
+#1597419226
+kg challenge
+#1597419259
+kd challenge tls-test-geneesplaats-nl-p-791148010-4125991169-1596796721
+#1597419296
+dig +short geneesplaats.nl
+#1597419307
+dig +short test.geneesplaats.nl
+#1597419988
+dig +short geneesplaats.nl
+#1597420014
+dig +short test.geneesplaats.nl ns
+#1597420038
+dig +short geneesplaats.nl ns
+#1597420047
+dig +short geneesplaats.nl soa
+#1597420093
+kd order
+#1597420106
+kg order
+#1597420115
+kg challenge
+#1597420129
+k delete challenge tls-test-geneesplaats-nl-p-791148010-4125991169-1596796721
+#1597420132
+kg challenge
+#1597420237
+dig +short geneesplaats.nl ns
+#1597420240
+dig +short geneesplaats.nl
+#1597420242
+dig +short geneesplaats.nl ns
+#1597420781
+gcloud --project=geneesplaats-nl-jx  domains list-user-verified
+#1597420899
+kg challenge
+#1597420913
+kd challenge tls-test-geneesplaats-nl-p-791148010-4125991169-1596796721
+#1597421535
+ll env
+#1597421553
+grep -r zone  env/
+#1597421603
+grep -r exdns-external-dns
+#1597421610
+cat kubeProviders/eks/templates/irsa.tmpl.yaml
+#1597421645
+kubectl get env staging -oyaml
+#1597421672
+kg sr
+#1597421687
+kg sr| grep gene
+#1597421690
+kg sr| grep genees
+#1597423135
+cd projects/jenkinsx-geneesplaats.nl/
+#1597423144
+ll
+#1597423147
+cd environment-jx-cluster-geneesplaats-nl-dev/
+#1597423152
+grep geneespl * 
+#1597423167
+vi jx-requirements.yml 
+#1597423314
+jx boot
+#1597423347
+login.sh
+#1597423465
+hf order
+#1597423468
+kg order
+#1597423477
+kg challenge
+#1597423349
+jx boot
+#1597517382
+cd projects/
+#1597517384
+ll
+#1597517388
+ll -tr
+#1597517415
+cd geneesplaats.nl-jx
+#1597517418
+git status 
+#1597517437
+git pull
+#1597517450
+git log -1
+#1597517460
+git log -3
+#1597517550
+cd howto/
+#1597517551
+ll
+#1597517557
+vi gcloud.txt 
+#1597673153
+cd
+#1597673159
+ll bin/
+#1597673164
+cat   bin/login.sh 
+#1597673170
+cat  /home/spikkie/geneesplaats-nl-jx-4294254e1865.json
+#1597673204
+cat bin/login.sh 
+#1597673238
+vi  bin/login.sh 
+#1597673264
+cat  /home/spikkie/geneesplaats-nl-jx-4294254e1865.json
+#1597673321
+cd projects/
+#1597673328
+ll ~/bin
+#1597673345
+ll~/.jx
+#1597673351
+ll ~/.jx
+#1597673361
+jx uninstall
+#1597673377
+login.sh
+#1597673382
+jx uninstall
+#1597673635
+ll ~/.config/
+#1597673698
+jx --verbose uninstall
+#1597673800
+k get ns
+#1597674168
+k config
+#1597674174
+k config view
+#1597674244
+k config 
+#1597674379
+k config delete-cluster
+#1597674390
+k config delete-cluster gke_geneesplaats-nl-jx_europe-west4-a_jx-cluster-geneesplaats-nl
+#1597674395
+k get ns
+#1597674413
+create_cluster.sh 
+#1597674598
+k config 
+#1597674603
+k config  view
+#1597674624
+k config delete-context gke_geneesplaats-nl-jx_europe-west4-a_jx-cluster-geneesplaats-nl
+#1597674660
+rm /home/spikkie/.kube/config 
+#1597674683
+rm -rf /home/spikkie/.kube/cache/
+#1597674691
+mkdir  /home/spikkie/.kube/cache/
+#1597674705
+ll /home/spikkie/.kube/http-cache/
+#1597674715
+rm -rf  /home/spikkie/.kube/http-cache/*
+#1597674904
+ll /home/spikkie/.kube/config 
+#1597674907
+ll /home/spikkie/.kube/
+#1597674909
+lla /home/spikkie/.kube/
+#1597674912
+lla /home/spikkie/.kube/cache/
+#1597674916
+lla /home/spikkie/.kube/http-cache/
+#1597674937
+rm -rf  /home/spikkie/.kube/http-cache/*
+#1597674938
+lla /home/spikkie/.kube/http-cache/
+#1597674946
+rm -rf  /home/spikkie/.kube/http-cache/.*
+#1597674953
+sudo rm -rf  /home/spikkie/.kube/http-cache/.*
+#1597674956
+lla /home/spikkie/.kube/http-cache/
+#1597674974
+cat ~/bin/create_cluster.sh 
+#1597674985
+create_cluster.sh 
+#1597675420
+ll
+#1597675425
+cd jenkinsx-geneesplaats.nl
+#1597675428
+ll
+#1597675444
+cd environment-jx-cluster-geneesplaats-nl-dev
+#1597675445
+ll
+#1597675457
+cd ..
+#1597675476
+mkdir jenkinsx-geneesplaats.nl-2
+#1597675493
+cp ~/projects/jenkinsx-geneesplaats.nl/environment-jx-cluster-geneesplaats-nl-dev/jx-requirements.yml  jenkinsx-geneesplaats.nl-2/
+#1597675496
+cd jenkinsx-geneesplaats.nl-2/
+#1597675498
+ll
+#1597675503
+vi jx-requirements.yml 
+#1597675720
+ll
+#1597675723
+jx boot
+#1597676860
+jx uninstall
+#1597678233
+ll
+#1597678240
+rm -rf jenkins-x-boot-config
+#1597678280
+ll
+#1597678285
+jx boot
+#1597678440
+jx uninstall
+#1597678457
+rm -rf ~/.jx
+#1597678463
+k config view
+#1597678469
+k config 
+#1597678482
+k config  delete-cluster gke_geneesplaats-nl-jx_europe-west4-a_jx-cluster-geneesplaats-nl
+#1597678485
+k config view
+#1597678497
+k config delete-context gke_geneesplaats-nl-jx_europe-west4-a_jx-cluster-geneesplaats-nl
+#1597678507
+rm -rf /home/spikkie/.kube/config
+#1597678518
+ll
+#1597678525
+rm -rf jenkins-x-boot-config
+#1597678528
+jx boot
+#1597678562
+gcloud container clusters get-credentials jx-cluster-geneesplaats-nl --zone europe-west4-a --project geneesplaats-nl-jx
+#1597678565
+jx boot
+#1597678595
+ll
+#1597678601
+rm -rf jenkins-x-boot-config
+#1597678609
+jx boot --help
+#1597678650
+jx boot -f jx-requirements.yml 
+#1597678694
+jx boot -r jx-requirements.yml 
+#1597678788
+vi  jx-requirements.yml 
+#1597678816
+rm -rf jx-requirements.yml 
+#1597678820
+jx boot
+#1597678832
+ll
+#1597678836
+rm -rf jenkins-x-boot-config/
+#1597678838
+jx boot
+#1597679824
+ll
+#1597679831
+git clone  https://github.com/geneesplaats-nl/environment-jx-cluster-geneesplaats-nl-dev.git
+#1597679848
+cd  environment-jx-cluster-geneesplaats-nl-dev/
+#1597679854
+cat jx-requirements.yml 
+#1597679964
+hg quick
+#1597679970
+cd ..
+#1597680015
+ll
+#1597680025
+mkdir NodeHttp
+#1597680028
+cd NodeHttp/
+#1597680035
+jx create quickstart
+#1597682803
+
+#1597682857
+\
+#1597682864
+k get pods
+#1597682877
+jx
+#1597682888
+jx get application
+#1597682932
+jx get
+#1597682940
+jx get activities
+#1597682952
+jx get activities -f
+#1597682957
+jx get activities -w
+#1597687785
+jx get activities
+#1597687832
+hg log
+#1597687867
+jx get build logs
+#1597687957
+jx get activities
+#1597687986
+jx get build logs
+#1597687990
+jx get activities
+#1597688002
+jx get build logs
+#1597688063
+jx get application
+#1597688074
+jx get url
+#1597689822
+jx step verify install
+#1597689853
+cd  projects/jenkinsx-geneesplaats.nl-2/
+#1597689854
+ll
+#1597689858
+cd environment-jx-cluster-geneesplaats-nl-dev/
+#1597689864
+git pull
+#1597689880
+jx step verify install
+#1597690696
+ping hook-jx-35.204.103.34.nip.io
+#1597690721
+wget hook-jx-35.204.103.34.nip.io
+#1597690728
+wget hook-jx-35.204.103.34.nip.iohook-jx-35.204.103.34.nip.io
+#1597690729
+PING hook-jx-35.204.103.34.nip.io (35.204.103.34) 56(84) bytes of data.
+#1597690730
+c
+#1597690732
+hook-jx-35.204.103.34.nip.io
+#1597690747
+wget hook-jx-35.204.103.34.nip.io/hook
+#1597690756
+cutl  hook-jx-35.204.103.34.nip.io/hook
+#1597690760
+curl  hook-jx-35.204.103.34.nip.io/hook
+#1597690775
+curl  35.204.103.34.nip.io/hook
+#1597690789
+curl  35.204.103.34/hook
+#1597691111
+ping  hook-jx-35.204.103.34.nip.io
+#1597691272
+vi jx-requirements.yml 
+#1597691289
+jx boot
+#1597692048
+vi jx-requirements.yml 
+#1597692153
+l  ../../jenkinsx-geneesplaats.nl/environment-jx-cluster-geneesplaats-nl-dev/jx-requirements.yml 
+#1597692166
+cat ../../jenkinsx-geneesplaats.nl/environment-jx-cluster-geneesplaats-nl-dev/jx-requirements.yml
+#1597692170
+fg
+#1597692175
+vi jx-requirements.yml 
+#1597692250
+jx boot
+#1597696306
+cd ..
+#1597696312
+hg quick
+#1597696319
+jx create quickstart
+#1597696406
+ll
+#1597696413
+cd NodeHttp/
+#1597696415
+ll
+#1597696419
+touch test1
+#1597696425
+g s
+#1597696430
+git status 
+#1597696457
+cd ..
+#1597696471
+git clone https://github.com/geneesplaats-nl/NodeHttp.git
+#1597696476
+rm -rf NodeHttp/
+#1597696478
+git clone https://github.com/geneesplaats-nl/NodeHttp.git
+#1597696491
+cd NodeHttp/
+#1597696494
+touch abc
+#1597696498
+git add abc
+#1597696505
+git commit -m 'add abc'
+#1597696510
+git push 
+#1597696526
+jx get
+#1597696533
+jx get activities
+#1597697266
+ll
+#1597697270
+cd ..
+#1597697271
+ll
+#1597697274
+cd environment-jx-cluster-geneesplaats-nl-dev/
+#1597697276
+ll
+#1597697283
+vi jx-requirements.yml 
+#1597697438
+jx get activities
+#1597697447
+jx boot
+#1597699865
+jx get activities
+#1597700079
+jx get applications
+#1597700098
+jx get
+#1597700107
+jx get apps
+#1597700120
+jx get config
+#1597700137
+jx get git
+#1597700168
+jx get releases
+#1597700191
+jx get urls
+#1597700266
+k get svc -A
+#1597700302
+jx get activities
+#1597700552
+jx get applications --help
+#1597700569
+jx get applications -e staging
+#1597700582
+jx get applications -n -jx
+#1597700588
+jx get applications -A
+#1597700595
+jx get applications -u
+#1597700613
+jx get applications -u -p
+#1597700615
+jx get applications -p
+#1597700630
+jx get applications -w
+#1597700642
+jx get previews
+#1597700814
+jx status 
+#1597700867
+jx uninstall
+#1597702160
+git status 
+#1597702167
+vi jx-requirements.yml 
+#1597702192
+jx create quickstart --help
+#1597702211
+jx boot
+#1597703120
+jx list webhooks
+#1597703128
+jx get webhooks
+#1597703270
+jx install dependencies -d kubectl
+#1597703302
+kgno
+#1597703345
+jx get env
+#1597703368
+jx ns jx
+#1597703462
+jx add app jx-app-ui
+#1597703675
+jx upgrade boot
+#1597703752
+jx version
+#1597703759
+jx 
+#1597703800
+jx create quickstart
+#1597703910
+jx get
+#1597703916
+jx get activities
+#1597703970
+jx get applications
+#1597703972
+jx get activities
+#1597704181
+jx get applications
+#1597704424
+jx get urls
+#1597704790
+jx diagnose --help
+#1597704822
+jx diagnose --show=pods --show=version  --namespace=jx
+#1597704846
+jx diagnose  --show=version  --namespace=jx
+#1597704928
+jx console
+#1597704964
+jx get build logs
+#1597705039
+jx get environment
+#1597705064
+jx open --env staging
+#1597705607
+cat ~/bin/create_cluster.sh 
+#1597705669
+vi  ~/bin/create_cluster.sh 
+#1597706408
+cd ..
+#1597706410
+ll
+#1597706441
+rm -rf environment-jx-cluster-geneesplaats-nl-dev/ jenkins-x-boot-config/ NodeHttp/ nodehttp2/
+#1597706444
+ll
+#1597706461
+rm -rf ~/.jx
+#1597706482
+ll ~/.kube
+#1597706488
+ll ~/.kube/cache/
+#1597706496
+rm -rf  ~/.kube/cache/discovery/
+#1597706507
+cat   ~/.kube/config 
+#1597706524
+ll   ~/.kube/config 
+#1597706530
+jx boot
+#1597707629
+ll
+#1597707644
+mkdir nodehttp
+#1597707646
+cd nodehttp/
+#1597707656
+jx create quickstart
+#1597707991
+jx get
+#1597707997
+jx get activities
+#1597708646
+jx version
+#1597708651
+jx 
+#1597708663
+jx applications
+#1597708674
+jx get applications
+#1597761371
+cat ~/bin/create_cluster.sh 
+#1597761418
+~/bin/create_cluster.sh 
+#1597761773
+cd projects/jenkinsx-geneesplaats.nl-2/
+#1597761774
+ll
+#1597761879
+git clone https://github.com/geneesplaats-nl/environment-jx-cluster-geneesplaats-nl-dev.git
+#1597761894
+cd environment-jx-cluster-geneesplaats-nl-dev/
+#1597761899
+jx boot
+#1597761976
+git status 
+#1597761983
+jx boot
+#1597762770
+jx get applications
+#1597762775
+cd ..
+#1597762777
+ll
+#1597762784
+rm -rf nodehttp/
+#1597762867
+jx create quickstart
+#1597762873
+cd environment-jx-cluster-geneesplaats-nl-dev/
+#1597762875
+git status 
+#1597762881
+git pull
+#1597762886
+cd ..
+#1597762893
+jx create quickstart
+#1597763097
+jx get applications
+#1597763105
+jx get
+#1597763112
+jx get activities
+#1597763166
+jx get activities -w
+#1597763989
+jx get activities
+#1597764580
+jx get activities -w
+#1597765222
+jx get activities
+#1597765268
+jx get activities -w
+#1597765460
+hg build
+#1597765466
+jx get build logs
+#1597765507
+;316R;316R
+#1597765510
+jx get build logs
+#1597765542
+jx get activities -w
+#1597766186
+jx get build logs
+#1597766199
+jx get build logs --help
+#1597766213
+jx get activities -w
+#1597766756
+jx get build logs -h
+#1597766797
+hg pod
+#1597766809
+jx get build pods
+#1597766927
+jx get activities -w
+#1597766958
+jx get applications
+#1597767138
+jx get activities -w
+#1597767167
+jx stop
+#1597767171
+jx 
+#1597767194
+jx delete
+#1597767219
+jx
+#1597767230
+jx step
+#1597767252
+jx step get
+#1597767262
+jx step get buildnumber
+#1597767269
+jx step get
+#1597767275
+jx step
+#1597767294
+jx
+#1597767309
+jx gc
+#1597767318
+jx gc releases
+#1597767336
+jx gc activities
+#1597767361
+jx uninstall
+#1597767987
+cd 
+#1597767994
+rm -rf ~/.jx
+#1597768006
+cd projects/jenkinsx-geneesplaats.nl
+#1597768008
+ll
+#1597768015
+rm -rf environment-jx-cluster-geneesplaats-nl-dev/
+#1597768021
+rm -rf myApp/
+#1597768027
+rm -rf jenkins-x-boot-config/
+#1597768203
+jx get activities
+#1597768074
+jx boot
+#1597768508
+vi ~/bin/create_cluster.sh 
+#1597768725
+cat ~/bin/create_cluster.sh 
+#1597768731
+~/bin/create_cluster.sh 
+#1597769130
+ll
+#1597769149
+jx
+#1597769170
+jx boot
+#1597769189
+cd ..
+#1597769199
+cd jenkinsx-geneesplaats.nl-2/
+#1597769200
+ll
+#1597769209
+rm -rf environment-jx-cluster-geneesplaats-nl-dev/
+#1597769214
+rm -rf nodehttp/
+#1597769218
+rm -rf jenkins-x-boot-config/
+#1597769232
+ll  ~/.jx
+#1597769240
+rm -rf  ~/.jx
+#1597769247
+jx boot
+#1597769603
+ll
+#1597769610
+rm -rf jenkins-x-boot-config/
+#1597769613
+jx boot
+#1597770367
+jx get activities
+#1597770512
+jx create quickstart
+#1597770620
+jx get activities
+#1597770629
+jx get activities -w
+#1597771548
+jx get applications
+#1597772881
+ll
+#1597772886
+cd httpnode/
+#1597772890
+g s
+#1597772898
+ll
+#1597772921
+cat jenkins-x.yml 
+#1597772931
+cat Dockerfile 
+#1597772944
+ll charts/
+#1597772949
+ll charts/httpnode/
+#1597773466
+cd ..
+#1597773472
+ll
+#1597773500
+git clone https://github.com/geneesplaats-nl/geneesplaats-nl-jx.git
+#1597775137
+cd geneesplaats-nl-jx/
+#1597775139
+ll
+#1597775152
+ll test/
+#1597775200
+rm               
+#1597775213
+rm generate_docker_*
+#1597775218
+rm -rf kompose_*
+#1597775220
+ll
+#1597775233
+rm start*
+#1597775234
+ll
+#1597775246
+rm control_geneesplaats_nl.sh 
+#1597775249
+rm create_postgresdb.sh 
+#1597775254
+rm -rf docker
+#1597775260
+rm docker-compose-*
+#1597775262
+ll
+#1597775274
+rm -rf nginx-conf/
+#1597775279
+rm -rf howto/
+#1597775280
+ll
+#1597775293
+rm -rf jx/
+#1597775298
+rm install-jx.sh 
+#1597775301
+rm curl-commands.txt 
+#1597775302
+ll
+#1597775312
+ll bin/
+#1597775318
+rm -rf bin
+#1597775319
+ll
+#1597775332
+rm  todo.txt 
+#1597775336
+ll uploads/
+#1597775342
+ll
+#1597775351
+cat reset_test_database.sh 
+#1597775357
+rm reset_test_database.sh 
+#1597775362
+rm setEnv.sh 
+#1597775365
+ll
+#1597775375
+ll  google_cloud_production/
+#1597775384
+rm -rf   google_cloud_production/
+#1597775386
+ll
+#1597775393
+rm 1
+#1597775394
+ll
+#1597775404
+rm webpack.client.config.2.js 
+#1597775417
+rm webpack.client.config.js.mychanges.1 
+#1597775419
+ll
+#1597775427
+l test/
+#1597775441
+ll
+#1597775444
+ll -a
+#1597775458
+rm -rf .git
+#1597775487
+rm   .docker-dev-env 
+#1597775492
+rm   .dockerignore 
+#1597775502
+cat    .eslintrc 
+#1597775512
+rm .gitignore 
+#1597775513
+ll
+#1597775516
+lla
+#1597775526
+rm .postgres_env 
+#1597775532
+cat .react_env 
+#1597775536
+rm  .react_env 
+#1597775538
+lla
+#1597775549
+cat  .sequelizerc 
+#1597775564
+rm .nginx_env 
+#1597775587
+hg import
+#1597775620
+jx import --help
+#1597775700
+jx import geneesplaats-nl
+#1597775779
+ll
+#1597775865
+jx import
+#1597776022
+jx get activities
+#1597776095
+jx get applications
+#1597776113
+jx get activities
+#1597776154
+ll
+#1597776206
+rm -rf .git
+#1597776208
+rm -rf .gitignore 
+#1597776213
+rm -rf test/
+#1597776215
+ll
+#1597776242
+jx import
+#1597776340
+jx get activity -f GeneesplaatsNl -w
+#1597776641
+jx get build log  -f GeneesplaatsNl -w
+#1597776677
+jx get activity -f GeneesplaatsNl
+#1597776693
+jx get build log  -f GeneesplaatsNl -w
+#1597776901
+ll
+#1597776915
+rm -rf .git
+#1597776921
+rm -rf node_modules/
+#1597776924
+;;
+#1597776927
+ll
+#1597776931
+ll -tr
+#1597776950
+rm   Dockerfile
+#1597776956
+rm jenkins-x.yml 
+#1597776962
+rm skaffold.yaml 
+#1597776974
+rm -rf OWNERS
+#1597776976
+rm -rf OWNERS_ALIASES 
+#1597776982
+rm -rf charts/
+#1597776984
+ll 
+#1597776991
+lla
+#1597777004
+rm .dockerignore 
+#1597777006
+lla -tr
+#1597777016
+rm .gitignore  .helmignore 
+#1597777077
+jx import
+#1597777171
+jx get activity -f AppGeneesplaatsNl -w
+#1597777334
+jx get build log
+#1597777405
+cd ..
+#1597777408
+ll -tr
+#1597777485
+mv geneesplaats-nl-jx geneesplaats-nl-import-version
+#1597777488
+ll
+#1597777492
+ll -tr
+#1597777511
+git clone https://github.com/geneesplaats-nl/geneesplaats-nl-jx.git
+#1597777544
+ll -tr
+#1597777572
+cp -r geneesplaats-nl-jx/test/ geneesplaats-nl-import-version/
+#1597777589
+cd geneesplaats-nl-import-version/
+#1597777691
+ll
+#1597777712
+ll -tr
+#1597777729
+rm -rf charts/ skaffold.yaml  OWNERS*
+#1597777731
+ll -tr
+#1597777741
+jx import
+#1597777787
+rm -rf .git
+#1597777791
+ll -tra
+#1597777805
+rm -rf charts/ skaffold.yaml  OWNERS*
+#1597777808
+ll -tra
+#1597777818
+jx import
+#1597777953
+jx get activity
+#1597777998
+ll
+#1597778010
+jx get activity
+#1597778038
+jx get activity -f AppGeneesplaatsNl -w
+#1597778089
+jx get build log
+#1597778180
+npm  test
+#1597778201
+ll
+#1597778208
+npm install
+#1597778284
+echo $?
+#1597778290
+npm test
+#1597780521
+cat test/app.test.js 
+#1597780610
+vi  test/app.test.js 
+#1597780788
+npm test
+#1597785736
+cd  projects/
+#1597785737
+ll -tr
+#1597785742
+cd geneesplaats-nl-import-version
+#1597785744
+ll
+#1597785753
+npm test
+#1597785802
+vi test/app.test.js 
+#1597790540
+cd projects/
+#1597790542
+ll
+#1597790551
+cd geneesplaats.nl
+#1597790553
+ll
+#1597790628
+cd..
+#1597790637
+find | grep SOURCE
+#1597790645
+find | grep -i SOURCE
+#1597790675
+cd ..
+#1597836965
+rm -rf ~/.jx
+#1597836794
+create_cluster.sh 
+#1597836975
+jx
+#1597837013
+gcloud containers list
+#1597837025
+gcloud container cluster list
+#1597837031
+gcloud container clusters list
+#1597837077
+cd projects/
+#1597837079
+ll -tr
+#1597837096
+cd geneesplaats-nl-jx
+#1597837098
+ll
+#1597837101
+cd ..
+#1597837102
+ll
+#1597837110
+cd jenkinsx-geneesplaats.nl-2
+#1597837112
+ll
+#1597837379
+rm -rf *
+#1597837382
+ll
+#1597837387
+jx boot
+#1597837468
+rm -rf * 
+#1597837470
+jx boot
+#1597838147
+jx get activities
+#1597838160
+jx create quickstart
+#1597838389
+cd ..
+#1597838392
+ll
+#1597838412
+ll -tr
+#1597838651
+du -hS .
+#1597838662
+du -hs .
+#1597838705
+ll
+#1597838710
+ll -tr
+#1597838715
+cd terraform-docker-demo/
+#1597838718
+du -hs .
+#1597838724
+ll
+#1597838727
+cd ..
+#1597838731
+rm -rf terraform-docker-demo/
+#1597838735
+ll -tr
+#1597838747
+cd geneesplaats.nl.jx
+#1597838756
+ll .git
+#1597838759
+ll
+#1597838768
+cd ..
+#1597838772
+ll -tr
+#1597838780
+cd geneesplaats.nl.ff
+#1597838786
+du -hs .
+#1597838795
+ll
+#1597838804
+cd ..
+#1597838805
+ll
+#1597838816
+rm -rf geneesplaats.nl.ff
+#1597838818
+ll
+#1597838824
+cd geneesplaats-nl-jx
+#1597838828
+du -hs .
+#1597838838
+hg config
+#1597838848
+hg config| grep git
+#1597838891
+du -hs .
+#1597838893
+cd ..
+#1597838896
+ll
+#1597838905
+du -hs geneesplaats.nl-jx
+#1597838913
+du -hs geneesplaats.nl.jx/
+#1597838921
+ll  geneesplaats.nl.jx/
+#1597838928
+ll -tr
+#1597838948
+ll geneesplaats-nl-import-version
+#1597838953
+du -hs geneesplaats-nl-import-version
+#1597838960
+ll
+#1597838973
+du -hs jenkinsx-geneesplaats.nl-2
+#1597838978
+ll jenkinsx-geneesplaats.nl-2
+#1597838992
+rm -rf  jenkinsx-geneesplaats.nl-2
+#1597838995
+ll -tr
+#1597839001
+cd geneesplaats-nl-jx
+#1597839003
+ll
+#1597839029
+hg remore
+#1597839040
+git config --get remote.origin.url
+#1597839048
+git status 
+#1597839056
+git pull
+#1597839087
+cd ..
+#1597839097
+rm -rf geneesplaats-nl-jx
+#1597839099
+ll
+#1597839103
+ll -tr
+#1597839119
+du -hs jenkins-x-boot-config
+#1597839126
+rm -rf jenkins-x-boot-config
+#1597839129
+ll -tr
+#1597839136
+ll geneesplaats.nl.jx
+#1597839141
+ll geneesplaats.nl-jx/
+#1597839151
+cd  geneesplaats.nl-jx/
+#1597839156
+git config --get remote.origin.url
+#1597839168
+git status 
+#1597839175
+git diff
+#1597839183
+cd ..
+#1597839193
+rm -rf geneesplaats.nl-jx
+#1597839195
+ll
+#1597839208
+cd geneesplaats.nl
+#1597839211
+git config --get remote.origin.url
+#1597839227
+git status 
+#1597839239
+git diff
+#1597839258
+cd ..
+#1597839261
+ll -tr
+#1597839268
+cd jenkinsx-geneesplaats.nl/
+#1597839269
+ll
+#1597839283
+rm -rf jenkins-x-boot-config/
+#1597839299
+cd ~/.jx
+#1597839302
+du -hs
+#1597839306
+cd ..
+#1597839316
+rm -rf .jx* 
+#1597839320
+cd projects/
+#1597839321
+ll
+#1597839325
+cd jenkinsx-geneesplaats.nl/
+#1597839327
+ll
+#1597839333
+jx boot
+#1597839374
+git clone  https://github.com/geneesplaats-nl/environment-jx-cluster-geneesplaats-nl-dev.git
+#1597839389
+cd environment-jx-cluster-geneesplaats-nl-dev/
+#1597839393
+git status 
+#1597839412
+jx boot
+#1597839790
+jx uninstall
+#1597840251
+cd ..
+#1597840253
+ll
+#1597840257
+rm -rf * 
+#1597840270
+rm -rf ~/.jx/
+#1597840274
+jx boot
+#1597840510
+ll
+#1597840516
+rm -rf jenkins-x-boot-config/
+#1597840544
+jx boot
+#1597840556
+ll
+#1597840560
+rm -rf jenkins-x-boot-config/
+#1597840566
+rm -rf ~/.jx/
+#1597840568
+jx boot
+#1597841392
+jx status 
+#1597841414
+jx create quickstart
+#1597842030
+jx get activities
+#1597842331
+jx get activities 
+#1597842342
+cd ..
+#1597842344
+ll
+#1597842349
+cd geneesplaats-nl-import-version
+#1597842352
+cd test/
+#1597842354
+ll
+#1597842358
+vi app.test.js 
+#1597842415
+cd ..
+#1597842443
+jx get activities
+#1597842417
+jx import
+#1597842728
+ll -tr
+#1597842732
+lla -tr
+#1597842737
+rm -rf .git
+#1597842743
+rm -rf charts/
+#1597842749
+rm -rf charts/ OWNERS*
+#1597842753
+ll -tra
+#1597842927
+jx import
+#1597842934
+jx import --help
+#1597843027
+jx get activities -w
+#1597843799
+jx get applications
+#1597843802
+jx get application
+#1597843816
+jx get urls
+#1597843882
+jx get activities 
+#1597842942
+jx import
+#1597844260
+ll
+#1597844264
+pwd
+#1597844269
+cd  projects/
+#1597844269
+ll
+#1597844274
+cd jenkinsx-geneesplaats.nl/
+#1597844278
+ll
+#1597844283
+cd  nodehttp/
+#1597844285
+git status 
+#1597844288
+ll
+#1597844292
+vi README.md 
+#1597844309
+git add README.md 
+#1597844325
+git commit -m "Add comment to README.md"
+#1597844330
+git push 
+#1597844348
+cd ..
+#1597844354
+rm -rf nodehttp/
+#1597844371
+git clone https://github.com/geneesplaats-nl/nodehttp.git
+#1597844383
+cd  nodehttp/
+#1597844386
+vi README.md 
+#1597844397
+git add README.md 
+#1597844411
+git commit -m 'add comment to README.md'
+#1597844437
+git push
+#1597844485
+jx get urls
+#1597844492
+jx get applications
+#1597844521
+jx get activities
+#1597844582
+ll
+#1597844588
+cd ..
+#1597844589
+ll
+#1597844593
+cd jenkinsx-geneesplaats.nl/
+#1597844594
+ll
+#1597844616
+git clone https://github.com/geneesplaats-nl/environment-jx-cluster-geneesplaats-nl-dev.git
+#1597844685
+cd environment-jx-cluster-geneesplaats-nl-dev/
+#1597844687
+ll
+#1597844696
+vi jx-requirements.yml 
+#1597844746
+jx boot
+#1597846080
+cd ..
+#1597846085
+jx create quickstart
+#1597846139
+k config
+#1597846143
+k config view
+#1597846209
+k config delete-cluster gke_geneesplaats-nl-jx_europe-west4-a_jx-cluster-geneesplaats-nl
+#1597846228
+k config delete-context gke_geneesplaats-nl-jx_europe-west4-a_jx-cluster-geneesplaats-nl
+#1597846237
+k config view
+#1597846246
+cd environment-jx-cluster-geneesplaats-nl-dev/
+#1597846254
+git status 
+#1597846258
+git pull
+#1597846291
+jx boot
+#1597846327
+gcloud container clusters get-credentials jx-cluster-geneesplaats-nl --zone europe-west4-a --project geneesplaats-nl-jx
+#1597846751
+jx get  urls
+#1597846331
+jx boot
+#1597846943
+k config view
+#1597847044
+jx create quickstart
+#1597847049
+cd ..
+#1597847052
+jx create quickstart
+#1597847098
+ll ~/.jx
+#1597847107
+cat   ~/.jx/gitAuth.yaml 
+#1597847252
+rm ~/.jx/gitAuth.yaml
+#1597847255
+jx create quickstart
+#1597847359
+jx uninstall
+#1597847529
+ll
+#1597847535
+rm -rf *
+#1597847543
+rm -rf ~/.jx
+#1597847574
+rm -rf ~/.kube
+#1597847581
+rm -rf ~/.kubectl_aliases 
+#1597847599
+ll ~/.config
+#1597847608
+ll ~/.config/helm/
+#1597847624
+ll ~/bin
+#1597847631
+cat   ~/bin/create_cluster.sh 
+#1597847792
+~/bin/create_cluster.sh
+#1597848432
+ll
+#1597848436
+jx boot
+#1597849099
+jx status
+#1597849105
+jx 
+#1597849111
+hg diag
+#1597849125
+jx diagnose  --show=version  --namespace=jx
+#1597849331
+jx get 
+#1597849337
+jx get  activities
+#1597849344
+jx get  logs
+#1597849351
+jx get token
+#1597849718
+jx uninstall
+#1597850864
+rm -rf ~/.jx/
+#1597850885
+rm -rf ~/.kube/
+#1597850903
+ll  ~/.config/
+#1597850909
+lla  ~/.config/
+#1597851254
+ll
+#1597851259
+rm -rf * 
+#1597851279
+hg config
+#1597851286
+k config delete-cluster gke_geneesplaats-nl-jx_europe-west4-a_jx-cluster-geneesplaats-nl
+#1597851299
+jx boot
+#1597851320
+gcloud container clusters get-credentials jx-cluster-geneesplaats-nl --zone europe-west4-a --project geneesplaats-nl-jx
+#1597851323
+jx boot
+#1597852396
+jx update webhooks
+#1597852465
+jx update webhooks  --endpoint 34.91.1.217 
+#1597852546
+jx update webhooks  --endpoint http://34.91.1.217:8080/github-webhhok/ 
+#1597852603
+jx update webhooks  --endpoint http://34.91.1.217:8080/github-webhook/ 
+#1597852628
+jx update webhooks  --endpoint http://34.91.1.217:8080/hook/ 
+#1597852636
+jx update webhooks  --endpoint http://34.91.1.217/hook/ 
+#1597853140
+ll ~/bin/
+#1597853154
+find ~ -name create_cluster.sh
+#1597854208
+diff /home/spikkie/bin/create_cluster.sh /home/spikkie/projects/geneesplaats.nl/jx/create_cluster.sh
+#1597854220
+diff /home/spikkie/git/5/geneesplaats.nl/jx/create_cluster.sh /home/spikkie/bin/create_cluster.sh
+#1597854252
+jx status 
+#1597854259
+jx uninstall
+#1597854383
+jx status 
+#1597854409
+ll
+#1597854414
+rm -rf jenkins-x-boot-config/
+#1597854426
+ll
+#1597854437
+rm -rf ~/.jx/
+#1597854443
+rm -rf ~/.kube/
+#1597854475
+jx boot
+#1597854512
+gcloud container clusters get-credentials jx-cluster-geneesplaats-nl --zone europe-west4-a --project geneesplaats-nl-jx
+#1597854515
+jx boot
+#1597855355
+jx update webhooks  --endpoint  http://hook-jx.34.91.42.199.nip.io/hook
+#1597855505
+jx update webhooks  --endpoint  http://hook-jx.34.91.1.217.nip.io/hook
+#1597857080
+vi ~/bin/create_cluster.sh
+#1597857995
+jx --version
+#1597858009
+jx uninstall --help
+#1597858036
+jx version
+#1597858048
+jx uninstall 
+#1597858119
+vi ~/bin/create_cluster.sh
+#1597858172
+~/bin/create_cluster.sh
+#1597858214
+vi ~/bin/create_cluster.sh
+#1597858252
+fg
+#1597858331
+~/bin/create_cluster.sh
+#1597858586
+ll
+#1597858591
+rm -rf * 
+#1597858595
+ll
+#1597858650
+gcloud container clusters get-credentials jx-cluster-geneesplaats-nl --zone europe-west4-a --project geneesplaats-nl-jx
+#1597858700
+jx boot
+#1597859334
+kgd
+#1597859336
+kgde
+#1597859338
+kgdep
+#1597859368
+ll
+#1597859385
+jx create quickstart
+#1597860784
+jx get urls
+#1597860795
+jx get activities
+#1597860914
+jx start pipeline
+#1597860954
+jx get activities
+#1597860989
+jx get build logs
+#1597861340
+git clone https://github.com/geneesplaats-nl/environment-jx-cluster-geneesplaats-nl-dev.git
+#1597861366
+cd environment-jx-cluster-geneesplaats-nl-dev/
+#1597861369
+git branches
+#1597861399
+git diff master remotes/origin/bump-resource-version-f7d3cc05-5518-4229-bcf6-050f12100c29
+#1597861472
+git co remotes/origin/bump-resource-version-f7d3cc05-5518-4229-bcf6-050f12100c29
+#1597861492
+git checkout -b remotes/origin/bump-resource-version-f7d3cc05-5518-4229-bcf6-050f12100c29
+#1597861511
+git brannch --help
+#1597861516
+git branch --help
+#1597861582
+git checkout master
+#1597861596
+git branch -d remotes/origin/bump-resource-version-f7d3cc05-5518-4229-bcf6-050f12100c29
+#1597861605
+git branch -D remotes/origin/bump-resource-version-f7d3cc05-5518-4229-bcf6-050f12100c29
+#1597861609
+git branches
+#1597861621
+git co 
+#1597861628
+git co  bump-resource-version-f7d3cc05-5518-4229-bcf6-050f12100c29
+#1597861638
+git diff master remotes/origin/bump-resource-version-f7d3cc05-5518-4229-bcf6-050f12100c29
+#1597861646
+ll repositories/templates/
+#1597861653
+cat   repositories/templates/geneesplaats-nl-nodehttp2-sr.yaml 
+#1597861734
+grep -r password 
+#1597861818
+grep -r pipelineUser
+#1597861856
+vi env/parameters.yaml 
+#1597861912
+cat ~/bin/create_cluster.sh 
+#1597861957
+ll ~./jx
+#1597861961
+ll ~/.jx
+#1597861967
+ll ~/.jx//localSecrets/
+#1597861976
+ll ~/.jx//localSecrets/jx-cluster-geneesplaats-nl/
+#1597861982
+ll ~/.jx//localSecrets/jx-cluster-geneesplaats-nl/adminUser.yaml 
+#1597861986
+vi  ~/.jx//localSecrets/jx-cluster-geneesplaats-nl/adminUser.yaml 
+#1597862054
+jx get pipeline
+#1597862061
+jx get
+#1597862069
+jx get pipelines
+#1597862089
+jx get build logs
+#1597862197
+jx start pipelin
+#1597862212
+jx start pipeline
+#1597862228
+git branch
+#1597862241
+git start pipeline 
+#1597862250
+jx start pipeline 
+#1597862282
+jx get activities
+#1597862304
+jx get activities -w geneesplaats-nl/environment-jx-cluster-geneesplaats-nl-dev/master
+#1597862337
+jx start pipeline --help
+#1597862351
+git branch
+#1597862372
+jx start pipeline --branch=bump-resource-version-f7d3cc05-5518-4229-bcf6-050f12100c29
+#1597862400
+jx get activities
+#1597862405
+jx get activities -w
+#1597863009
+jx get build logs
+#1597863034
+jx delete
+#1597863052
+jx stop
+#1597863058
+jx stop pipeline
+#1597863078
+jx get pipelines
+#1597863097
+jx get build logs
+#1597863142
+rm   ~/.jx//localSecrets/jx-cluster-geneesplaats-nl/adminUser.yaml 
+#1597863370
+git branch
+#1597863377
+git status
+#1597863388
+git log -2
+#1597863639
+jx boot
+#1597864213
+jx get activities
+#1597864268
+git status 
+#1597864274
+git branch
+#1597864289
+git co 50bd0418-e24f-11ea-af97-024262655f55
+#1597864291
+git status 
+#1597864329
+git co master
+#1597864334
+git log -3
+#1597864345
+cd ..
+#1597864375
+git clone https://github.com/geneesplaats-nl/nodehttp2.git
+#1597864380
+ll
+#1597864384
+cd  nodehttp2/
+#1597864387
+git status 
+#1597864390
+git pull
+#1597864413
+git status 
+#1597864418
+git log -3
+#1597865071
+jx get urls
+#1597865332
+jx get pipelines
+#1597865385
+jx delete 
+#1597865405
+jx delete  application nodehttp2
+#1597865619
+jx list
+#1597865624
+jxget 
+#1597865626
+jx get
+#1597865632
+jx get activities
+#1597865651
+jx get applications
+#1597865808
+jx create quickstart
+#1597866207
+jx get build logs geneesplaats-nl
+#1597866224
+jx get build logs geneesplaats-nl/nodehttp3
+#1597866229
+jx get build logs geneesplaats-nl/nodehttp3/1
+#1597866234
+jx get build logs geneesplaats-nl/nodehttp3/
+#1597866256
+jx get activities  geneesplaats-nl/nodehttp3/
+#1597866263
+jx get activities  -w  geneesplaats-nl/nodehttp3/
+#1597866314
+jx get activity -f nodehttp3 -w
+#1597866569
+jx get build logs geneesplaats-nl/nodehttp3/
+#1597866581
+jx get build logs geneesplaats-n
+#1597866601
+jx get build logs 
+#1597868337
+jx get applications
+#1597869091
+cd projects/
+#1597869092
+ll
+#1597869858
+cd 
+#1597869861
+pwd
+#1597869865
+cd projects/
+#1597869866
+ll
+#1597869877
+cd geneesplaats.nl.jx/
+#1597869878
+ll
+#1597869881
+cd ..
+#1597869892
+mv geneesplaats.nl.jx tools_geneesplaats.nl.jx
+#1597869894
+ll
+#1597869906
+cd geneesplaats.nl
+#1597869911
+git config --get remote.origin.url
+#1597869917
+git status 
+#1597869927
+git diff
+#1597869938
+cd ..
+#1597869945
+rm -rf geneesplaats.nl
+#1597869948
+ll
+#1597869966
+git clone https://github.com/geneesplaats-nl/geneesplaats-nl-jx.git
+#1597870611
+ll
+#1597877826
+k get ns
+#1597878103
+cd projects/
+#1597878104
+ll
+#1597878109
+cd jenkinsx-geneesplaats.nl/
+#1597878110
+ll
+#1597878112
+cd nodehttp2/
+#1597878114
+ll
+#1597878122
+car jenkins-x.yml 
+#1597878126
+cat jenkins-x.yml 
+#1597878167
+cd  projects/
+#1597878168
+ll
+#1597878173
+cd geneesplaats-nl-import-version
+#1597878181
+vi package.json 
+#1597878217
+cd test/
+#1597878219
+ll
+#1597878236
+cat app.test.js 
+#1597878248
+cp app.test.js  app.test.js.minimal 
+#1597878252
+vi app.test.js
+#1597878390
+cd ..
+#1597878394
+jx import
+#1597878838
+ll -tra
+#1597878855
+rm -rf charts/ .git OWNERS* 
+#1597879007
+cd git
+#1597879009
+ll
+#1597879022
+rm -rf gh_0.11.1_linux_amd64.deb 
+#1597879029
+rm -rf kubernetes-ingress/
+#1597879033
+cd geneesplaats.nl/
+#1597879037
+du -hs
+#1597879050
+cd ..
+#1597879053
+cd -
+#1597879058
+git config --get remote.origin.url
+#1597879069
+cd ..
+#1597879073
+rm -rf geneesplaats.nl/
+#1597879084
+git clone https://github.com/PacktPublishing/Hands-On-Continuous-Integration-and-Delivery-with-Jenkins-X-and-Kubernetes.git
+#1597879090
+cd Hands-On-Continuous-Integration-and-Delivery-with-Jenkins-X-and-Kubernetes/
+#1597879093
+du -hs
+#1597879141
+ll
+#1597879146
+l section-1/
+#1597879161
+l section-3
+#1597879166
+l section-3/video-3.1/
+#1597879171
+l section-3/video-3.1/hello-video-3-1/
+#1597879180
+ll section-3/video-3.1/hello-video-3-1/
+#1597879210
+jx import 
+#1597879259
+ll -tr
+#1597879290
+rm -rf OWNERS skaffold.yaml  charts Dockerfile  jenkins-x.yml 
+#1597879295
+cd section-3/video-3.1/hello-video-3-1/
+#1597879299
+jx import 
+#1597879358
+ll -tr
+#1597879361
+ll -tra
+#1597879403
+rm -rf OWNERS skaffold.yaml  charts Dockerfile  jenkins-x.yml  .gitignore 
+#1597879407
+ll -tra
+#1597879412
+jx import 
+#1597879467
+ll
+#1597879526
+cd ..
+#1597879535
+cd Hands-On-Continuous-Integration-and-Delivery-with-Jenkins-X-and-Kubernetes/
+#1597879539
+ll -tra
+#1597879544
+rm -rf .git
+#1597879554
+cd -
+#1597879568
+cd ~/git/Hands-On-Continuous-Integration-and-Delivery-with-Jenkins-X-and-Kubernetes/section-3/video-3.1/hello-video-3-1
+#1597879570
+ll
+#1597879574
+ll -tra
+#1597879580
+jx import
+#1597879826
+jx get activities
+#1597879845
+jx get activities -f hello-video-3-1
+#1597920222
+cd git/
+#1597920226
+cd Hands-On-Continuous-Integration-and-Delivery-with-Jenkins-X-and-Kubernetes/
+#1597920227
+ll
+#1597920234
+jx get applications
+#1597920417
+cd projects/
+#1597920418
+ll
+#1597920430
+cd geneesplaats-nl-import-version/
+#1597920432
+ll
+#1597920437
+cat test/app.test.js
+#1597920449
+ll -tr
+#1597920452
+ll -tra
+#1597920462
+rm -rf .git
+#1597920616
+cd ..
+#1597920622
+ll -tr
+#1597920632
+cd geneesplaats-nl-import-version/
+#1597920638
+jx import
+#1597921415
+jx get activities
+#1597921422
+jx get activities -w
+#1597922069
+jx get activities 
+#1597922218
+jx get urls
+#1597922230
+jx get applications
+#1597923046
+git config --get remote.origin.url
+#1597923109
+jx get activities 
+#1597923254
+jx get activities --help
+#1597923265
+jx get activities --filter http
+#1597923272
+jx get activities --filter vers
+#1597923280
+jx get activities --filter version
+#1597924488
+jx get applications
+#1597924534
+jx get build log -f versio
+#1597925436
+cd ~/.jx/
+#1597925438
+ll
+#1597925440
+find
+#1597925449
+find| grep -i java
+#1597925469
+cd ./draft/packs/github.com/jenkins-x-buildpacks/jenkins-x-kubernetes/packs/javascript
+#1597925472
+ll
+#1597925479
+cat pipeline.yaml 
+#1597925524
+cat skaffold.yaml 
+#1597925798
+q
+#1597925800
+ll
+#1597925806
+cat Dockerfile 
+#1597925824
+ll charts/
+#1597926254
+ll
+#1597926268
+cd section-6/
+#1597926269
+ll
+#1597926285
+cd ..
+#1597926289
+cd section-3
+#1597926290
+ll
+#1597926297
+cd video-3.5
+#1597926299
+ll
+#1597926315
+cd hello-3-5-audit
+#1597926316
+ll
+#1597926324
+cat  jenkins-x.yml
+#1597926334
+hg clone
+#1597926447
+ll
+#1597926453
+cat pipeline.yaml 
+#1597929929
+cd 
+#1597929932
+cd projects/
+#1597929933
+ll
+#1597929940
+cd  geneesplaats-nl-jx/
+#1597929945
+git config --get remote.origin.url
+#1597929951
+git pull
+#1597930066
+cd ..
+#1597930074
+rm -rf geneesplaats-nl-jx
+#1597930114
+git clone https://spikkie:Bessabessa25\!\!@github.com/geneesplaats-nl/geneesplaats-nl-jx.git
+#1597930145
+ll ~/.git
+#1597930152
+cd geneesplaats-nl-jx/
+#1597930161
+ll .git/config 
+#1597930164
+cat .git/config 
+#1597931248
+git config --global credential.helper store
+#1597931253
+git pull
+#1597931280
+jx import --pack=javascript
+#1597931425
+cd ..
+#1597931489
+jx get activities -f jx
+#1597931508
+jx get activities -f geneesplaats-nl-jx
+#1597931515
+ll -tr
+#1597931532
+ll geneesplaats-nl-import-version/test/
+#1597931540
+cat   geneesplaats-nl-import-version/test/app.test.js
+#1597931554
+cd  geneesplaats-nl-jx/
+#1597931580
+cp ../geneesplaats-nl-import-version/test/app.test.js test/app.test.js 
+#1597931583
+cat test/app.test.
+#1597931586
+cat test/app.test.js 
+#1597931590
+git diff
+#1597931602
+git status
+#1597931606
+git add 
+#1597931652
+git commit -m 'simple test to succeed npm test : test/app.test.js'
+#1597931665
+git add .
+#1597931667
+git commit -m 'simple test to succeed npm test : test/app.test.js'
+#1597931671
+git push
+#1597932257
+jx get activities -f geneesplaats-nl-jx
+#1597932272
+jx get applications
+#1597933958
+ll -tra
+#1597933966
+cat skaffold.yaml 
+#1597934372
+cd ~/.jx/
+#1597934374
+ll
+#1597934486
+cd draft/
+#1597934487
+ll
+#1597934496
+cd packs/github.com/jenkins-x-buildpacks/jenkins-x-classic/
+#1597934497
+;;
+#1597934499
+ll
+#1597934504
+cd packs/
+#1597934505
+ll
+#1597934515
+cat javascript/
+#1597934519
+cat javascript/pipeline.yaml 
+#1597934545
+cd ..
+#1597934550
+cd -
+#1597934552
+ll
+#1597934562
+find| grep javascri
+#1597934583
+cd ..
+#1597934584
+find| grep javascri
+#1597934624
+cat ./jenkins-x-buildpacks/jenkins-x-kubernetes/packs/javascript/pipeline.yaml
+#1597934678
+cat Dockerfile 
+#1597934705
+cat docker/prod/Dockerfile 
+#1597937429
+gcloud container clusters get-credentials jx-cluster-geneesplaats-nl --zone europe-west4-a --project geneesplaats-nl-jx
+#1597937651
+jx version
+#1597937661
+pwd
+#1597937664
+ll projects/
+#1597937714
+skaffold
+#1597937762
+jx get build logs
+#1597937777
+jx get applications
+#1597937787
+gcloud
+#1597937817
+ll bin
+#1597937824
+./bin/login.sh 
+#1597937830
+pwd
+#1597937834
+jx get applications
+#1597948837
+gcloud container clusters get-credentials jx-cluster-geneesplaats-nl --zone europe-west4-a --project geneesplaats-nl-jx
+#1597948844
+jx get applications
+#1597948852
+jx version
+#1597948867
+jx get urls
+#1597948878
+ll ~/.jx
+#1597948885
+ll ~/.jx/bin
+#1597948897
+pwd
+#1597949062
+hg jx
+#1597949102
+jx get urls  --namespace=jx
+#1597949113
+jx get urls 
+#1597949124
+jx| grep namesp
+#1597949135
+jx namespace
+#1597949143
+jx get urls 
+#1597949232
+jx get build logs
+#1597949240
+hg pod
+#1597949256
+k get pods -A
+#1597949303
+kpd nl
+#1597949319
+kdp jx-geneesplaats-nl-import-version-6b6d8b8d6f-n449n
+#1597949326
+kpd jx-geneesplaats-nl-import-version-6b6d8b8d6f-n449n
+#1597949339
+k describe jx-geneesplaats-nl-import-version-6b6d8b8d6f-n449n
+#1597949347
+k pods describe jx-geneesplaats-nl-import-version-6b6d8b8d6f-n449n
+#1597949358
+k describe pod jx-geneesplaats-nl-import-version-6b6d8b8d6f-n449n
+#1597949402
+k describe pod jx-geneesplaats-nl-import-version-6b6d8b8d6f-n449n -ns jx-staging
+#1597949410
+k describe pod jx-geneesplaats-nl-import-version-6b6d8b8d6f-n449n -n jx-staging
+#1597949434
+k logs  jx-geneesplaats-nl-import-version-6b6d8b8d6f-n449n -n jx-staging
+#1597949590
+k exec -it   jx-geneesplaats-nl-import-version-6b6d8b8d6f-n449n -n jx-staging -c geneesplaats-nl-import-version  -- ls
+#1597949601
+k exec -it   jx-geneesplaats-nl-import-version-6b6d8b8d6f-n449n -n jx-staging -c geneesplaats-nl-import-version:  -- ls
+#1597949613
+k exec -it   jx-geneesplaats-nl-import-version-6b6d8b8d6f-n449n -n jx-staging   -- ls
+#1597950011
+js get applications
+#1597950015
+jx get applications
+#1597950022
+jx get applications -f ver
+#1597950042
+jx get applications
+#1597950054
+jx get build logs -f version
+#1597950104
+git log -3
+#1597950150
+jx get 
+#1597950153
+jx get  act
+#1597950158
+jx get  act -f versio
+#1597950251
+jx get  appl
+#1597950256
+jx get  applications
+#1597950435
+kgpo -A
+#1597950448
+k get pods -A
+#1597950455
+k get pods -A| grep jx
+#1597950499
+jx get build logs -f jx
+#1597950541
+jx get build logs -f jx -w
+#1597950566
+jx get act -f jx
+#1597950579
+jx get build logs -f jx
+#1597954078
+jx get act -f jx
+#1597954192
+jx get ap -f jx
+#1597954199
+jx get app -f jx
+#1597954205
+jx get appli -f jx
+#1597954218
+jx get applications
+#1597954247
+k get pods -n jx
+#1597954287
+k get pods -n jx| grep jx
+#1597954324
+k get build logs
+#1597954330
+jx get build logs
+#1597954534
+jx get applications
+#1597954543
+jx delete
+#1597954551
+jx delete application
+#1597959014
+kgpo -A
+#1597959016
+kgp -A
+#1597959025
+k get pods -A
+#1597959058
+k logs jx-geneesplaats-nl-jx-6ff88594f7-nstt2
+#1597959094
+k logs pod/jx-geneesplaats-nl-jx-6ff88594f7-nstt2
+#1597959117
+k describe  pod/jx-geneesplaats-nl-jx-6ff88594f7-nstt2
+#1597959126
+k describe  jx-geneesplaats-nl-jx-6ff88594f7-nstt2
+#1597959141
+k describe  jx-geneesplaats-nl-jx-6ff88594f7-nstt2 -n jx-staging
+#1597959151
+k describe  pod/jx-geneesplaats-nl-jx-6ff88594f7-nstt2 -n jx-staging
+#1597959235
+k logs  pod/jx-geneesplaats-nl-jx-6ff88594f7-nstt2 -n jx-staging
+#1597959284
+jx 
+#1597959294
+update 
+#1597959297
+jx update 
+#1597959422
+jx get applications
+#1597959434
+jx delete applications
+#1597960279
+k get deplo -A
+#1597960282
+k get deploy -A
+#1597960312
+k describe  deploy jx-geneesplaats-nl-jx
+#1597960328
+k describe  deploy jx-geneesplaats-nl-jx -n jx-staging
+#1597960412
+k get pods -A
+#1597960430
+k delete pods jx-geneesplaats-nl-import-version-5f85c48bd6-z95sl
+#1597960439
+k delete pods jx-geneesplaats-nl-import-version-5f85c48bd6-z95sl -n jx-staging
+#1597960452
+k delete pods geneesplaats -n jx-staging
+#1597960477
+k delete pods jx-geneesplaats-nl-import-version-6b6d8b8d6f-n449n -n jx-staging
+#1597960496
+k delete pods jx-geneesplaats-nl-jx-66d7c776b4-hctgj -n jx-staging
+#1597960513
+k delete pods jx-geneesplaats-nl-jx-6ff88594f7-nstt2 -n jx-staging
+#1597960527
+k get pods -A
+#1597960565
+k logs pod/jx-geneesplaats-nl-jx-66d7c776b4-tvrr4
+#1597960576
+k logs pod/jx-geneesplaats-nl-jx-66d7c776b4-tvrr4 -n jx-staging
+#1597960594
+k get pods -A
+#1597960683
+k get service
+#1597960688
+k get service -A
+#1597960715
+jx get 
+#1597960725
+jx get  config
+#1597960747
+jx get  applic
+#1597960751
+jx get  applications
+#1597960762
+jx get  applications -n jx-staging
+#1597960784
+jx 
+#1597960794
+jx add
+#1597960849
+jx rsh
+#1597960879
+jx logs
+#1597960916
+jx logs --help
+#1597960927
+jx logs -n jx-staging
+#1597960976
+jx rsh --help
+#1597960996
+jx rsh 
+#1597961036
+k get pods -n jx-staging
+#1597961061
+k delete pod jx-geneesplaats-nl-jx-6ff88594f7-4hxbn
+#1597961068
+k delete pod jx-geneesplaats-nl-jx-6ff88594f7-4hxbn -n jx-staging
+#1597961072
+k get pods -n jx-staging
+#1597961080
+k delete pod jx-geneesplaats-nl-jx-6ff88594f7-4hxbn -n jx-staging
+#1597961083
+k get pods -n jx-staging
+#1597961109
+k logs jx-geneesplaats-nl-jx-66d7c776b4-tvrr4
+#1597961117
+k logs pod jx-geneesplaats-nl-jx-66d7c776b4-tvrr4
+#1597961122
+k logs pods jx-geneesplaats-nl-jx-66d7c776b4-tvrr4
+#1597961133
+k logs pods jx-geneesplaats-nl-jx-66d7c776b4-tvrr4 -n jx-staging
+#1597961139
+k logs pod jx-geneesplaats-nl-jx-66d7c776b4-tvrr4 -n jx-staging
+#1597961145
+k logs pod/jx-geneesplaats-nl-jx-66d7c776b4-tvrr4 -n jx-staging
+#1597961161
+k get svc -n jx-staging
+#1597961174
+k get svc -A
+#1597961378
+jx
+#1597961466
+jx completion       
+#1597961487
+jx completion       --help
+#1597961514
+cali
+#1597961534
+jx
+#1597961585
+jx 
+#1597961591
+jx get application
+#1597961599
+jx get application -n jx-staging
+#1597961604
+jx get applications -n jx-staging
+#1597961608
+jx get applications -n jx
+#1597961618
+jx get applications -A
+#1597961629
+jx get applications -e staging
+#1597961649
+jx get applications -e production
+#1597961664
+jx options 
+#1597961685
+k get pods -A
+#1597961818
+cd projects/
+#1597961820
+ll
+#1597961827
+cd geneesplaats-nl-jx/
+#1597961833
+git pull
+#1597961851
+jx import --help
+#1597961878
+jx import
+#1597961932
+jx get activities
+#1597961938
+jx get activities -f jx
+#1597961943
+jx get activities -f nl-jx
+#1597961950
+jx get activities -f nl-jx -w
+#1597965143
+jx get aplications -f nl-jx -w
+#1597965148
+jx get aplicationsw
+#1597965154
+jx get applications
+#1597965160
+jx get urls
+#1597965170
+jx get urls -e staging
+#1597965292
+ping 10.51.250.95
+#1597965493
+ll
+#1597965506
+ll -tr
+#1597965512
+cat skaffold.yaml 
+#1597965525
+ll -tr
+#1597965547
+ll -tra
+#1597967251
+k get pods -A
+#1597967263
+k get pods -A -n jx=-staging
+#1597967269
+k get pods -A -n jx-staging
+#1597967277
+k get pods  -n jx-staging
+#1597967316
+k describe pod  jx-geneesplaats-nl-jx-66d7c776b4-tvrr4
+#1597967340
+k describe pod  jx-geneesplaats-nl-jx-66d7c776b4-tvrr4 -n jx-staging
+#1597967384
+grep -r 8080
+#1598012301
+cd projects/
+#1598012306
+cd jenkinsx-geneesplaats.nl/
+#1598012308
+ll
+#1598012349
+git clone https://github.com/geneesplaats-nl/geneesplaats-nl-jx.git
+#1598012374
+cd chart
+#1598012379
+cd  geneesplaats-nl-jx/
+#1598012385
+cd charts/
+#1598012390
+grep -r 8080
+#1598012423
+cat javascript/values.yaml 
+#1598012429
+vi  javascript/values.yaml 
+#1598012445
+cd..
+#1598012452
+jx update
+#1598012459
+jx import
+#1598012914
+jx get act -f jx
+#1598012919
+jx get act -f nl-jx
+#1598014134
+jx get act -f nl-jx -w
+#1598014279
+jx get applic
+#1598014289
+jx get applica
+#1598014292
+jx get applications
+#1598014309
+jx get urls
+#1598014319
+jx get urls -e staging
+#1598014343
+k get pod -A
+#1598014353
+k get pod -n jx-staging
+#1598014371
+jx get applications
+#1598014383
+k get pod -n jx-staging
+#1598014419
+k delete pod jx-geneesplaats-nl-jx-5548c9f4b-b7dvl -n jx-staging
+#1598014425
+k get pod -n jx-staging
+#1598014461
+k delete pod jx-geneesplaats-nl-import-version-5f85c48bd6-t7wqb -n jx-staging
+#1598014470
+k get pod -n jx-staging
+#1598014489
+k delete pod jx-geneesplaats-nl-import-version-5f85c48bd6-6fzlw -n jx-staging
+#1598014501
+k get pod -n jx-staging
+#1598014538
+jx get applications
+#1598014558
+k get pod -n jx-staging
+#1598014588
+k describe pod jx-geneesplaats-nl-jx-5548c9f4b-96gx6  -n jx-staging
+#1598014617
+cd ..
+#1598014620
+git status 
+#1598014625
+grep -r 8000
+#1598014635
+grep -r 8080
+#1598014651
+grep -r 8080| grep -v kompose
+#1598014676
+git log -1
+#1598014686
+git branch
+#1598014689
+git pull
+#1598014694
+git log -1
+#1598014701
+git log -3
+#1598014732
+git log 
+#1598014738
+git log -2
+#1598014761
+git diff 023f66..e992519 --names-only
+#1598014767
+git diff 023f66 e992519 --names-only
+#1598014773
+git diff 023f66 e992519 --namesonly
+#1598014782
+git diff 023f66 e992519 --nameonly
+#1598014785
+git diff 023f66 e992519 --name-only
+#1598014796
+git diff 023f66 e992519 
+#1598014817
+grep -r 8080| grep -v kompose
+#1598015011
+vi charts/geneesplaats-nl-jx/values.yaml
+#1598015097
+git log -4
+#1598015111
+git diff e9 7c
+#1598015117
+git diff e99 7c
+#1598015121
+git diff e99 7cb
+#1598015154
+git diff  e992519  7cb
+#1598015162
+git diff  e992519  7cb2
+#1598015178
+git diff  e992519  7cb2 --nameonly
+#1598015181
+git diff  e992519  7cb2 --namesonly
+#1598015184
+git diff  e992519  7cb2 --names-only
+#1598015186
+git diff  e992519  7cb2 --name-only
+#1598015229
+git diff  e992519  7cb2 charts/javascript/values.yaml
+#1598015250
+vi  charts/javascript/values.yaml
+#1598015267
+git status
+#1598015270
+fg
+#1598015281
+git diff
+#1598015298
+grep -r 8080| grep -v kompose
+#1598015308
+git add .
+#1598015328
+git commit -m 'internalPort: 8000 charts/geneesplaats-nl-jx/values.yaml'
+#1598015332
+git push
+#1598015354
+jx get act -f nl-jx
+#1598015363
+jx get activities -f nl-jx
+#1598015377
+jx get activities -f #3
+#1598015381
+jx get activities -f \#3
+#1598015387
+jx get activities
+#1598015405
+jx get activities -f geneesplaats-nl-jx/master
+#1598015420
+jx get activities -f geneesplaats-nl-jx/master -w
+#1598126522
+ll ~/bin/
+#1598126530
+cat  ~/bin/create_cluster.sh 
+#1598126550
+ip a
+#1598127446
+#!/usr/bin/env bash
+#1598127446
+set -x
+#1598127446
+echo create a new cluster
+#1598127446
+gcloud config set project geneesplaats-nl-jx
+#1598127448
+jx create cluster gke     --cluster-name=jx-cluster-geneesplaats-nl     --default-admin-password='Bessabessa25!!'     --environment-git-owner='geneesplaats-nl'     --enable-autoupgrade=true     --git-api-token='75bdbf845d20104ab2354ff4d7f87d7918df3130'     --git-username='jenkins-x-bot-geneesplaat-nl'     --project-id=geneesplaats-nl-jx     --git-public=false     --zone=europe-west4-a     --machine-type=e2-standard-8     --max-num-nodes=2     --min-num-nodes=2     --skip-login     --skip-installation
+#1598127455
+#--default-environment-prefix='d39' \
+#1598127455
+#--labels='demo=true' \
+#1598127455
+#--machine-type='n1-standard-8' \
+#1598127455
+#--max-num-nodes='3' \
+#1598127455
+#--min-num-nodes='1' \
+#1598127455
+#--ng=true \
+#1598127455
+#--project-id='xxxxxxxx' \
+#1598127455
+#--skip-login=true \
+#1598127520
+#!/usr/bin/env bash
+#1598127520
+set -x
+#1598127520
+echo create a new cluster
+#1598127520
+gcloud config set project geneesplaats-nl-jx
+#1598127521
+jx create cluster gke     --cluster-name=jx-cluster-geneesplaats-nl     --default-admin-password='Bessabessa25!!'     --environment-git-owner='geneesplaats-nl'     --enable-autoupgrade=true     --git-api-token='75bdbf845d20104ab2354ff4d7f87d7918df3130'     --git-username='jenkins-x-bot-geneesplaat-nl'     --project-id=geneesplaats-nl-jx     --git-public=false     --zone=europe-west4-a     --machine-type=e2-standard-8     --max-num-nodes=2     --min-num-nodes=2     --skip-login     --skip-installation
+#1598127530
+ll
+#1598127534
+pwd
+#1598127536
+set +x
+#1598127538
+ll
+#1598127543
+pwd
+#1598127546
+cd bin/
+#1598127547
+ll
+#1598127552
+cat create_cluster.sh 
+#1598128953
+hg jx
+#1598129011
+cd 
+#1598129014
+cd git/
+#1598129015
+ll
+#1598129018
+cd   bash_config/
+#1598129019
+ll
+#1598129027
+lla
+#1598129041
+cp ~/.bashrc .
+#1598129044
+git diff

@@ -1,14 +1,12 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-# for examples
 
-# If not running interactively, don't do anything
+# If not running interactively, return
 case $- in
     *i*) ;;
       *) return;;
 esac
-
-
+if [ -f "/google/devshell/bashrc.google" ]; then
+  source "/google/devshell/bashrc.google"
+fi
 ########################################################################
 # Start History configuration
 #settings from https://stackoverflow.com/questions/9457233/unlimited-bash-history
@@ -51,53 +49,6 @@ PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 ########################################################################
 # End History configuration
 ########################################################################
-
-
-# make less more friendly for non-text input files, see lesspipe(1)
-#[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
-
-# set variable identifying the chroot you work in (used in the prompt below)
-if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
-    debian_chroot=$(cat /etc/debian_chroot)
-fi
-
-# set a fancy prompt (non-color, unless we know we "want" color)
-case "$TERM" in
-    xterm-color) color_prompt=yes;;
-esac
-
-# uncomment for a colored prompt, if the terminal has the capability; turned
-# off by default to not distract the user: the focus in a terminal window
-# should be on the output of commands, not on the prompt
-#force_color_prompt=yes
-
-if [ -n "$force_color_prompt" ]; then
-    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-	# We have color support; assume it's compliant with Ecma-48
-	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-	# a case would tend to support setf rather than setaf.)
-	color_prompt=yes
-    else
-	color_prompt=
-    fi
-fi
-
-if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-fi
-unset color_prompt force_color_prompt
-
-# If this is an xterm set the title to user@host:dir
-case "$TERM" in
-xterm*|rxvt*)
-    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
-    ;;
-*)
-    ;;
-esac
-
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
@@ -130,6 +81,8 @@ alias hgi='hh| grep -i $@'
 
 #git
 #alias git='sudo git'
+alias g=git
+alias gga='g aliases | grep $@'
 
 #Docker
 alias dexec='docker exec -e COLUMNS="`tput cols`" -e LINES="`tput lines`" -ti $@' 
@@ -137,38 +90,16 @@ alias drun='docker run -e COLUMNS="`tput cols`" -e LINES="`tput lines`" -ti $@'
 
 alias dc=docker-compose
 
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-PATH=$JAVA_HOME/bin::~/tools/apache-maven-3.5.3/bin:$PATH:/sbin/:/usr/sbin/:~/scripts
+#source <(kubectl completion bash)
+alias k=kubectl
+function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }
+[ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
 
-#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/windriver/sdk-7.0-host/sysroots/core2-32-wrs-linux/usr/lib/
-export SDKTARGETSYSROOT=/opt/windriver/sdk-7.0-host/sysroots/core2-32-wrs-linux/
+#complete -F __start_kubectl k
 
-# Alias definitions.
-# You may want to put all your additions into a separate file like
-# ~/.bash_aliases, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+export
+PATH=/home/spikkie/.gems/bin:/usr/local/rvm/bin:/usr/local/go/bin:/opt/gradle/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/nvm/versions/node/v10.14.2/bin:/usr/local/rvm/bin:/google/go_appengine:/google/google_appengine:/home/spikkie/gopath/bin:/google/gopath/bin:/google/migrate/anthos/:/home/spikkie/bin:/home/spikkie/.jx/bin:/home/spikkie/projects/geneesplaats.nl/graphbook/bin/
 
+complete -C /usr/local/bin/terraform terraform
 
-#Jenkins Configuration
-#export CASC_JENKINS_CONFIG=/var/lib/jenkins/jenkins.yaml
-
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
-
-# enable programmable completion features (you don't need to enable
-# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-# sources /etc/bash.bashrc).
-if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-  fi
-fi
-
-PATH="/home/builder/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/builder/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/builder/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/builder/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/builder/perl5"; export PERL_MM_OPT;
+source <(jx completion bash)
